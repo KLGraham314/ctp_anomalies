@@ -79,14 +79,14 @@ UInt_t fo6l1spuriousT;
 //const UInt_t runx=896;
 const UInt_t runx=1486;
 int flag = 0;
-vector<int> classflag;
-vector<int> clusterflag;
-vector<int> clusterFOL0flag;
-vector<int> clusterFOL1flag;
-vector<int> L0strobeflag;
-vector<int> L1strobeflag;
-vector<int> FOL1strobeflag;
-vector<int> FOL2strobeflag;
+vector<double> classflag;
+vector<double> clusterflag;
+vector<double> clusterFOL0flag;
+vector<double> clusterFOL1flag;
+vector<double> L0strobeflag;
+vector<double> L1strobeflag;
+vector<double> FOL1strobeflag;
+vector<double> FOL2strobeflag;
 int glitch[numclusters] = {0};
 int spurious[numclusters] = {0};
 vector<int> locations;
@@ -167,7 +167,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}else{ //If condition is false, print details of anomaly to screen and file
 			if((zeroflag[lzerob]==0) && (zeroflag[lzeroa]==0) && (zeroflag[loneb]==0) && (zeroflag[lonea]==0) && (zeroflag[ltwob]==0) && (zeroflag[ltwoa]==0)){ //If these are not due to spurious zeroes
 			flag += 1;
-			int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+			double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 			if(total[lzerob]<total[lzeroa]) diff= total[lzeroa]-total[lzerob];
 			if(total[lzeroa]<total[loneb])  diff= total[loneb]-total[lzeroa];
 			if(total[loneb]<total[lonea]) diff= total[lonea]-total[loneb];
@@ -218,7 +218,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}else{ //If condition is false, print details of anomaly to screen and file
 			if((zeroflag[lzeroclst]==0)&&(zeroflag[loneclst]==0)&&(zeroflag[ltwoclst]==0)){ //If these are not due to spurious zeroes
 			flag += 1;
-			int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+			double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 			if(total[lzeroclst]<total[loneclst]) diff= total[loneclst]-total[lzeroclst];
 			if(total[loneclst]<total[ltwoclst])  diff= total[ltwoclst]-total[loneclst];
 			clusterflag.push_back(diff); // Put anomalous amount into vector for class anomalies
@@ -293,7 +293,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}else{
 			if((zeroflag[lzeroclst]==0)&&(zeroflag[foonelzeroclst]==0)&&(zeroflag[fotwolzeroclst]==0)&&(zeroflag[fothreelzeroclst]==0)&&(zeroflag[fofourlzeroclst]==0)&&(zeroflag[fofivelzeroclst]==0)&&(zeroflag[fosixlzeroclst]==0)){ //If these are not due to spurious zeroes
 			flag+=1;
-			int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+			double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 			if(diff==0) diff= total[foonelzeroclst]-total[lzeroclst];
 			if(diff==0)  diff= total[fotwolzeroclst]-total[lzeroclst];
 			if(diff==0) diff= total[fothreelzeroclst]-total[lzeroclst];
@@ -340,7 +340,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}else{ //If condition is false, print details to screen and to file
 			if((zeroflag[loneclst]==0)&&(zeroflag[fooneloneclst]==0)&&(zeroflag[fotwoloneclst]==0)&&(zeroflag[fothreeloneclst]==0)&&(zeroflag[fofourloneclst]==0)&&(zeroflag[fofiveloneclst]==0)&&(zeroflag[fosixloneclst]==0)){ //If these are not due to spurious zeroes
 			flag+=1;
-			int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+			double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 			if(diff==0) diff= total[fooneloneclst]-total[loneclst];
 			if(diff==0)  diff= total[fotwoloneclst]-total[loneclst];
 			if(diff==0) diff= total[fothreeloneclst]-total[loneclst];
@@ -389,7 +389,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 	}else{
 		if((zeroflag[l0strobe0]==0)&&(zeroflag[l0strobeIN]==0)){ //If these are not due to spurious zeroes
 		flag+=1;
-		int diff=0; // Calculate the difference (anomalous amount), e.g. +2
+		double diff=0; // Calculate the difference (anomalous amount), e.g. +2
 		diff = total[l0strobeIN]-total[l0strobe0];
 		L0strobeflag.push_back(diff); // Put anomalous amount into vector for L0 strobe anomalies
 		locations.push_back(prev[runx]);
@@ -420,7 +420,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 	}else{
 		if((zeroflag[l1strobeOUT]==0)&&(zeroflag[l1strobeIN]==0)){ //If these are not due to spurious zeroes
 		flag+=1;
-		int diff=0; // Calculate the difference (anomalous amount), e.g. +2
+		double diff=0; // Calculate the difference (anomalous amount), e.g. +2
 		diff = total[l1strobeIN]-total[l1strobeOUT];
 		L1strobeflag.push_back(diff); // Put anomalous amount into vector for L1 strobe anomalies
 		locations.push_back(prev[runx]);
@@ -451,7 +451,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 	}else{
 		if((zeroflag[l1strobeOUT]==0)&&(zeroflag[fo1l1strIN]==0)&&(zeroflag[fo2l1strIN]==0)&&(zeroflag[fo3l1strIN]==0)&&(zeroflag[fo4l1strIN]==0)&&(zeroflag[fo5l1strIN]==0)&&(zeroflag[fo6l1strIN]==0)){ //If these are not due to spurious zeroes
 		flag+=1;
-		int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+		double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 		if(diff==0) diff= total[fo1l1strIN]-total[l1strobeOUT];
 		if(diff==0)  diff= total[fo2l1strIN]-total[l1strobeOUT];
 		if(diff==0) diff= total[fo3l1strIN]-total[l1strobeOUT];
@@ -487,7 +487,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 	}else{
 		if((zeroflag[l2strobeOUT]==0)&&(zeroflag[fo1l2strIN]==0)&&(zeroflag[fo2l2strIN]==0)&&(zeroflag[fo3l2strIN]==0)&&(zeroflag[fo4l2strIN]==0)&&(zeroflag[fo5l2strIN]==0)&&(zeroflag[fo6l2strIN]==0)){ //If these are not due to spurious zeroes
 		flag+=1;
-		int diff=0; // Calculate the first difference (anomalous amount), e.g. +2
+		double diff=0; // Calculate the first difference (anomalous amount), e.g. +2
 		if(diff==0) diff= total[fo1l2strIN]-total[l2strobeOUT];
 		if(diff==0)  diff= total[fo2l2strIN]-total[l2strobeOUT];
 		if(diff==0) diff= total[fo3l2strIN]-total[l2strobeOUT];
@@ -587,7 +587,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
  }
 
 //Function to print the anomaly type, number and size at end of output file
-void PrintAnomaly(vector<int> anomalyvector, TString violations){
+void PrintAnomaly(vector<double> anomalyvector, TString violations){
 	cout << endl;
 	outputfile << endl;
 	cout << anomalyvector.size() << violations << endl;

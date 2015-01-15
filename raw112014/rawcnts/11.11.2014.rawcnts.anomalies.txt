@@ -1,0 +1,1698 @@
+
+Run 205393
+!!! Anomaly between cluster 1 and FOs for L0 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)
+      L0clst1   F01L0clst1   F02L0clst1   FO3L0clst1   FO4L0clst1   FO5L0clst1   FO6L0clst1
+    10567921    10567920    10567920    10567920    10567920    10567920    10567920
+
+Run 205393
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+    10567921    10567920    10567920    10567920    10567920    10567920    10567920
+
+Run 205395
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+      645147      352034      352035      352035      352035      352035
+
+Run 205395
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+      645147      364521      364522      364522      364522      364522
+
+Run 205395
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+      645147      390162      390163      390163      390163      390163
+
+Run 205395
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+      645147      403013      403014      403014      403014      403014
+
+Run 205397
+!!! Anomaly in class 16 !!!
+    L0classB16    L0classA16    L1classB16    L1classA16    L2classB16    L2classA16
+     6932309     1046709     1046710     1046710     1046710     1046710
+
+Run 205397
+!!! Anomaly in class 24 !!!
+    L0classB24    L0classA24    L1classB24    L1classA24    L2classB24    L2classA24
+     6932309     1569449     1569450     1569450     1569450     1569450
+
+Run 205397
+!!! Anomaly in class 49 !!!
+    L0classB49    L0classA49    L1classB49    L1classA49    L2classB49    L2classA49
+     6932309     3204690     3204691     3204691     3204691     3204691
+
+Run 205397
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+     6932309     3597099     3597100     3597100     3597100     3597100
+
+Run 205397
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+     6932309     3728098     3728099     3728099     3728099     3728099
+
+Run 205397
+!!! Anomaly in class 59 !!!
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+     6932309     3858698     3858699     3858699     3858699     3858699
+
+Run 205397
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+     6932309     4186108     4186109     4186109     4186109     4186109
+
+Run 205397
+!!! Anomaly in class 82 !!!
+    L0classB82    L0classA82    L1classB82    L1classA82    L2classB82    L2classA82
+     6932309     5362801     5362802     5362802     5362802     5362802
+Run 0 num 868 counter 119 = 0
+Run 0 num 868 counter 120 = 0
+Run 0 num 868 counter 121 = 0
+Run 0 num 868 counter 122 = 0
+Run 0 num 868 counter 123 = 0
+Run 0 num 868 counter 124 = 0
+Run 0 num 868 counter 125 = 0
+Run 0 num 868 counter 126 = 0
+Run 0 num 868 counter 127 = 0
+Run 0 num 868 counter 128 = 0
+Run 0 num 868 counter 129 = 0
+Run 0 num 868 counter 130 = 0
+Run 0 num 868 counter 131 = 0
+Run 0 num 868 counter 132 = 0
+Run 0 num 868 counter 133 = 0
+Run 0 num 868 counter 134 = 0
+Run 0 num 868 counter 135 = 0
+Run 0 num 868 counter 136 = 0
+Run 0 num 868 counter 137 = 0
+Run 0 num 868 counter 138 = 0
+Run 0 num 868 counter 139 = 0
+Run 0 num 868 counter 140 = 0
+Run 0 num 868 counter 141 = 0
+Run 0 num 868 counter 142 = 0
+Run 0 num 868 counter 143 = 0
+Run 0 num 868 counter 144 = 0
+Run 0 num 868 counter 145 = 0
+Run 0 num 868 counter 146 = 0
+Run 0 num 868 counter 147 = 0
+Run 0 num 868 counter 148 = 0
+Run 0 num 868 counter 149 = 0
+Run 0 num 868 counter 150 = 0
+Run 0 num 868 counter 151 = 0
+Run 0 num 868 counter 152 = 0
+Run 0 num 868 counter 153 = 0
+Run 0 num 868 counter 154 = 0
+Run 0 num 868 counter 155 = 0
+Run 0 num 868 counter 156 = 0
+Run 0 num 868 counter 157 = 0
+Run 0 num 868 counter 158 = 0
+Run 0 num 868 counter 159 = 0
+Run 0 num 868 counter 160 = 0
+Run 0 num 868 counter 161 = 0
+Run 0 num 868 counter 162 = 0
+Run 0 num 868 counter 163 = 0
+Run 0 num 868 counter 164 = 0
+Run 0 num 868 counter 165 = 0
+Run 0 num 868 counter 166 = 0
+Run 0 num 868 counter 169 = 0
+Run 0 num 868 counter 288 = 0
+Run 0 num 868 counter 291 = 0
+Run 0 num 868 counter 306 = 0
+Run 0 num 868 counter 307 = 0
+Run 0 num 868 counter 310 = 0
+Run 0 num 868 counter 315 = 0
+Run 0 num 868 counter 316 = 0
+Run 0 num 868 counter 317 = 0
+Run 0 num 868 counter 318 = 0
+Run 0 num 868 counter 319 = 0
+Run 0 num 868 counter 321 = 0
+Run 0 num 868 counter 325 = 0
+Run 0 num 868 counter 326 = 0
+Run 0 num 868 counter 327 = 0
+Run 0 num 868 counter 328 = 0
+Run 0 num 868 counter 329 = 0
+Run 0 num 868 counter 543 = 0
+Run 0 num 868 counter 544 = 0
+Run 0 num 868 counter 545 = 0
+Run 0 num 868 counter 546 = 0
+Run 0 num 868 counter 547 = 0
+Run 0 num 868 counter 829 = 0
+Run 0 num 868 counter 902 = 0
+Run 0 num 868 counter 903 = 0
+Run 0 num 868 counter 904 = 0
+Run 0 num 868 counter 905 = 0
+Run 0 num 868 counter 906 = 0
+Run 0 num 868 counter 910 = 0
+Run 0 num 868 counter 911 = 0
+Run 0 num 868 counter 912 = 0
+Run 0 num 868 counter 913 = 0
+Run 0 num 868 counter 914 = 0
+Run 0 num 868 counter 919 = 0
+Run 0 num 868 counter 920 = 0
+Run 0 num 868 counter 928 = 0
+Run 0 num 868 counter 929 = 0
+Run 0 num 868 counter 933 = 0
+Run 0 num 868 counter 940 = 0
+Run 0 num 868 counter 947 = 0
+Run 0 num 868 counter 948 = 0
+Run 0 num 868 counter 949 = 0
+Run 0 num 868 counter 951 = 0
+Run 0 num 868 counter 952 = 0
+Run 0 num 868 counter 953 = 0
+Run 0 num 868 counter 955 = 0
+Run 0 num 868 counter 956 = 0
+Run 0 num 868 counter 957 = 0
+Run 0 num 868 counter 974 = 0
+Run 0 num 868 counter 975 = 0
+Run 0 num 868 counter 976 = 0
+Run 0 num 868 counter 977 = 0
+Run 0 num 868 counter 978 = 0
+Run 0 num 868 counter 982 = 0
+Run 0 num 868 counter 983 = 0
+Run 0 num 868 counter 984 = 0
+Run 0 num 868 counter 985 = 0
+Run 0 num 868 counter 986 = 0
+Run 0 num 868 counter 991 = 0
+Run 0 num 868 counter 1000 = 0
+Run 0 num 868 counter 1001 = 0
+Run 0 num 868 counter 1003 = 0
+Run 0 num 868 counter 1004 = 0
+Run 0 num 868 counter 1005 = 0
+Run 0 num 868 counter 1006 = 0
+Run 0 num 868 counter 1012 = 0
+Run 0 num 868 counter 1017 = 0
+Run 0 num 868 counter 1021 = 0
+Run 0 num 868 counter 1025 = 0
+Run 0 num 868 counter 1029 = 0
+Run 0 num 868 counter 1054 = 0
+Run 0 num 868 counter 1056 = 0
+Run 0 num 868 counter 1057 = 0
+Run 0 num 868 counter 1058 = 0
+Run 0 num 868 counter 1073 = 0
+Run 0 num 868 counter 1075 = 0
+Run 0 num 868 counter 1077 = 0
+Run 0 num 868 counter 1078 = 0
+Run 0 num 868 counter 1126 = 0
+Run 0 num 868 counter 1127 = 0
+Run 0 num 868 counter 1128 = 0
+Run 0 num 868 counter 1129 = 0
+Run 0 num 868 counter 1130 = 0
+Run 0 num 868 counter 1136 = 0
+Run 0 num 868 counter 1145 = 0
+Run 0 num 868 counter 1147 = 0
+Run 0 num 868 counter 1148 = 0
+Run 0 num 868 counter 1149 = 0
+Run 0 num 868 counter 1160 = 0
+Run 0 num 868 counter 1164 = 0
+Run 0 num 868 counter 1168 = 0
+Run 0 num 868 counter 1172 = 0
+Run 0 num 868 counter 1198 = 0
+Run 0 num 868 counter 1199 = 0
+Run 0 num 868 counter 1200 = 0
+Run 0 num 868 counter 1201 = 0
+Run 0 num 868 counter 1202 = 0
+Run 0 num 868 counter 1217 = 0
+Run 0 num 868 counter 1218 = 0
+Run 0 num 868 counter 1220 = 0
+Run 0 num 868 counter 1221 = 0
+Run 0 num 868 counter 1222 = 0
+Run 0 num 868 counter 1232 = 0
+Run 0 num 868 counter 1236 = 0
+Run 0 num 868 counter 1238 = 0
+Run 0 num 868 counter 1240 = 0
+Run 0 num 868 counter 1242 = 0
+Run 0 num 868 counter 1244 = 0
+Run 0 num 868 counter 1246 = 0
+Run 0 num 868 counter 1270 = 0
+Run 0 num 868 counter 1271 = 0
+Run 0 num 868 counter 1272 = 0
+Run 0 num 868 counter 1273 = 0
+Run 0 num 868 counter 1274 = 0
+Run 0 num 868 counter 1279 = 0
+Run 0 num 868 counter 1280 = 0
+Run 0 num 868 counter 1281 = 0
+Run 0 num 868 counter 1289 = 0
+Run 0 num 868 counter 1290 = 0
+Run 0 num 868 counter 1291 = 0
+Run 0 num 868 counter 1292 = 0
+Run 0 num 868 counter 1293 = 0
+Run 0 num 868 counter 1294 = 0
+Run 0 num 868 counter 1305 = 0
+Run 0 num 868 counter 1309 = 0
+Run 0 num 868 counter 1313 = 0
+Run 0 num 868 counter 1317 = 0
+Run 0 num 868 counter 1322 = 0
+Run 0 num 868 counter 1387 = 0
+Run 0 num 868 counter 1388 = 0
+Run 0 num 868 counter 1389 = 0
+Run 0 num 868 counter 1390 = 0
+Run 0 num 868 counter 1391 = 0
+Run 0 num 868 counter 1397 = 0
+Run 0 num 868 counter 1400 = 0
+Run 0 num 868 counter 1403 = 0
+Run 0 num 868 counter 1405 = 0
+Run 0 num 868 counter 1407 = 0
+Run 0 num 868 counter 1413 = 0
+Run 0 num 868 counter 1415 = 0
+Run 0 num 868 counter 1417 = 0
+Run 0 num 868 counter 1419 = 0
+Run 0 num 868 counter 1421 = 0
+Run 0 num 868 counter 1422 = 0
+Run 0 num 868 counter 1428 = 0
+Run 0 num 868 counter 1439 = 0
+Run 0 num 868 counter 1493 = 0
+Run 0 num 868 counter 1499 = 0
+Run 0 num 868 counter 1505 = 0
+
+Run 0 increment number 868
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  3611076260  3607977753  2771374832  2771374868  1467463862  1467463862
+
+Run 0 increment number 868
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+  3494748869  2079783530  1065991276  1065991328  4230249446  4230249446
+
+Run 0 increment number 868
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+  3614431657  3606579835  2698138344  2698138400  1466065928  1466065928
+
+Run 0 increment number 868
+!!! Anomaly in class 4 !!!
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+  3611643381   888941182  4273054492  4273054560  3041746671  3041746671
+
+Run 0 increment number 868
+!!! Anomaly in class 5 !!!
+    L0classB5    L0classA5    L1classB5    L1classA5    L2classB5    L2classA5
+  3494692031  2086765542  1180465434  1180465502  4237196135  4237196135
+
+Run 0 increment number 868
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+  3614379324  2093969626  1148635881  1148635953  4244354514  4244354514
+
+Run 0 increment number 868
+!!! Anomaly in class 7 !!!
+    L0classB7    L0classA7    L1classB7    L1classA7    L2classB7    L2classA7
+  3614630829  2092839105  1119633755  1119633815  4243222359  4243222359
+
+Run 0 increment number 868
+!!! Anomaly in class 8 !!!
+    L0classB8    L0classA8    L1classB8    L1classA8    L2classB8    L2classA8
+  3614176091  1919424199   945579094   945579166  4070484315  4070484315
+
+Run 0 increment number 868
+!!! Anomaly in class 9 !!!
+    L0classB9    L0classA9    L1classB9    L1classA9    L2classB9    L2classA9
+  3614968664  3601893067  2695340629  2695340673  1461379128  1461379128
+
+Run 0 increment number 868
+!!! Anomaly in class 10 !!!
+    L0classB10    L0classA10    L1classB10    L1classA10    L2classB10    L2classA10
+  3614851834  2090283402  1147668846  1147668874  4240675384  4240675384
+
+Run 0 increment number 868
+!!! Anomaly in class 11 !!!
+    L0classB11    L0classA11    L1classB11    L1classA11    L2classB11    L2classA11
+  3614575480  2089887441  1172010387  1172010391  4240271936  4240271936
+
+Run 0 increment number 868
+!!! Anomaly in class 13 !!!
+    L0classB13    L0classA13    L1classB13    L1classA13    L2classB13    L2classA13
+  3614928665  1098082647   124665676   124665696  3250605170  3250605170
+
+Run 0 increment number 868
+!!! Anomaly in class 14 !!!
+    L0classB14    L0classA14    L1classB14    L1classA14    L2classB14    L2classA14
+  3614808253  2087788505  1101057166  1101057198  4238171706  4238171706
+
+Run 0 increment number 868
+!!! Anomaly in class 15 !!!
+    L0classB15    L0classA15    L1classB15    L1classA15    L2classB15    L2classA15
+  3614970802  2084758334  1177693301  1177693349  4235158670  4235158670
+
+Run 0 increment number 868
+!!! Anomaly in class 16 !!!
+    L0classB16    L0classA16    L1classB16    L1classA16    L2classB16    L2classA16
+  3614952845  3598413453  2598272309  2598272333  1456002638  1456002638
+
+Run 0 increment number 868
+!!! Anomaly in class 33 !!!
+    L0classB33    L0classA33    L1classB33    L1classA33    L2classB33    L2classA33
+  3614816222  3585205297  2676719304  2676719356  1442794360  1442794360
+
+Run 0 increment number 868
+!!! Anomaly in class 34 !!!
+    L0classB34    L0classA34    L1classB34    L1classA34    L2classB34    L2classA34
+  3614807873  3584425079  2639940236  2639940252  1442014136  1442014136
+
+Run 0 increment number 868
+!!! Anomaly in class 35 !!!
+    L0classB35    L0classA35    L1classB35    L1classA35    L2classB35    L2classA35
+  3614800483  3583649648  2675053609  2675053649  1441238712  1441238712
+
+Run 0 increment number 868
+!!! Anomaly in class 36 !!!
+    L0classB36    L0classA36    L1classB36    L1classA36    L2classB36    L2classA36
+  3614793396  3582870826  2674235985  2674236017  1440459880  1440459880
+
+Run 0 increment number 868
+!!! Anomaly in class 37 !!!
+    L0classB37    L0classA37    L1classB37    L1classA37    L2classB37    L2classA37
+  3614784819  3582096010  2673353174  2673353202  1439685072  1439685072
+
+Run 0 increment number 868
+!!! Anomaly in class 38 !!!
+    L0classB38    L0classA38    L1classB38    L1classA38    L2classB38    L2classA38
+  3614777104  3579538791  2634779136  2634779164  1438906584  1438906584
+
+Run 0 increment number 868
+!!! Anomaly in class 39 !!!
+    L0classB39    L0classA39    L1classB39    L1classA39    L2classB39    L2classA39
+  3614769670  3578644305  2669357825  2669357841  1438130224  1438130224
+
+Run 0 increment number 868
+!!! Anomaly in class 40 !!!
+    L0classB40    L0classA40    L1classB40    L1classA40    L2classB40    L2classA40
+  3614762514  3579763988  2670857114  2670857130  1437353044  1437353044
+
+Run 0 increment number 868
+!!! Anomaly in class 41 !!!
+    L0classB41    L0classA41    L1classB41    L1classA41    L2classB41    L2classA41
+  3614754206  3578987652  2670001413  2670001425  1436576711  1436576711
+
+Run 0 increment number 868
+!!! Anomaly in class 42 !!!
+    L0classB42    L0classA42    L1classB42    L1classA42    L2classB42    L2classA42
+  3614746301  3578211722  2633211276  2633211300  1435800783  1435800783
+
+Run 0 increment number 868
+!!! Anomaly in class 47 !!!
+    L0classB47    L0classA47    L1classB47    L1classA47    L2classB47    L2classA47
+  3614707899  3572429204  2663101590  2663101594  1431915121  1431915121
+
+Run 0 increment number 868
+!!! Anomaly in class 49 !!!
+    L0classB49    L0classA49    L1classB49    L1classA49    L2classB49    L2classA49
+  3614691846  2060638557  1124795261  1124795265  4211021801  4211021801
+
+Run 0 increment number 868
+!!! Anomaly in class 50 !!!
+    L0classB50    L0classA50    L1classB50    L1classA50    L2classB50    L2classA50
+  3614684906  2059860562  1048159570  1048159578  4210243816  4210243816
+
+Run 0 increment number 868
+!!! Anomaly in class 51 !!!
+    L0classB51    L0classA51    L1classB51    L1classA51    L2classB51    L2classA51
+  3614677627  2059085662  1080198898  1080199722  4209468947  4209468947
+
+Run 0 increment number 868
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+  3614669116  3568651680  2589859574  2589860086  1428137572  1428137572
+
+Run 0 increment number 868
+!!! Anomaly in class 53 !!!
+    L0classB53    L0classA53    L1classB53    L1classA53    L2classB53    L2classA53
+  3614661103  2057529678  1078071819  1078073315  4207912755  4207912755
+
+Run 0 increment number 868
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+  3614653610  2056754402  1041345369  1041346173  4207137654  4207137654
+
+Run 0 increment number 868
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+  3614646031  2055977984  1076512430  1076512966  4206361234  4206361234
+
+Run 0 increment number 868
+!!! Anomaly in class 56 !!!
+    L0classB56    L0classA56    L1classB56    L1classA56    L2classB56    L2classA56
+  3614638374  2055199481  1142550623  1142550711  4205582740  4205582740
+
+Run 0 increment number 868
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+  3614630243  3565194783  2652482194  2652482882  1424680239  1424680239
+
+Run 0 increment number 868
+!!! Anomaly in class 58 !!!
+    L0classB58    L0classA58    L1classB58    L1classA58    L2classB58    L2classA58
+  3614622457  2053646415  1104929151  1104929259  4204029509  4204029509
+
+Run 0 increment number 868
+!!! Anomaly in class 59 !!!
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+  3614615055  2052868334  1073865805  1073865329  4203251581  4203251581
+
+Run 0 increment number 868
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+  3614598941  2051316153  1138369314  1138368662  4201699256  4201699256
+
+Run 0 increment number 868
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+  3614583208   441958856  3823634097  3823633601  2595343747  2595343747
+
+Run 0 increment number 868
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+  3614575590  2048981899  1108854764  1108854340  4199365066  4199365066
+
+Run 0 increment number 868
+!!! Anomaly in class 65 !!!
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+  3614567171  2048209559  1120574509  1120575005  4198592810  4198592810
+
+Run 0 increment number 868
+!!! Anomaly in class 66 !!!
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+  3614559947  2047429648  1097603775  1097604463  4197812900  4197812900
+
+Run 0 increment number 868
+!!! Anomaly in class 67 !!!
+    L0classB67    L0classA67    L1classB67    L1classA67    L2classB67    L2classA67
+  3614552673  2046655273  1106065023  1106065955  4197038526  4197038526
+
+Run 0 increment number 868
+!!! Anomaly in class 68 !!!
+    L0classB68    L0classA68    L1classB68    L1classA68    L2classB68    L2classA68
+  3614543972  2045875154  1131533907  1131534343  4196258406  4196258406
+
+Run 0 increment number 868
+!!! Anomaly in class 69 !!!
+    L0classB69    L0classA69    L1classB69    L1classA69    L2classB69    L2classA69
+  3614535711  2045100715  1104037419  1104038683  4195483969  4195483969
+
+Run 0 increment number 868
+!!! Anomaly in class 70 !!!
+    L0classB70    L0classA70    L1classB70    L1classA70    L2classB70    L2classA70
+  3614527630  2044320974  1026988023  1026989239  4194704225  4194704225
+
+Run 0 increment number 868
+!!! Anomaly in class 71 !!!
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+  3614520019  2043547192  1102319936  1102320944  4193930446  4193930446
+
+Run 0 increment number 868
+!!! Anomaly in class 72 !!!
+    L0classB72    L0classA72    L1classB72    L1classA72    L2classB72    L2classA72
+  3614512216  2042766784  1128079226  1128079886  4193150035  4193150035
+
+Run 0 increment number 868
+!!! Anomaly in class 73 !!!
+    L0classB73    L0classA73    L1classB73    L1classA73    L2classB73    L2classA73
+  3614504254  2041993307  1100691782  1100693898  4192376561  4192376561
+
+Run 0 increment number 868
+!!! Anomaly in class 74 !!!
+    L0classB74    L0classA74    L1classB74    L1classA74    L2classB74    L2classA74
+  3614496449  2041214522  1064303351  1064303075  4191597775  4191597775
+
+Run 0 increment number 868
+!!! Anomaly in class 75 !!!
+    L0classB75    L0classA75    L1classB75    L1classA75    L2classB75    L2classA75
+  3614488682  2040438653  1099135921  1099135017  4190821908  4190821908
+
+Run 0 increment number 868
+!!! Anomaly in class 76 !!!
+    L0classB76    L0classA76    L1classB76    L1classA76    L2classB76    L2classA76
+  3614480996  2039660562  1125272808  1125273328  4190043813  4190043813
+
+Run 0 increment number 868
+!!! Anomaly in class 77 !!!
+    L0classB77    L0classA77    L1classB77    L1classA77    L2classB77    L2classA77
+  3614473186  2038884055  1124501213  1124500441  4189267310  4189267310
+
+Run 0 increment number 868
+!!! Anomaly in class 78 !!!
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+  3614464220  2038107333  1061405574  1061403346  4188490585  4188490585
+
+Run 0 increment number 868
+!!! Anomaly in class 79 !!!
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+  3614456603  2037332391  1030163848  1030160820  4187715642  4187715642
+
+Run 0 increment number 868
+!!! Anomaly in class 80 !!!
+    L0classB80    L0classA80    L1classB80    L1classA80    L2classB80    L2classA80
+  3614448951  2036553334  1056741736  1056740976  4186936587  4186936587
+
+Run 0 increment number 868
+!!! Anomaly in class 81 !!!
+    L0classB81    L0classA81    L1classB81    L1classA81    L2classB81    L2classA81
+  3614441361  2035777883  1055333925  1055333529  4186161136  4186161136
+
+Run 0 increment number 868
+!!! Anomaly in class 82 !!!
+    L0classB82    L0classA82    L1classB82    L1classA82    L2classB82    L2classA82
+  3614433428  2034999238  1018606104  1018605912  4185382486  4185382486
+
+Run 0 increment number 868
+!!! Anomaly in class 83 !!!
+    L0classB83    L0classA83    L1classB83    L1classA83    L2classB83    L2classA83
+  3614425752  2034223840  1054364004  1054363032  4184607093  4184607093
+
+Run 0 increment number 868
+!!! Anomaly in class 84 !!!
+    L0classB84    L0classA84    L1classB84    L1classA84    L2classB84    L2classA84
+  3614456480  2033444553  1053563618  1053563794  4183827809  4183827809
+
+Run 0 increment number 868
+!!! Anomaly in class 85 !!!
+    L0classB85    L0classA85    L1classB85    L1classA85    L2classB85    L2classA85
+  3614456188  2032667562  1052708640  1052708296  4183050815  4183050815
+
+Run 0 increment number 868
+!!! Anomaly in class 86 !!!
+    L0classB86    L0classA86    L1classB86    L1classA86    L2classB86    L2classA86
+  3614449098  2031889508  1015928598  1015928162  4182272763  4182272763
+
+Run 0 increment number 868
+!!! Anomaly in class 87 !!!
+    L0classB87    L0classA87    L1classB87    L1classA87    L2classB87    L2classA87
+  3614441764  2031113619  1051041968  1051041452  4181496872  4181496872
+
+Run 0 increment number 868
+!!! Anomaly in class 88 !!!
+    L0classB88    L0classA88    L1classB88    L1classA88    L2classB88    L2classA88
+  3614434717  2030335412  1050224084  1050225584  4180718664  4180718664
+
+Run 0 increment number 868
+!!! Anomaly in class 89 !!!
+    L0classB89    L0classA89    L1classB89    L1classA89    L2classB89    L2classA89
+  3614427075  2029558896  1049356165  1049357601  4179942149  4179942149
+
+Run 0 increment number 868
+!!! Anomaly in class 90 !!!
+    L0classB90    L0classA90    L1classB90    L1classA90    L2classB90    L2classA90
+  3614419372  3540915856  2524701876  2524704920  1398504960  1398504960
+
+Run 0 increment number 868
+!!! Anomaly in class 91 !!!
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+  3614411467  2028004260  1047661559  1047661851  4178387468  4178387468
+
+Run 0 increment number 868
+!!! Anomaly in class 92 !!!
+    L0classB92    L0classA92    L1classB92    L1classA92    L2classB92    L2classA92
+  3614403903  2027228604  1046833557  1046833817  4177611856  4177611856
+
+Run 0 increment number 868
+!!! Anomaly in class 93 !!!
+    L0classB93    L0classA93    L1classB93    L1classA93    L2classB93    L2classA93
+  3614396187  2026450867  1045937719  1045937995  4176834121  4176834121
+
+Run 0 increment number 868
+!!! Anomaly in class 94 !!!
+    L0classB94    L0classA94    L1classB94    L1classA94    L2classB94    L2classA94
+  3614388015  2025673933  1009126354  1009125914  4176057187  4176057187
+
+Run 0 increment number 868
+!!! Anomaly in class 95 !!!
+    L0classB95    L0classA95    L1classB95    L1classA95    L2classB95    L2classA95
+  3614380818  2024897432  1044204877  1044203869  4175280687  4175280687
+
+Run 0 increment number 868
+!!! Anomaly in class 99 !!!
+    L0classB99    L0classA99    L1classB99    L1classA99    L2classB99    L2classA99
+  3614350947  3532027384  2550273201  2550273461  1391513302  1391513302
+
+Run 0 increment number 868
+!!! Anomaly in class 100 !!!
+    L0classB100    L0classA100    L1classB100    L1classA100    L2classB100    L2classA100
+  3614342982  3531259780  2550023755  2550024239  1390745678  1390745678
+
+Run 0 increment number 868
+!!! Anomaly in cluster T !!!
+     L0clstT     L1clstT     L2clstT
+  4294963623  4294840208  4294963622
+
+Run 0 increment number 868
+!!! Anomaly between cluster T and FOs for L0!!!
+     L0clstT  FO1L0clstT  FO2L0clstT  FO3L0clstT  FO4L0clstT  FO5L0clstT  FO6L0clstT
+  4294963623  4144670880  4144719573    67664260    67709528    67666246    67676598
+
+Run 0 increment number 868
+!!! Anomaly between cluster T and FOs for L1!!!
+     L1clstT  FO1L1clstT  FO2L1clstT  FO3L1clstT  FO4L1clstT  FO5L1clstT  FO6L1clstT
+  4294840208  4294903839  4294913060  4294916497  4294921074  4294898571  4294910215
+
+Run 0 increment number 868
+!!! Anomaly between cluster 1 and FOs for L0 !!!
+      L0clst1   F01L0clst1   F02L0clst1   FO3L0clst1   FO4L0clst1   FO5L0clst1   FO6L0clst1
+  3524180630  1172429046  3932143198  1756895712  3543186997  3771721969   153807439
+
+Run 0 increment number 868
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+  2540209849  2540182706  2538088346  2539207671  2538281823  2538033725  2540333453
+
+Run 0 increment number 868
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+  3523313250  2518091780
+
+Run 0 increment number 868
+!!! Anomaly between L1strobeOUT and L1strobeIN
+ L1strobeOUT  L1strobeIN
+  2516805219  1382799220
+
+Run 0 increment number 868
+!!! Anomaly between L1strobeOUT and L1 FO strobes IN
+ L1strobeOUT  fo1L1strIN  fo2L1strIN  fo3L1strIN  fo4L1strIN  fo5L1strIN  fo6L1strIN
+  2516805219  2518811472  2518811473  2518811506  2518811506  2518811506  2518811506
+
+Run 0 increment number 868
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+  1382799222  2521958328  2521958324  2521958358  2521958358  2521958358  2521958358
+
+Run 205451
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  4270376962  4294907226       41503       41503       99946       99946
+
+Run 205451
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+  4270375168  4294847275       81269       81269      139393      139393
+
+Run 205451
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+  4270372830  4294787436      121348      121348      179157      179157
+
+Run 205451
+!!! Anomaly in class 4 !!!
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+  4270370487  4294726901      161032      161032      217528      217528
+
+Run 205451
+!!! Anomaly in class 5 !!!
+    L0classB5    L0classA5    L1classB5    L1classA5    L2classB5    L2classA5
+  4270368146  4294666732      201011      201011      256777      256777
+
+Run 205451
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+  4270365793  4294606612      240794      240794      296145      296145
+
+Run 205451
+!!! Anomaly in class 7 !!!
+    L0classB7    L0classA7    L1classB7    L1classA7    L2classB7    L2classA7
+  4270363450  4294546668      281354      281350      335768      335768
+
+Run 205451
+!!! Anomaly in class 8 !!!
+    L0classB8    L0classA8    L1classB8    L1classA8    L2classB8    L2classA8
+  4270361107  4294486411      321472      321468      374482      374482
+
+Run 205451
+!!! Anomaly in class 9 !!!
+    L0classB9    L0classA9    L1classB9    L1classA9    L2classB9    L2classA9
+  4270358761  4294426287      361125      361121      412620      412620
+
+Run 205451
+!!! Anomaly in class 10 !!!
+    L0classB10    L0classA10    L1classB10    L1classA10    L2classB10    L2classA10
+  4270356908  4294365771      400912      400908      451220      451220
+
+Run 205451
+!!! Anomaly in class 11 !!!
+    L0classB11    L0classA11    L1classB11    L1classA11    L2classB11    L2classA11
+  4270354566  4294306403      441277      441277      490393      490394
+
+Run 205451
+!!! Anomaly in class 12 !!!
+    L0classB12    L0classA12    L1classB12    L1classA12    L2classB12    L2classA12
+  4270352220  4294246047      482200      482200      529715      529716
+
+Run 205451
+!!! Anomaly in class 13 !!!
+    L0classB13    L0classA13    L1classB13    L1classA13    L2classB13    L2classA13
+  4270349871  4294186855      522768      522768      568684      568685
+
+Run 205451
+!!! Anomaly in class 14 !!!
+    L0classB14    L0classA14    L1classB14    L1classA14    L2classB14    L2classA14
+  4270347078  4294126479      562019      562019      606638      606639
+
+Run 205451
+!!! Anomaly in class 15 !!!
+    L0classB15    L0classA15    L1classB15    L1classA15    L2classB15    L2classA15
+  4270348985  4294066750      601747      601747      644883      644884
+
+Run 205451
+!!! Anomaly in class 16 !!!
+    L0classB16    L0classA16    L1classB16    L1classA16    L2classB16    L2classA16
+  4270346648  4294005927      642942      642942      684387      684388
+
+Run 205451
+!!! Anomaly in class 17 !!!
+    L0classB17    L0classA17    L1classB17    L1classA17    L2classB17    L2classA17
+  4270344303  4293945910      682402      682402      722683      722684
+
+Run 205451
+!!! Anomaly in class 18 !!!
+    L0classB18    L0classA18    L1classB18    L1classA18    L2classB18    L2classA18
+  4270341956  4293885665      722658      722658      761351      761352
+
+Run 205451
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+  4270338857  4293823889      762016      762016      799114      799114
+
+Run 205451
+!!! Anomaly in class 20 !!!
+    L0classB20    L0classA20    L1classB20    L1classA20    L2classB20    L2classA20
+  4270336510  4293763454      802244      802240      836960      836960
+
+Run 205451
+!!! Anomaly in class 21 !!!
+    L0classB21    L0classA21    L1classB21    L1classA21    L2classB21    L2classA21
+  4270334173  4293704851      841187      841183      874542      874542
+
+Run 205451
+!!! Anomaly in class 22 !!!
+    L0classB22    L0classA22    L1classB22    L1classA22    L2classB22    L2classA22
+  4270331405  4293644226      881058      881054      913332      913332
+
+Run 205451
+!!! Anomaly in class 23 !!!
+    L0classB23    L0classA23    L1classB23    L1classA23    L2classB23    L2classA23
+  4270329061  4293583688      921240      921236      952837      952837
+
+Run 205451
+!!! Anomaly in class 24 !!!
+    L0classB24    L0classA24    L1classB24    L1classA24    L2classB24    L2classA24
+  4270326715  4293523938      961585      961581      992556      992556
+
+Run 205451
+!!! Anomaly in class 25 !!!
+    L0classB25    L0classA25    L1classB25    L1classA25    L2classB25    L2classA25
+  4270323946  4293464283     1001601     1001597     1031750     1031750
+
+Run 205451
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+  4270321605  4293402917     1040823     1040819     1070218     1070218
+
+Run 205451
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+  4270319262  4293343945     1080849     1080845     1098053     1098053
+
+Run 205451
+!!! Anomaly in class 28 !!!
+    L0classB28    L0classA28    L1classB28    L1classA28    L2classB28    L2classA28
+  4270316934  4293282989     1121811     1121807     1140207     1140207
+
+Run 205451
+!!! Anomaly in class 29 !!!
+    L0classB29    L0classA29    L1classB29    L1classA29    L2classB29    L2classA29
+  4270314300  4293223604     1159664     1159660     1189775     1189775
+
+Run 205451
+!!! Anomaly in class 30 !!!
+    L0classB30    L0classA30    L1classB30    L1classA30    L2classB30    L2classA30
+  4270311948  4293163168     1201226     1201222     1230725     1230725
+
+Run 205451
+!!! Anomaly in class 31 !!!
+    L0classB31    L0classA31    L1classB31    L1classA31    L2classB31    L2classA31
+  4270309602  4293102923     1241572     1241568     1271182     1271182
+
+Run 205451
+!!! Anomaly in class 32 !!!
+    L0classB32    L0classA32    L1classB32    L1classA32    L2classB32    L2classA32
+  4270307260  4293043188     1280781     1280777     1310635     1310635
+
+Run 205451
+!!! Anomaly in class 33 !!!
+    L0classB33    L0classA33    L1classB33    L1classA33    L2classB33    L2classA33
+  4270304916  4292983270     1321002     1320998     1351468     1351468
+
+Run 205451
+!!! Anomaly in class 34 !!!
+    L0classB34    L0classA34    L1classB34    L1classA34    L2classB34    L2classA34
+  4270302568  4292923509     1360068     1360064     1391479     1391479
+
+Run 205451
+!!! Anomaly in class 35 !!!
+    L0classB35    L0classA35    L1classB35    L1classA35    L2classB35    L2classA35
+  4270300224  4292862359     1398581     1398577     1430909     1430909
+
+Run 205451
+!!! Anomaly in class 36 !!!
+    L0classB36    L0classA36    L1classB36    L1classA36    L2classB36    L2classA36
+  4270297879  4292802564     1439008     1439004     1472402     1472402
+
+Run 205451
+!!! Anomaly in class 37 !!!
+    L0classB37    L0classA37    L1classB37    L1classA37    L2classB37    L2classA37
+  4270295133  4292742185     1479417     1479413     1513552     1513552
+
+Run 205451
+!!! Anomaly in class 38 !!!
+    L0classB38    L0classA38    L1classB38    L1classA38    L2classB38    L2classA38
+  4270292785  4292682067     1519672     1519672     1553452     1553452
+
+Run 205451
+!!! Anomaly in class 39 !!!
+    L0classB39    L0classA39    L1classB39    L1classA39    L2classB39    L2classA39
+  4270290450  4292621290     1556629     1556629     1591235     1591235
+
+Run 205451
+!!! Anomaly in class 40 !!!
+    L0classB40    L0classA40    L1classB40    L1classA40    L2classB40    L2classA40
+  4270288106  4292561521     1597106     1597110     1634034     1634034
+
+Run 205451
+!!! Anomaly in class 41 !!!
+    L0classB41    L0classA41    L1classB41    L1classA41    L2classB41    L2classA41
+  4270285756  4292500487     1637746     1637750     1676226     1676226
+
+Run 205451
+!!! Anomaly in class 42 !!!
+    L0classB42    L0classA42    L1classB42    L1classA42    L2classB42    L2classA42
+  4270283413  4292440713     1677151     1677155     1716770     1716770
+
+Run 205451
+!!! Anomaly in class 43 !!!
+    L0classB43    L0classA43    L1classB43    L1classA43    L2classB43    L2classA43
+  4270280670  4292381514     1717433     1717437     1758353     1758353
+
+Run 205451
+!!! Anomaly in class 44 !!!
+    L0classB44    L0classA44    L1classB44    L1classA44    L2classB44    L2classA44
+  4270278325  4292320549     1756356     1756360     1798630     1798630
+
+Run 205451
+!!! Anomaly in class 45 !!!
+    L0classB45    L0classA45    L1classB45    L1classA45    L2classB45    L2classA45
+  4270275982  4292261670     1797128     1797128     1841017     1841017
+
+Run 205451
+!!! Anomaly in class 46 !!!
+    L0classB46    L0classA46    L1classB46    L1classA46    L2classB46    L2classA46
+  4270273642  4292198777     1835155     1835155     1880792     1880792
+
+Run 205451
+!!! Anomaly in class 47 !!!
+    L0classB47    L0classA47    L1classB47    L1classA47    L2classB47    L2classA47
+  4270271296  4292142974     1875765     1875765     1922702     1922702
+
+Run 205451
+!!! Anomaly in class 48 !!!
+    L0classB48    L0classA48    L1classB48    L1classA48    L2classB48    L2classA48
+  4270268961  4292079811     1915901     1915901     1964070     1964070
+
+Run 205451
+!!! Anomaly in class 49 !!!
+    L0classB49    L0classA49    L1classB49    L1classA49    L2classB49    L2classA49
+  4270266615  4292020854     1955318     1955318     1996387     1996387
+
+Run 205451
+!!! Anomaly in class 50 !!!
+    L0classB50    L0classA50    L1classB50    L1classA50    L2classB50    L2classA50
+  4270263653  4291961147     1995720     1995716     2037831     2037831
+
+Run 205451
+!!! Anomaly in class 51 !!!
+    L0classB51    L0classA51    L1classB51    L1classA51    L2classB51    L2classA51
+  4270261312  4291899535     2081620     2081792     2085649     2085649
+
+Run 205451
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+  4270258964  4291839638     2120760     2120812     2128082     2128083
+
+Run 205451
+!!! Anomaly in class 53 !!!
+    L0classB53    L0classA53    L1classB53    L1classA53    L2classB53    L2classA53
+  4270256630  4291780770     2158257     2158117     2168016     2168017
+
+Run 205451
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+  4270254279  4291720081     2197781     2197717     2209348     2209349
+
+Run 205451
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+  4270251929  4291659954     2235406     2235386     2248618     2248619
+
+Run 205451
+!!! Anomaly in class 56 !!!
+    L0classB56    L0classA56    L1classB56    L1classA56    L2classB56    L2classA56
+  4270249583  4291599344     2275536     2275216     2289802     2289803
+
+Run 205451
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+  4270246813  4291540540     2314224     2313868     2329290     2329291
+
+Run 205451
+!!! Anomaly in class 58 !!!
+    L0classB58    L0classA58    L1classB58    L1classA58    L2classB58    L2classA58
+  4270244474  4291478588     2353029     2352745     2369303     2369304
+
+Run 205451
+!!! Anomaly in class 59 !!!
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+  4270242124  4291419280     2394673     2394397     2411381     2411382
+
+Run 205451
+!!! Anomaly in class 60 !!!
+    L0classB60    L0classA60    L1classB60    L1classA60    L2classB60    L2classA60
+  4270239783  4291357833     2433902     2433846     2450639     2450640
+
+Run 205451
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+  4270237439  4291298765     2473226     2473138     2489650     2489651
+
+Run 205451
+!!! Anomaly in class 62 !!!
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+  4270235106  4291238245     2516194     2516126     2530643     2530644
+
+Run 205451
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+  4270232754  4291177495     2556198     2556126     2568877     2568878
+
+Run 205451
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+  4270230408  4291118802     2599357     2599485     2608920     2608921
+
+Run 205451
+!!! Anomaly in class 65 !!!
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+  4270228062  4291057870     2639469     2639713     2646926     2646927
+
+Run 205451
+!!! Anomaly in class 66 !!!
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+  4270225714  4290999127     2681167     2681296     2686813     2686814
+
+Run 205451
+!!! Anomaly in class 67 !!!
+    L0classB67    L0classA67    L1classB67    L1classA67    L2classB67    L2classA67
+  4270222982  4290938147     2722328     2722489     2726132     2726133
+
+Run 205451
+!!! Anomaly in class 68 !!!
+    L0classB68    L0classA68    L1classB68    L1classA68    L2classB68    L2classA68
+  4270220637  4290878084     2764889     2764994     2763841     2763842
+
+Run 205451
+!!! Anomaly in class 69 !!!
+    L0classB69    L0classA69    L1classB69    L1classA69    L2classB69    L2classA69
+  4270218298  4290817895     2805514     2805583     2803357     2803358
+
+Run 205451
+!!! Anomaly in class 70 !!!
+    L0classB70    L0classA70    L1classB70    L1classA70    L2classB70    L2classA70
+  4270215947  4290757861     2844855     2844956     2841133     2841134
+
+Run 205451
+!!! Anomaly in class 71 !!!
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+  4270213611  4290696904     2884627     2884664     2879714     2879715
+
+Run 205451
+!!! Anomaly in class 72 !!!
+    L0classB72    L0classA72    L1classB72    L1classA72    L2classB72    L2classA72
+  4270211265  4290637211     2925179     2924980     2917369     2917370
+
+Run 205451
+!!! Anomaly in class 73 !!!
+    L0classB73    L0classA73    L1classB73    L1classA73    L2classB73    L2classA73
+  4270208914  4290577328     2964426     2964088     2956154     2956154
+
+Run 205451
+!!! Anomaly in class 74 !!!
+    L0classB74    L0classA74    L1classB74    L1classA74    L2classB74    L2classA74
+  4270206568  4290516698     3002678     3002096     2993167     2993167
+
+Run 205451
+!!! Anomaly in class 75 !!!
+    L0classB75    L0classA75    L1classB75    L1classA75    L2classB75    L2classA75
+  4270204223  4290457012     3041268     3040890     3031137     3031137
+
+Run 205451
+!!! Anomaly in class 76 !!!
+    L0classB76    L0classA76    L1classB76    L1classA76    L2classB76    L2classA76
+  4270201883  4290397310     3081381     3080899     3070765     3070765
+
+Run 205451
+!!! Anomaly in class 77 !!!
+    L0classB77    L0classA77    L1classB77    L1classA77    L2classB77    L2classA77
+  4270199539  4290337497     3119917     3119507     3109402     3109402
+
+Run 205451
+!!! Anomaly in class 78 !!!
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+  4270197195  4290276376     3155866     3155724     3148278     3148278
+
+Run 205451
+!!! Anomaly in class 79 !!!
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+  4270194851  4290216482     3191034     3190896     3160919     3160919
+
+Run 205451
+!!! Anomaly in class 80 !!!
+    L0classB80    L0classA80    L1classB80    L1classA80    L2classB80    L2classA80
+  4270192512  4290156199     3225508     3225218     3202365     3202365
+
+Run 205451
+!!! Anomaly in class 81 !!!
+    L0classB81    L0classA81    L1classB81    L1classA81    L2classB81    L2classA81
+  4270190158  4290095956     3263396     3263182     3266590     3266590
+
+Run 205451
+!!! Anomaly in class 82 !!!
+    L0classB82    L0classA82    L1classB82    L1classA82    L2classB82    L2classA82
+  4270187804  4290034257     3301378     3301120     3304992     3304992
+
+Run 205451
+!!! Anomaly in class 83 !!!
+    L0classB83    L0classA83    L1classB83    L1classA83    L2classB83    L2classA83
+  4270185457  4289974566     3341072     3340906     3344765     3344765
+
+Run 205451
+!!! Anomaly in class 84 !!!
+    L0classB84    L0classA84    L1classB84    L1classA84    L2classB84    L2classA84
+  4270183109  4289915429     3379917     3379915     3383766     3383766
+
+Run 205451
+!!! Anomaly in class 85 !!!
+    L0classB85    L0classA85    L1classB85    L1classA85    L2classB85    L2classA85
+  4270180765  4289855247     3419572     3419486     3423621     3423621
+
+Run 205451
+!!! Anomaly in class 86 !!!
+    L0classB86    L0classA86    L1classB86    L1classA86    L2classB86    L2classA86
+  4270178412  4289794850     3458337     3458239     3462285     3462285
+
+Run 205451
+!!! Anomaly in class 87 !!!
+    L0classB87    L0classA87    L1classB87    L1classA87    L2classB87    L2classA87
+  4270176064  4289734856     3498149     3497991     3501845     3501845
+
+Run 205451
+!!! Anomaly in class 88 !!!
+    L0classB88    L0classA88    L1classB88    L1classA88    L2classB88    L2classA88
+  4270174417  4289675007     3538400     3538310     3542445     3542445
+
+Run 205451
+!!! Anomaly in class 89 !!!
+    L0classB89    L0classA89    L1classB89    L1classA89    L2classB89    L2classA89
+  4270172081  4289614886     3577940     3577842     3582333     3582333
+
+Run 205451
+!!! Anomaly in class 90 !!!
+    L0classB90    L0classA90    L1classB90    L1classA90    L2classB90    L2classA90
+  4270169737  4289554599     3617657     3617551     3619908     3619908
+
+Run 205451
+!!! Anomaly in class 91 !!!
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+  4270167387  4289494440     3657206     3657268     3659835     3659835
+
+Run 205451
+!!! Anomaly in class 92 !!!
+    L0classB92    L0classA92    L1classB92    L1classA92    L2classB92    L2classA92
+  4270165037  4289433947     3697536     3697526     3703116     3703116
+
+Run 205451
+!!! Anomaly in class 93 !!!
+    L0classB93    L0classA93    L1classB93    L1classA93    L2classB93    L2classA93
+  4270162695  4289373973     3737268     3737270     3743343     3743343
+
+Run 205451
+!!! Anomaly in class 94 !!!
+    L0classB94    L0classA94    L1classB94    L1classA94    L2classB94    L2classA94
+  4270160354  4289314095     3777304     3777434     3785198     3785198
+
+Run 205451
+!!! Anomaly in class 95 !!!
+    L0classB95    L0classA95    L1classB95    L1classA95    L2classB95    L2classA95
+  4270158007  4289253487     3817723     3817697     3825905     3825905
+
+Run 205451
+!!! Anomaly in class 96 !!!
+    L0classB96    L0classA96    L1classB96    L1classA96    L2classB96    L2classA96
+  4270155669  4289194203     3857999     3857985     3866527     3866527
+
+Run 205451
+!!! Anomaly in class 97 !!!
+    L0classB97    L0classA97    L1classB97    L1classA97    L2classB97    L2classA97
+  4270153325  4289133608     3898331     3898353     3906951     3906951
+
+Run 205451
+!!! Anomaly in class 98 !!!
+    L0classB98    L0classA98    L1classB98    L1classA98    L2classB98    L2classA98
+  4270150988  4289073694     3938769     3938818     3951141     3951141
+
+Run 205451
+!!! Anomaly in class 99 !!!
+    L0classB99    L0classA99    L1classB99    L1classA99    L2classB99    L2classA99
+  4270148650  4289013474     3979309     3979346     3992488     3992488
+
+Run 205451
+!!! Anomaly in class 100 !!!
+    L0classB100    L0classA100    L1classB100    L1classA100    L2classB100    L2classA100
+  4270146299  4288953440     4020043     4020096     4033025     4033025
+
+Run 205451
+!!! Anomaly in cluster T !!!
+     L0clstT     L1clstT     L2clstT
+  4294967271        1879       34354
+
+Run 205451
+!!! Anomaly between cluster T and FOs for L0!!!
+     L0clstT  FO1L0clstT  FO2L0clstT  FO3L0clstT  FO4L0clstT  FO5L0clstT  FO6L0clstT
+  4294967271       46718       47225       47389       47229       46803       47230
+
+Run 205451
+!!! Anomaly between cluster T and FOs for L1!!!
+     L1clstT  FO1L1clstT  FO2L1clstT  FO3L1clstT  FO4L1clstT  FO5L1clstT  FO6L1clstT
+        1879         833         668         626         563         918         741
+
+Run 205451
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+  4288953440     4021013     4067786
+
+Run 205451
+!!! Anomaly between cluster 1 and FOs for L0 !!!
+      L0clst1   F01L0clst1   F02L0clst1   FO3L0clst1   FO4L0clst1   FO5L0clst1   FO6L0clst1
+  4288953440     5959454     7823658     6549017     7635526     7960118     5721481
+
+Run 205451
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+     4021013     4022591     4055405     4037876     4052401     4055633     4024786
+
+Run 205451
+!!! Anomaly between cluster 7 and FOs for L0 !!!
+      L0clst7   F01L0clst7   F02L0clst7   FO3L0clst7   FO4L0clst7   FO5L0clst7   FO6L0clst7
+  4294967295           0           0           0           0           0           0
+
+Run 205451
+!!! Anomaly between cluster 8 and FOs for L0 !!!
+      L0clst8   F01L0clst8   F02L0clst8   FO3L0clst8   FO4L0clst8   FO5L0clst8   FO6L0clst8
+  4294967295           0           0           0           0           0           0
+
+Run 205451
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+  4288953416     4126384
+
+Run 205451
+!!! Anomaly between L1strobeOUT and L1strobeIN
+ L1strobeOUT  L1strobeIN
+     4146006     4115765
+
+Run 205451
+!!! Anomaly between L1strobeOUT and L1 FO strobes IN
+ L1strobeOUT  fo1L1strIN  fo2L1strIN  fo3L1strIN  fo4L1strIN  fo5L1strIN  fo6L1strIN
+     4146006     4115766     4115765     4115767     4115768     4115769     4115770
+
+Run 205451
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+     4067788     4067788     4067787     4067789     4067789     4067790     4067791
+Run 0 num 1047 7 = 0
+Run 0 num 1047 8 = 0
+Run 0 num 1047 9 = 0
+Run 0 num 1047 10 = 0
+Run 0 num 1047 11 = 0
+Run 0 num 1047 12 = 0
+Run 0 num 1047 13 = 0
+Run 0 num 1047 14 = 0
+Run 0 num 1047 16 = 0
+Run 0 num 1047 17 = 0
+Run 0 num 1047 18 = 0
+Run 0 num 1047 19 = 0
+Run 0 num 1047 20 = 0
+Run 0 num 1047 21 = 0
+Run 0 num 1047 22 = 0
+Run 0 num 1047 23 = 0
+Run 0 num 1047 24 = 0
+Run 0 num 1047 25 = 0
+Run 0 num 1047 26 = 0
+Run 0 num 1047 27 = 0
+Run 0 num 1047 28 = 0
+Run 0 num 1047 29 = 0
+Run 0 num 1047 30 = 0
+Run 0 num 1047 31 = 0
+Run 0 num 1047 32 = 0
+Run 0 num 1047 33 = 0
+Run 0 num 1047 34 = 0
+Run 0 num 1047 35 = 0
+Run 0 num 1047 36 = 0
+Run 0 num 1047 37 = 0
+Run 0 num 1047 38 = 0
+Run 0 num 1047 39 = 0
+Run 0 num 1047 40 = 0
+Run 0 num 1047 41 = 0
+Run 0 num 1047 42 = 0
+Run 0 num 1047 43 = 0
+Run 0 num 1047 44 = 0
+Run 0 num 1047 45 = 0
+Run 0 num 1047 46 = 0
+Run 0 num 1047 47 = 0
+Run 0 num 1047 48 = 0
+Run 0 num 1047 49 = 0
+Run 0 num 1047 50 = 0
+Run 0 num 1047 51 = 0
+Run 0 num 1047 52 = 0
+Run 0 num 1047 53 = 0
+Run 0 num 1047 54 = 0
+Run 0 num 1047 55 = 0
+Run 0 num 1047 56 = 0
+Run 0 num 1047 57 = 0
+Run 0 num 1047 58 = 0
+Run 0 num 1047 59 = 0
+Run 0 num 1047 60 = 0
+Run 0 num 1047 61 = 0
+Run 0 num 1047 62 = 0
+Run 0 num 1047 63 = 0
+Run 0 num 1047 64 = 0
+Run 0 num 1047 65 = 0
+Run 0 num 1047 66 = 0
+Run 0 num 1047 67 = 0
+Run 0 num 1047 68 = 0
+Run 0 num 1047 69 = 0
+Run 0 num 1047 70 = 0
+Run 0 num 1047 71 = 0
+Run 0 num 1047 72 = 0
+Run 0 num 1047 73 = 0
+Run 0 num 1047 74 = 0
+Run 0 num 1047 75 = 0
+Run 0 num 1047 76 = 0
+Run 0 num 1047 77 = 0
+Run 0 num 1047 78 = 0
+Run 0 num 1047 79 = 0
+Run 0 num 1047 80 = 0
+Run 0 num 1047 81 = 0
+Run 0 num 1047 82 = 0
+Run 0 num 1047 83 = 0
+Run 0 num 1047 84 = 0
+Run 0 num 1047 85 = 0
+Run 0 num 1047 86 = 0
+Run 0 num 1047 87 = 0
+Run 0 num 1047 88 = 0
+Run 0 num 1047 89 = 0
+Run 0 num 1047 90 = 0
+Run 0 num 1047 91 = 0
+Run 0 num 1047 92 = 0
+Run 0 num 1047 93 = 0
+Run 0 num 1047 94 = 0
+Run 0 num 1047 95 = 0
+Run 0 num 1047 96 = 0
+Run 0 num 1047 97 = 0
+Run 0 num 1047 98 = 0
+Run 0 num 1047 99 = 0
+Run 0 num 1047 100 = 0
+Run 0 num 1047 101 = 0
+Run 0 num 1047 102 = 0
+Run 0 num 1047 103 = 0
+Run 0 num 1047 104 = 0
+Run 0 num 1047 105 = 0
+Run 0 num 1047 106 = 0
+Run 0 num 1047 107 = 0
+Run 0 num 1047 108 = 0
+Run 0 num 1047 109 = 0
+Run 0 num 1047 110 = 0
+Run 0 num 1047 111 = 0
+Run 0 num 1047 112 = 0
+Run 0 num 1047 113 = 0
+Run 0 num 1047 114 = 0
+Run 0 num 1047 115 = 0
+Run 0 num 1047 116 = 0
+Run 0 num 1047 117 = 0
+Run 0 num 1047 118 = 0
+Run 0 num 1047 119 = 0
+Run 0 num 1047 120 = 0
+Run 0 num 1047 121 = 0
+Run 0 num 1047 122 = 0
+Run 0 num 1047 123 = 0
+Run 0 num 1047 124 = 0
+Run 0 num 1047 125 = 0
+Run 0 num 1047 126 = 0
+Run 0 num 1047 127 = 0
+Run 0 num 1047 128 = 0
+Run 0 num 1047 129 = 0
+Run 0 num 1047 130 = 0
+Run 0 num 1047 131 = 0
+Run 0 num 1047 132 = 0
+Run 0 num 1047 133 = 0
+Run 0 num 1047 134 = 0
+Run 0 num 1047 135 = 0
+Run 0 num 1047 136 = 0
+Run 0 num 1047 137 = 0
+Run 0 num 1047 138 = 0
+Run 0 num 1047 139 = 0
+Run 0 num 1047 140 = 0
+Run 0 num 1047 141 = 0
+Run 0 num 1047 142 = 0
+Run 0 num 1047 143 = 0
+Run 0 num 1047 144 = 0
+Run 0 num 1047 145 = 0
+Run 0 num 1047 146 = 0
+Run 0 num 1047 147 = 0
+Run 0 num 1047 148 = 0
+Run 0 num 1047 149 = 0
+Run 0 num 1047 150 = 0
+Run 0 num 1047 151 = 0
+Run 0 num 1047 152 = 0
+Run 0 num 1047 153 = 0
+Run 0 num 1047 154 = 0
+Run 0 num 1047 155 = 0
+Run 0 num 1047 156 = 0
+Run 0 num 1047 157 = 0
+Run 0 num 1047 158 = 0
+Run 0 num 1047 159 = 0
+Run 0 num 1047 160 = 0
+Run 0 num 1047 161 = 0
+Run 0 num 1047 162 = 0
+Run 0 num 1047 163 = 0
+Run 0 num 1047 164 = 0
+Run 0 num 1047 165 = 0
+Run 0 num 1047 166 = 0
+Run 0 num 1047 167 = 0
+Run 0 num 1047 168 = 0
+Run 0 num 1047 169 = 0
+Run 0 num 1047 170 = 0
+Run 0 num 1047 171 = 0
+Run 0 num 1047 172 = 0
+Run 0 num 1047 173 = 0
+Run 0 num 1047 174 = 0
+Run 0 num 1047 175 = 0
+Run 0 num 1047 176 = 0
+Run 0 num 1047 177 = 0
+Run 0 num 1047 178 = 0
+Run 0 num 1047 179 = 0
+Run 0 num 1047 180 = 0
+Run 0 num 1047 181 = 0
+Run 0 num 1047 182 = 0
+Run 0 num 1047 183 = 0
+Run 0 num 1047 184 = 0
+Run 0 num 1047 185 = 0
+Run 0 num 1047 186 = 0
+Run 0 num 1047 187 = 0
+Run 0 num 1047 188 = 0
+Run 0 num 1047 189 = 0
+Run 0 num 1047 190 = 0
+Run 0 num 1047 191 = 0
+Run 0 num 1047 192 = 0
+Run 0 num 1047 193 = 0
+Run 0 num 1047 194 = 0
+Run 0 num 1047 195 = 0
+Run 0 num 1047 196 = 0
+Run 0 num 1047 197 = 0
+Run 0 num 1047 198 = 0
+Run 0 num 1047 199 = 0
+Run 0 num 1047 200 = 0
+Run 0 num 1047 201 = 0
+Run 0 num 1047 202 = 0
+Run 0 num 1047 203 = 0
+Run 0 num 1047 204 = 0
+Run 0 num 1047 205 = 0
+Run 0 num 1047 206 = 0
+Run 0 num 1047 207 = 0
+Run 0 num 1047 208 = 0
+Run 0 num 1047 209 = 0
+Run 0 num 1047 210 = 0
+Run 0 num 1047 211 = 0
+Run 0 num 1047 212 = 0
+Run 0 num 1047 213 = 0
+Run 0 num 1047 214 = 0
+Run 0 num 1047 215 = 0
+Run 0 num 1047 216 = 0
+Run 0 num 1047 217 = 0
+Run 0 num 1047 218 = 0
+Run 0 num 1047 219 = 0
+Run 0 num 1047 220 = 0
+Run 0 num 1047 221 = 0
+Run 0 num 1047 222 = 0
+Run 0 num 1047 223 = 0
+Run 0 num 1047 224 = 0
+Run 0 num 1047 225 = 0
+Run 0 num 1047 226 = 0
+Run 0 num 1047 227 = 0
+Run 0 num 1047 228 = 0
+Run 0 num 1047 229 = 0
+Run 0 num 1047 230 = 0
+Run 0 num 1047 231 = 0
+Run 0 num 1047 232 = 0
+Run 0 num 1047 233 = 0
+Run 0 num 1047 234 = 0
+Run 0 num 1047 235 = 0
+Run 0 num 1047 236 = 0
+Run 0 num 1047 237 = 0
+Run 0 num 1047 238 = 0
+Run 0 num 1047 239 = 0
+Run 0 num 1047 240 = 0
+Run 0 num 1047 241 = 0
+Run 0 num 1047 242 = 0
+Run 0 num 1047 243 = 0
+Run 0 num 1047 244 = 0
+Run 0 num 1047 245 = 0
+Run 0 num 1047 246 = 0
+Run 0 num 1047 247 = 0
+Run 0 num 1047 248 = 0
+Run 0 num 1047 249 = 0
+Run 0 num 1047 250 = 0
+Run 0 num 1047 251 = 0
+Run 0 num 1047 252 = 0
+Run 0 num 1047 253 = 0
+Run 0 num 1047 254 = 0
+Run 0 num 1047 255 = 0
+Run 0 num 1047 256 = 0
+Run 0 num 1047 257 = 0
+Run 0 num 1047 258 = 0
+Run 0 num 1047 259 = 0
+Run 0 num 1047 260 = 0
+Run 0 num 1047 261 = 0
+Run 0 num 1047 262 = 0
+Run 0 num 1047 263 = 0
+Run 0 num 1047 264 = 0
+Run 0 num 1047 265 = 0
+Run 0 num 1047 266 = 0
+Run 0 num 1047 267 = 0
+Run 0 num 1047 268 = 0
+Run 0 num 1047 269 = 0
+Run 0 num 1047 270 = 0
+Run 0 num 1047 271 = 0
+Run 0 num 1047 272 = 0
+Run 0 num 1047 273 = 0
+Run 0 num 1047 274 = 0
+Run 0 num 1047 275 = 0
+Run 0 num 1047 276 = 0
+Run 0 num 1047 277 = 0
+Run 0 num 1047 278 = 0
+Run 0 num 1047 279 = 0
+Run 0 num 1047 280 = 0
+Run 0 num 1047 281 = 0
+Run 0 num 1047 282 = 0
+Run 0 num 1047 283 = 0
+Run 0 num 1047 284 = 0
+Run 0 num 1047 285 = 0
+Run 0 num 1047 286 = 0
+Run 0 num 1047 287 = 0
+Run 0 num 1047 288 = 0
+Run 0 num 1047 289 = 0
+Run 0 num 1047 290 = 0
+Run 0 num 1047 291 = 0
+Run 0 num 1047 292 = 0
+Run 0 num 1047 293 = 0
+Run 0 num 1047 294 = 0
+Run 0 num 1047 295 = 0
+Run 0 num 1047 296 = 0
+Run 0 num 1047 297 = 0
+Run 0 num 1047 298 = 0
+Run 0 num 1057 14 = 0
+Run 0 num 1057 19 = 0
+Run 0 num 1057 20 = 0
+Run 0 num 1057 21 = 0
+Run 0 num 1057 22 = 0
+Run 0 num 1057 23 = 0
+Run 0 num 1057 24 = 0
+Run 0 num 1057 25 = 0
+Run 0 num 1057 26 = 0
+Run 0 num 1057 27 = 0
+Run 0 num 1057 28 = 0
+Run 0 num 1057 29 = 0
+Run 0 num 1057 30 = 0
+Run 0 num 1057 31 = 0
+Run 0 num 1057 32 = 0
+Run 0 num 1057 33 = 0
+Run 0 num 1057 34 = 0
+Run 0 num 1057 35 = 0
+Run 0 num 1057 36 = 0
+Run 0 num 1057 37 = 0
+Run 0 num 1057 38 = 0
+Run 0 num 1057 39 = 0
+Run 0 num 1057 40 = 0
+Run 0 num 1057 41 = 0
+Run 0 num 1057 42 = 0
+Run 0 num 1057 43 = 0
+Run 0 num 1057 44 = 0
+Run 0 num 1057 45 = 0
+Run 0 num 1057 46 = 0
+Run 0 num 1057 47 = 0
+Run 0 num 1057 48 = 0
+Run 0 num 1057 49 = 0
+Run 0 num 1057 50 = 0
+Run 0 num 1057 51 = 0
+Run 0 num 1057 52 = 0
+Run 0 num 1057 53 = 0
+Run 0 num 1057 54 = 0
+Run 0 num 1057 55 = 0
+Run 0 num 1057 56 = 0
+Run 0 num 1057 57 = 0
+Run 0 num 1057 58 = 0
+Run 0 num 1057 59 = 0
+Run 0 num 1057 60 = 0
+Run 0 num 1057 61 = 0
+Run 0 num 1057 62 = 0
+Run 0 num 1057 63 = 0
+Run 0 num 1057 64 = 0
+Run 0 num 1057 65 = 0
+Run 0 num 1057 66 = 0
+Run 0 num 1057 67 = 0
+Run 0 num 1057 68 = 0
+Run 0 num 1057 69 = 0
+Run 0 num 1057 70 = 0
+Run 0 num 1057 71 = 0
+Run 0 num 1057 72 = 0
+Run 0 num 1057 73 = 0
+Run 0 num 1057 74 = 0
+Run 0 num 1057 75 = 0
+Run 0 num 1057 76 = 0
+Run 0 num 1057 77 = 0
+Run 0 num 1057 78 = 0
+Run 0 num 1057 79 = 0
+Run 0 num 1057 80 = 0
+Run 0 num 1057 81 = 0
+Run 0 num 1057 82 = 0
+Run 0 num 1057 83 = 0
+Run 0 num 1057 84 = 0
+Run 0 num 1057 85 = 0
+Run 0 num 1057 86 = 0
+Run 0 num 1057 87 = 0
+Run 0 num 1057 88 = 0
+Run 0 num 1057 89 = 0
+Run 0 num 1057 90 = 0
+Run 0 num 1057 91 = 0
+Run 0 num 1057 92 = 0
+Run 0 num 1057 93 = 0
+Run 0 num 1057 94 = 0
+Run 0 num 1057 95 = 0
+Run 0 num 1057 96 = 0
+Run 0 num 1057 97 = 0
+Run 0 num 1057 98 = 0
+Run 0 num 1057 99 = 0
+Run 0 num 1057 100 = 0
+Run 0 num 1057 101 = 0
+Run 0 num 1057 102 = 0
+Run 0 num 1057 103 = 0
+Run 0 num 1057 104 = 0
+Run 0 num 1057 105 = 0
+Run 0 num 1057 106 = 0
+Run 0 num 1057 107 = 0
+Run 0 num 1057 108 = 0
+Run 0 num 1057 109 = 0
+Run 0 num 1057 110 = 0
+Run 0 num 1057 111 = 0
+Run 0 num 1057 112 = 0
+Run 0 num 1057 113 = 0
+Run 0 num 1057 114 = 0
+Run 0 num 1057 115 = 0
+Run 0 num 1057 116 = 0
+Run 0 num 1057 117 = 0
+Run 0 num 1057 118 = 0
+Run 0 num 1057 287 = 0
+Run 0 num 1065 287 = 0
+Run 0 num 1081 1492 = 0
+Run 0 num 1081 1495 = 0
+Run 0 num 1081 1496 = 0
+Run 0 num 1081 1497 = 0
+Run 0 num 1081 1498 = 0
+Run 0 num 1081 1499 = 0
+Run 0 num 1081 1500 = 0
+Run 0 num 1081 1501 = 0
+Run 0 num 1081 1503 = 0
+Run 0 num 1081 1504 = 0
+Run 0 num 1081 1506 = 0
+Run 0 num 1081 1507 = 0
+Run 0 num 1081 1508 = 0
+Run 0 num 1081 1510 = 0
+
+Run 0 increment number 1086
+!!! Anomaly between cluster T and FOs for L1!!!
+     L1clstT  FO1L1clstT  FO2L1clstT  FO3L1clstT  FO4L1clstT  FO5L1clstT  FO6L1clstT
+       56949       25420       21039       19413       17121       27881       22666
+
+Run 0 increment number 1086
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+     1147467     1157948     2191646     1639134     2074688     2199944     1085664
+
+Run 0 increment number 1086
+!!! Anomaly between L1strobeOUT and L1strobeIN
+ L1strobeOUT  L1strobeIN
+     5110421     4147348
+
+Run 0 increment number 1086
+!!! Anomaly between L1strobeOUT and L1 FO strobes IN
+ L1strobeOUT  fo1L1strIN  fo2L1strIN  fo3L1strIN  fo4L1strIN  fo5L1strIN  fo6L1strIN
+     5110421     4147347     4147348     4147346     4147345     4147344     4147343
+
+Run 0 increment number 1086
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+     2628671     2628669     2628672     2628670     2628670     2628669     2628668
+
+213 anomalies found in data file, in run numbers (0 is between runs): 205393, 205393, 205395, 205395, 205395, 205395, 205397, 205397, 205397, 205397, 205397, 205397, 205397, 205397, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 205451, 0, 0, 0, 0, 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+185 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+  1  1  1  1  1  1  1  1  1  1  1  1 363164258118 56 683056730633309571856131235885443124905149 4430930065103068261545312593947431371145083057465321 24 52 16 40 32 28 28 16 16 12 24  4308622653631620842383129269225512312983944031657914813129848268306303202968830991002503129386252306333059433816752413090510726307801780531002084373090972571306472406330914452863167714986309160950230650701493091682663312729470030916868913064770485306476686931270872393157554822313019561131308276073166776574313024406131302640153130342519316634460131304554203130493080313058454830443130725617313077803931308961263166931273313107681826048458443581245780956496557665535154418530145149950312  1  1  1  1  1  1  1  137098347203335932278316013097530153293991720818400301152950329614298583047031415323323339834139337803460636924384763961540916422704388945637469374816941069421153857  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1203684142031013020252789201954272013795820079181200216311996368734083872385938514135404638544135449123572567559060737764820885428598123231314212929
+3 violations of L0>=L1>=L2 for clusters:
+1234143247546773
+7 violations of L0 for a cluster = all L0 FOs for that cluster:
+ -1-150292743-2351751584-4294920553-4282993986-4294967295-4294967295
+7 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -163631-27143-10461578-3152910481
+2 violations of L0strobe0 = L0strobeIN:
+-1005221470-4284827032
+3 violations of L1strobeOUT = L1strobeIN:
+-1134005999-30241-963073
+3 violations of L1strobeOUT = L1strIN for all FOs:
+2006253-30240-963074
+3 violations of L2strobeOUT = L2strIN for all FOs:
+1139159106 -1 -2
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                          -2108 -9131-25782-48750-36062-23247 -8028     0     0
+Total spurious in cluster:   T     1     2     3     4     5     6
+                        -140031     6  -620  -519   -41     7   -52     0     0
