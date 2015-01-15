@@ -1,0 +1,6 @@
+Date	Anomaly types						Runs					Notes
+01	1 class, 1 cluster, 2 L0clstFO, 2 L1clstFO, 2 L1strFO	196361, 196362				0 & 196361 FO3-6L1clst1 & FO3-6L1strIN; 196362 Class 1 L0->L1; 0 & 196362 FO5-6L0clst1
+02	-							-					-
+03	1 class, 1 cluster, 1 L1clstFO				196528					Class 46 (Clst 6) L0->L1 & FO1-6L1clst6
+04	4 L0clstFO						196605					0 & 196605 FO6L0clst4-5
+

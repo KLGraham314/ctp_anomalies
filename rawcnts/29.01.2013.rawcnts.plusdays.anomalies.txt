@@ -1,0 +1,201 @@
+
+Run 0 increment number 16
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+          17          16
+
+Run 195951
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+        1387        1388
+
+Run 0 increment number 34
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+           8           7
+
+Run 195953
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+     2550583     2550584
+
+Run 0 increment number 200
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+          14          14          14          14          14          14          15
+
+Run 0 increment number 200
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+          14          14          14          14          14          14          15
+
+Run 195957
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+        1628        1628        1628        1628        1628        1628        1627
+
+Run 195957
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+        1806        1806        1806        1806        1806        1806        1805
+Run 0 num 285 895 = 0
+Run 0 num 326 895 = 0
+Run 0 num 390 895 = 0
+Run 0 num 420 895 = 0
+Run 0 num 477 895 = 0
+
+Run 0 increment number 689
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+           5           5           5           5           5           5           6
+
+Run 0 increment number 689
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           4           4           4           4           4           4           5
+
+Run 195993
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+        8434        8434        8434        8434        8434        8434        8433
+
+Run 195993
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+        9325        9325        9325        9325        9325        9325        9324
+Run 0 num 1389 895 = 0
+Run 0 num 1641 895 = 0
+Run 0 num 1664 895 = 0
+Run 0 num 1674 895 = 0
+Run 0 num 1682 895 = 0
+Run 0 num 1691 895 = 0
+Run 0 num 1701 895 = 0
+Run 196044 num 1708 counter 612 = 0
+Run 196044 num 1708 counter 613 = 0
+Run 196044 num 1708 counter 614 = 0
+Run 196044 num 1708 counter 615 = 0
+Run 196044 num 1708 counter 616 = 0
+Run 196044 num 1708 counter 617 = 0
+Run 196044 num 1708 counter 618 = 0
+Run 196044 num 1708 counter 619 = 0
+Run 196044 num 1708 counter 620 = 0
+Run 196044 num 1708 counter 621 = 0
+Run 196044 num 1708 counter 622 = 0
+Run 196044 num 1708 counter 623 = 0
+Run 196044 num 1708 counter 624 = 0
+Run 196044 num 1708 counter 625 = 0
+Run 196044 num 1708 counter 626 = 0
+Run 196044 num 1708 counter 627 = 0
+Run 196044 num 1708 counter 628 = 0
+Run 196044 num 1708 counter 629 = 0
+Run 196044 num 1708 counter 631 = 0
+Run 196044 num 1708 counter 632 = 0
+Run 196044 num 1708 counter 634 = 0
+Run 196044 num 1708 counter 635 = 0
+Run 196044 num 1708 counter 636 = 0
+Run 196044 num 1708 counter 638 = 0
+Run 196044 num 1708 counter 639 = 0
+Run 196044 num 1708 counter 640 = 0
+Run 196044 num 1708 counter 642 = 0
+Run 196044 num 1708 counter 643 = 0
+Run 196044 num 1708 counter 644 = 0
+Run 0 num 1710 895 = 0
+Run 0 num 1719 895 = 0
+Run 0 num 1727 895 = 0
+Run 0 num 1741 895 = 0
+Run 0 num 1759 895 = 0
+Run 0 num 1831 895 = 0
+Run 0 num 1846 895 = 0
+Run 0 num 1856 895 = 0
+
+Run 0 increment number 2099
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+           4           4           4           4           5           4           4
+
+Run 0 increment number 2099
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           4           4           4           4           5           4           4
+
+Run 196089
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+    19041978    19041978    19041978    19041978    19041977    19041978    19041978
+
+Run 196089
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+    21309916    21309916    21309916    21309916    21309915    21309916    21309916
+
+Run 196090
+!!! Anomaly in class 12 !!!
+    L0classB12    L0classA12    L1classB12    L1classA12    L2classB12    L2classA12
+       20006        5601        5601        5601        5602        5602
+
+Run 196090
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+       14750        4897        4897        4897        4898        4898
+
+Run 196090
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+       40613       40613       40614
+
+Run 196090
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+       26794       26794       26795
+Run 0 num 2423 895 = 0
+Run 0 num 2580 895 = 0
+Run 0 num 2608 895 = 0
+Run 0 num 2921 895 = 0
+Run 0 num 3043 895 = 0
+Run 0 num 3155 895 = 0
+Run 0 num 3161 895 = 0
+Run 0 num 3232 895 = 0
+Run 0 num 3255 895 = 0
+Run 0 num 3257 897 = 0
+Run 0 num 3326 895 = 0
+Run 0 num 3336 897 = 0
+Run 196147 num 3520 897 = 0
+Run 0 num 3561 895 = 0
+Run 0 num 3561 897 = 0
+Run 0 num 3736 895 = 0
+Run 196167 num 3859 897 = 0
+Run 0 num 3874 895 = 0
+Run 0 num 3982 895 = 0
+Run 0 num 4042 895 = 0
+
+Run 0 increment number 4057
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           0           0           0           0           0  1828381446           0
+
+21 anomalies found in data file, in run numbers (0 is between runs): 0, 195951, 0, 195953, 0, 0, 195957, 195957, 0, 0, 195993, 195993, 0, 0, 196089, 196089, 196090, 196090, 196090, 196090, 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+2 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+  1  1
+2 violations of L0>=L1>=L2 for clusters:
+  1  1
+13 violations of L0 for a cluster = all L0 FOs for that cluster:
+  1  1 -1 -1  1  1 -1 -1  1  1 -1 -11828381446
+0 violations of L1 for a cluster = all L1 FOs for that cluster:
+
+4 violations of L0strobe0 = L0strobeIN:
+ -1  1 -1  1
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                           3856   166  9097  6424  7852  4874 15962
+Total spurious in cluster:   T     1     2     3     4     5     6
+                            48     2   416   222   156   151   500

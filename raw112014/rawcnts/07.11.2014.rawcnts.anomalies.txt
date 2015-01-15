@@ -1,0 +1,41 @@
+
+Run 205286
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+     3888375     2013033     2013034     2013034     2013034     2013034
+
+Run 205286
+!!! Anomaly in class 62 !!!
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+     3888375     2399960     2399961     2399961     2399961     2399961
+
+Run 205286
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+     3888375     2477460     2477461     2477461     2477461     2477461
+
+3 anomalies found in data file, in run numbers (0 is between runs): 205286, 205286, 205286, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+3 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+  1  1  1
+0 violations of L0>=L1>=L2 for clusters:
+
+0 violations of L0 for a cluster = all L0 FOs for that cluster:
+
+0 violations of L1 for a cluster = all L1 FOs for that cluster:
+
+0 violations of L0strobe0 = L0strobeIN:
+
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                              2     1  2865  3245  3882   563   379     0     0
+Total spurious in cluster:   T     1     2     3     4     5     6
+                             0     0   157   160    71    25    21     0     0

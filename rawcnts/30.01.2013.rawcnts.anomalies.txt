@@ -1,0 +1,52 @@
+Run 0 num 277 895 = 0
+Run 0 num 434 895 = 0
+Run 0 num 462 895 = 0
+Run 0 num 775 895 = 0
+Run 0 num 897 895 = 0
+Run 0 num 1009 895 = 0
+Run 0 num 1015 895 = 0
+Run 0 num 1086 895 = 0
+Run 0 num 1109 895 = 0
+Run 0 num 1111 897 = 0
+Run 0 num 1180 895 = 0
+Run 0 num 1190 897 = 0
+Run 196147 num 1374 897 = 0
+Run 0 num 1415 895 = 0
+Run 0 num 1415 897 = 0
+Run 0 num 1590 895 = 0
+Run 196167 num 1713 897 = 0
+Run 0 num 1728 895 = 0
+Run 0 num 1836 895 = 0
+Run 0 num 1896 895 = 0
+
+Run 0 increment number 1911
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           0           0           0           0           0  1828381446           0
+
+1 anomalies found in data file, in run numbers (0 is between runs): 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+0 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+
+0 violations of L0>=L1>=L2 for clusters:
+
+1 violations of L0 for a cluster = all L0 FOs for that cluster:
+1828381446
+0 violations of L1 for a cluster = all L1 FOs for that cluster:
+
+0 violations of L0strobe0 = L0strobeIN:
+
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                           1600    81  9687  3010  4718  6691 12738
+Total spurious in cluster:   T     1     2     3     4     5     6
+                            30     2   446    87    62   173   429

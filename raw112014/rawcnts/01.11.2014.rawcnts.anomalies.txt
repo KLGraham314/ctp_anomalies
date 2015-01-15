@@ -1,0 +1,7 @@
+
+No anomalies found in data file
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                              8     0   160   344   244   222     0     0     0
+Total spurious in cluster:   T     1     2     3     4     5     6
+                             0     0     4     5     8     6     0     0     0

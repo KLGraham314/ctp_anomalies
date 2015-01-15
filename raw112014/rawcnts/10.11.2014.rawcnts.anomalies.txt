@@ -1,0 +1,101 @@
+
+Run 205326
+!!! Anomaly in class 29 !!!
+    L0classB29    L0classA29    L1classB29    L1classA29    L2classB29    L2classA29
+     1516845      436892      436893      436893      436893      436893
+
+Run 205326
+!!! Anomaly in class 35 !!!
+    L0classB35    L0classA35    L1classB35    L1classA35    L2classB35    L2classA35
+     1516845      527888      527889      527889      527889      527889
+
+Run 205326
+!!! Anomaly in class 38 !!!
+    L0classB38    L0classA38    L1classB38    L1classA38    L2classB38    L2classA38
+     1516845      573168      573169      573169      573169      573169
+
+Run 205326
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+     1516845      784776      784777      784777      784777      784777
+
+Run 205326
+!!! Anomaly in class 53 !!!
+    L0classB53    L0classA53    L1classB53    L1classA53    L2classB53    L2classA53
+     1516845      799395      799396      799396      799396      799396
+
+Run 205326
+!!! Anomaly in class 56 !!!
+    L0classB56    L0classA56    L1classB56    L1classA56    L2classB56    L2classA56
+     1516845      845338      845339      845339      845339      845339
+
+Run 205326
+!!! Anomaly in class 58 !!!
+    L0classB58    L0classA58    L1classB58    L1classA58    L2classB58    L2classA58
+     1516845      875542      875543      875543      875543      875543
+
+Run 205326
+!!! Anomaly in class 62 !!!
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+     1516845      935783      935784      935784      935784      935784
+
+Run 205326
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+     1516845      950377      950378      950378      950378      950378
+
+Run 205326
+!!! Anomaly in class 65 !!!
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+     1516845      980221      980222      980222      980222      980222
+
+Run 205326
+!!! Anomaly in class 71 !!!
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+     1516845     1070716     1070717     1070717     1070717     1070717
+
+Run 205326
+!!! Anomaly in class 78 !!!
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+     1516845     1176601     1176602     1176602     1176602     1176602
+
+Run 205389
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+     1003036      538638      538639      538639      538639      538639
+
+Run 205389
+!!! Anomaly in class 58 !!!
+    L0classB58    L0classA58    L1classB58    L1classA58    L2classB58    L2classA58
+     1003036      578611      578612      578612      578612      578612
+
+Run 205389
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+     1003036      608736      608737      608737      608737      608737
+
+15 anomalies found in data file, in run numbers (0 is between runs): 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205326, 205389, 205389, 205389, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+15 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1
+0 violations of L0>=L1>=L2 for clusters:
+
+0 violations of L0 for a cluster = all L0 FOs for that cluster:
+
+0 violations of L1 for a cluster = all L1 FOs for that cluster:
+
+0 violations of L0strobe0 = L0strobeIN:
+
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                             40    41  3835  4714  5370  1147   689     0     0
+Total spurious in cluster:   T     1     2     3     4     5     6
+                             0     0   221   230   110    50    36     0     0

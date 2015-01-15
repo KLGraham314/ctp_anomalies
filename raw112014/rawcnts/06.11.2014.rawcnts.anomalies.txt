@@ -1,0 +1,194 @@
+
+Run 0 increment number 1431
+!!! Anomaly in class 2 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+2.00225313954e+12    12529040    12529216    12529216    12529214    12529214
+
+Run 0 increment number 1431
+!!! Anomaly in class 4 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+2.00225313948e+12  1204223845  1204223928  1204223928  1204223926  1204223926
+
+Run 0 increment number 1431
+!!! Anomaly in class 5 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB5    L0classA5    L1classB5    L1classA5    L2classB5    L2classA5
+2.00225313945e+12     6702687     6702773     6702773     6702771     6702771
+
+Run 0 increment number 1431
+!!! Anomaly in class 6 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+2.00225313942e+12     2200655     2200656     2200656     2200654     2200654
+
+Run 0 increment number 1431
+!!! Anomaly in class 7 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB7    L0classA7    L1classB7    L1classA7    L2classB7    L2classA7
+2.0022531394e+12     2141130     2141131     2141131     2141129     2141129
+
+Run 0 increment number 1431
+!!! Anomaly in class 10 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB10    L0classA10    L1classB10    L1classA10    L2classB10    L2classA10
+2.00225313934e+12     2701779     2701936     2701936     2701934     2701934
+
+Run 0 increment number 1431
+!!! Anomaly in class 13 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB13    L0classA13    L1classB13    L1classA13    L2classB13    L2classA13
+2.0022531393e+12   988774204   988774283   988774283   988774281   988774281
+
+Run 0 increment number 1431
+!!! Anomaly in class 14 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB14    L0classA14    L1classB14    L1classA14    L2classB14    L2classA14
+2.00225313928e+12     2141220     2141280     2141280     2141278     2141278
+
+Run 0 increment number 1431
+!!! Anomaly in class 43 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB43    L0classA43    L1classB43    L1classA43    L2classB43    L2classA43
+2.00225313916e+12  2778270088  2778270084  2778270084  2778270086  2778270086
+
+Run 0 increment number 1431
+!!! Anomaly in class 49 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB49    L0classA49    L1classB49    L1classA49    L2classB49    L2classA49
+2.00225313916e+12     2141130     2141141     2141141     2141139     2141139
+
+Run 0 increment number 1431
+!!! Anomaly in class 53 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB53    L0classA53    L1classB53    L1classA53    L2classB53    L2classA53
+2.00225313916e+12     2141138     2141315     2141315     2141316     2141316
+
+Run 0 increment number 1431
+!!! Anomaly in class 55 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+2.00225313916e+12     2141130     2141131     2141131     2141131     2141131
+
+Run 0 increment number 1431
+!!! Anomaly in class 56 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB56    L0classA56    L1classB56    L1classA56    L2classB56    L2classA56
+2.00225313916e+12     2141130     2141131     2141131     2141132     2141132
+
+Run 0 increment number 1431
+!!! Anomaly in class 58 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB58    L0classA58    L1classB58    L1classA58    L2classB58    L2classA58
+2.00225313916e+12     2141130     2141295     2141295     2141296     2141296
+
+Run 0 increment number 1431
+!!! Anomaly in class 61 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+2.00225313916e+12     2141130     2141279     2141279     2141279     2141279
+
+Run 0 increment number 1431
+!!! Anomaly in class 63 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+2.00225313916e+12  1604224273  1604224327  1604224327  1604224327  1604224327
+
+Run 0 increment number 1431
+!!! Anomaly in class 64 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+2.00225313916e+12     2141130     2141214     2141214     2141214     2141214
+
+Run 0 increment number 1431
+!!! Anomaly in class 65 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+2.00225313916e+12     2141130     2141131     2141131     2141131     2141131
+
+Run 0 increment number 1431
+!!! Anomaly in class 66 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+2.00225313916e+12     2141130     2141131     2141131     2141131     2141131
+
+Run 0 increment number 1431
+!!! Anomaly in class 91 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+2.00225313916e+12     2141130     2141174     2141174     2141174     2141174
+
+Run 0 increment number 1431
+!!! Anomaly in cluster T !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+     L0clstT     L1clstT     L2clstT
+           0           2           0
+
+Run 0 increment number 1431
+!!! Anomaly between cluster T and FOs for L1!!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+     L1clstT  FO1L1clstT  FO2L1clstT  FO3L1clstT  FO4L1clstT  FO5L1clstT  FO6L1clstT
+           2           0           0           0           0           0           0
+
+Run 0 increment number 1431
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+  2778270172  2778270170  2778270170  2778270170  2778270170  2778270168  2778270168
+
+Run 0 increment number 1431
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+  2778270173  2778270171
+
+24 anomalies found in data file, in run numbers (0 is between runs): 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+20 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+176 83 86  1  1157 79 60  2 11  1  1  1  1149 54 84  1  1 44
+1 violations of L0>=L1>=L2 for clusters:
+  2
+0 violations of L0 for a cluster = all L0 FOs for that cluster:
+
+2 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -2 -2
+1 violations of L0strobe0 = L0strobeIN:
+ -2
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T     1     2     3     4     5     6
+                             23    21  3124  3245  3199   287   152     0     0
+Total spurious in cluster:   T     1     2     3     4     5     6
+                            13    18   156   175    72    18     5     0     0
