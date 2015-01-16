@@ -649,19 +649,32 @@ void PrintBusy(UInt_t* cnts)
 //main function
 void anal2()
 {
- // OPen file
+ // Identify nfiles file names from first one given onwards and add to vector
+ // Only works when all days are in same month
  TString name("raw112014/rawcnts/01.11.2014.rawcnts");
- TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
+ TString tempname = name;
+ TString namecopy = name;
+ int nfiles = 30;
+ TString daystring = tempname.Remove(0,18);
+ daystring.Remove(20,16);
+ 
+ //TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
  //TString name("rawcnts/29.01.2013.rawcnts");
- //TString name2("rawcnts/30.01.2013.rawcnts");
  vector<TString> filenames;
  filenames.push_back(name);
- filenames.push_back(name2);
- size_t nfiles = filenames.size();
+ for(int i=1;i<nfiles;i++){
+	stringstream sts;
+	sts << i+1;
+	TString tempstr = sts.str();
+	if(tempstr.Length()<2) tempstr.Prepend("0");
+	namecopy.Replace(18,2,tempstr); //This '18' must be changed to the index in the full filename of the first digit of the day
+ 	filenames.push_back(namecopy);
+ }
  // Parse file 
  Int_t nlines=0;
  //int num = 0;
- UInt_t prev[numcounters] = {0};
+ UInt_t prev[numcounters] = {0}; //Array for storing counters from previous line to be compared with
+ //Name and open output file
  TString outputname = name;
  if(nfiles>1){
 	 outputname.Append(".plus");
