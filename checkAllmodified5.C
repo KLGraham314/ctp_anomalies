@@ -650,13 +650,13 @@ void PrintBusy(UInt_t* cnts)
 void anal2()
 {
  // OPen file
- TString name("raw112014/rawcnts/30.11.2014.rawcnts");
- //TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
+ TString name("raw112014/rawcnts/01.11.2014.rawcnts");
+ TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
  //TString name("rawcnts/29.01.2013.rawcnts");
  //TString name2("rawcnts/30.01.2013.rawcnts");
  vector<TString> filenames;
  filenames.push_back(name);
- //filenames.push_back(name2);
+ filenames.push_back(name2);
  size_t nfiles = filenames.size();
  // Parse file 
  Int_t nlines=0;
@@ -666,7 +666,10 @@ void anal2()
  if(nfiles>1){
 	 outputname.Append(".plus");
 	 int ndays = (int)(nfiles) -1;
-	 outputname.Append((char)(ndays));
+	 stringstream strs;
+	 strs << ndays;
+	 TString ndaysstring = strs.str();
+	 outputname.Append(ndaysstring);
 	 outputname.Append("days");
  }
  outputname.Append(".anomalies.txt");
