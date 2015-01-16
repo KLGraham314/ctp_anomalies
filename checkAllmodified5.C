@@ -593,8 +593,8 @@ void PrintAnomaly(vector<double> anomalyvector, TString violations){
 	cout << anomalyvector.size() << violations << endl;
 	outputfile << anomalyvector.size() << violations << endl;
 	for(int l=0; l<anomalyvector.size(); l++){
-		cout << setw(3) << anomalyvector[l];
-		outputfile << setw(3) << anomalyvector[l];
+		cout << " " << anomalyvector[l];
+		outputfile << " " << anomalyvector[l];
 	}
 }
 
@@ -812,29 +812,29 @@ void anal2()
  cout << endl;
  //Print total numbers of glitches or spurious counts in each cluster for the whole data file
 
- cout << "Total glitches in cluster:   T     1     2     3     4     5     6" << endl;
+ cout << "Total glitches in cluster:   T      1      2      3      4      5      6" << endl;
  cout << "                         ";
  for(int j=0; j<numclusters; j++){
-	cout << setw(6) << glitch[j];
+	cout << setw(7) << glitch[j];
  }
  cout << endl;
- cout << "Total spurious in cluster:   T     1     2     3     4     5     6" << endl;
+ cout << "Total spurious in cluster:   T      1      2      3      4      5      6" << endl;
  cout << "                        ";
  for(int k=0; k<numclusters; k++){
-	cout << setw(6) << spurious[k];
+	cout << setw(7) << spurious[k];
  }
  cout << endl;
  outputfile << endl;
- outputfile << "Total glitches in cluster:   T     1     2     3     4     5     6" << endl;
+ outputfile << "Total glitches in cluster:   T      1      2      3      4      5      6" << endl;
  outputfile << "                         ";
  for(int j=0; j<numclusters; j++){
-	outputfile << setw(6) << glitch[j];
+	outputfile << setw(7) << glitch[j];
  }
  outputfile << endl;
- outputfile << "Total spurious in cluster:   T     1     2     3     4     5     6" << endl;
+ outputfile << "Total spurious in cluster:   T      1      2      3      4      5      6" << endl;
  outputfile << "                        ";
  for(int k=0; k<numclusters; k++){
-	outputfile << setw(6) << spurious[k];
+	outputfile << setw(7) << spurious[k];
  }
  outputfile << endl;
 
