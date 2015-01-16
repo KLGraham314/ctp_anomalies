@@ -1,0 +1,767 @@
+
+Run 205464
+!!! Anomaly in class 18 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB18    L0classA18    L1classB18    L1classA18    L2classB18    L2classA18
+    25573829      646042      646043      646043      646043      646043
+
+Run 205464
+!!! Anomaly in class 29 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB29    L0classA29    L1classB29    L1classA29    L2classB29    L2classA29
+    25573829     1039042     1039043     1039043     1039043     1039043
+
+Run 205464
+!!! Anomaly in class 32 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB32    L0classA32    L1classB32    L1classA32    L2classB32    L2classA32
+    25573829     1146836     1146837     1146837     1146837     1146837
+
+Run 205464
+!!! Anomaly in class 55 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+    25573829     1970479     1970480     1970480     1970480     1970480
+
+Run 205464
+!!! Anomaly in class 57 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+    25573829     2044036     2044037     2044037     2044037     2044037
+
+Run 205464
+!!! Anomaly in class 62 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+    25573829     2222668     2222669     2222669     2222669     2222669
+
+Run 205464
+!!! Anomaly in class 65 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+    25573829     2331256     2331257     2331257     2331257     2331257
+
+Run 205464
+!!! Anomaly in class 79 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+    25573829     2831737     2831738     2831738     2831738     2831738
+
+Run 0 increment number 1188
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+        6638           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 22 !!!
+    L0classB22    L0classA22    L1classB22    L1classA22    L2classB22    L2classA22
+        7224           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 23 !!!
+    L0classB23    L0classA23    L1classB23    L1classA23    L2classB23    L2classA23
+        7420           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 24 !!!
+    L0classB24    L0classA24    L1classB24    L1classA24    L2classB24    L2classA24
+        7615           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 25 !!!
+    L0classB25    L0classA25    L1classB25    L1classA25    L2classB25    L2classA25
+        7811           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+        8006           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+        8202           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 41 !!!
+    L0classB41    L0classA41    L1classB41    L1classA41    L2classB41    L2classA41
+       10940           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 43 !!!
+    L0classB43    L0classA43    L1classB43    L1classA43    L2classB43    L2classA43
+       11332           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 44 !!!
+    L0classB44    L0classA44    L1classB44    L1classA44    L2classB44    L2classA44
+       11526           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 45 !!!
+    L0classB45    L0classA45    L1classB45    L1classA45    L2classB45    L2classA45
+       11722           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 46 !!!
+    L0classB46    L0classA46    L1classB46    L1classA46    L2classB46    L2classA46
+       11917           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 47 !!!
+    L0classB47    L0classA47    L1classB47    L1classA47    L2classB47    L2classA47
+       12113           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 50 !!!
+    L0classB50    L0classA50    L1classB50    L1classA50    L2classB50    L2classA50
+       12699           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+       13091           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+       13481           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+       13674           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+       14066           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 59 !!!
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+       14458           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 60 !!!
+    L0classB60    L0classA60    L1classB60    L1classA60    L2classB60    L2classA60
+       14653           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+       14850           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 62 !!!
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+       15047           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+       15242           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+       15437           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 65 !!!
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+       15633           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 66 !!!
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+       15826           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 69 !!!
+    L0classB69    L0classA69    L1classB69    L1classA69    L2classB69    L2classA69
+       16412           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 70 !!!
+    L0classB70    L0classA70    L1classB70    L1classA70    L2classB70    L2classA70
+       16609           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 71 !!!
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+       16806           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 72 !!!
+    L0classB72    L0classA72    L1classB72    L1classA72    L2classB72    L2classA72
+       17001           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 73 !!!
+    L0classB73    L0classA73    L1classB73    L1classA73    L2classB73    L2classA73
+       17196           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 75 !!!
+    L0classB75    L0classA75    L1classB75    L1classA75    L2classB75    L2classA75
+       17585           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 76 !!!
+    L0classB76    L0classA76    L1classB76    L1classA76    L2classB76    L2classA76
+       17781           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 77 !!!
+    L0classB77    L0classA77    L1classB77    L1classA77    L2classB77    L2classA77
+       17976           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 78 !!!
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+       18171           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 79 !!!
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+       18368           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 80 !!!
+    L0classB80    L0classA80    L1classB80    L1classA80    L2classB80    L2classA80
+       18565           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 82 !!!
+    L0classB82    L0classA82    L1classB82    L1classA82    L2classB82    L2classA82
+       18955           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 83 !!!
+    L0classB83    L0classA83    L1classB83    L1classA83    L2classB83    L2classA83
+       19152           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 84 !!!
+    L0classB84    L0classA84    L1classB84    L1classA84    L2classB84    L2classA84
+       19346           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 85 !!!
+    L0classB85    L0classA85    L1classB85    L1classA85    L2classB85    L2classA85
+       19542           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 86 !!!
+    L0classB86    L0classA86    L1classB86    L1classA86    L2classB86    L2classA86
+       19735           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 87 !!!
+    L0classB87    L0classA87    L1classB87    L1classA87    L2classB87    L2classA87
+       19930           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 90 !!!
+    L0classB90    L0classA90    L1classB90    L1classA90    L2classB90    L2classA90
+       20519           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 91 !!!
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+       20714           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 92 !!!
+    L0classB92    L0classA92    L1classB92    L1classA92    L2classB92    L2classA92
+       20911           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 93 !!!
+    L0classB93    L0classA93    L1classB93    L1classA93    L2classB93    L2classA93
+       21105           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly in class 94 !!!
+    L0classB94    L0classA94    L1classB94    L1classA94    L2classB94    L2classA94
+       21301           1           1           1           0           1
+
+Run 0 increment number 1188
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+           2           2           2           3           3           3           3
+
+Run 205509
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+     1839080      173964      173964      173964      173965      173964
+
+Run 205509
+!!! Anomaly in class 22 !!!
+    L0classB22    L0classA22    L1classB22    L1classA22    L2classB22    L2classA22
+     1839080      201865      201865      201865      201866      201865
+
+Run 205509
+!!! Anomaly in class 23 !!!
+    L0classB23    L0classA23    L1classB23    L1classA23    L2classB23    L2classA23
+     1839080      210333      210333      210333      210334      210333
+
+Run 205509
+!!! Anomaly in class 24 !!!
+    L0classB24    L0classA24    L1classB24    L1classA24    L2classB24    L2classA24
+     1839080      219629      219629      219629      219630      219629
+
+Run 205509
+!!! Anomaly in class 25 !!!
+    L0classB25    L0classA25    L1classB25    L1classA25    L2classB25    L2classA25
+     1839080      229124      229124      229124      229125      229124
+
+Run 205509
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+     1839080      238553      238553      238553      238554      238553
+
+Run 205509
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+     1839080      247571      247571      247571      247572      247571
+
+Run 205509
+!!! Anomaly in class 41 !!!
+    L0classB41    L0classA41    L1classB41    L1classA41    L2classB41    L2classA41
+     1839080      376804      376804      376804      376805      376804
+
+Run 205509
+!!! Anomaly in class 43 !!!
+    L0classB43    L0classA43    L1classB43    L1classA43    L2classB43    L2classA43
+     1839080      394873      394873      394873      394874      394873
+
+Run 205509
+!!! Anomaly in class 44 !!!
+    L0classB44    L0classA44    L1classB44    L1classA44    L2classB44    L2classA44
+     1839080      404243      404243      404243      404244      404243
+
+Run 205509
+!!! Anomaly in class 45 !!!
+    L0classB45    L0classA45    L1classB45    L1classA45    L2classB45    L2classA45
+     1839080      412659      412659      412659      412660      412659
+
+Run 205509
+!!! Anomaly in class 46 !!!
+    L0classB46    L0classA46    L1classB46    L1classA46    L2classB46    L2classA46
+     1839080      422636      422636      422636      422637      422636
+
+Run 205509
+!!! Anomaly in class 47 !!!
+    L0classB47    L0classA47    L1classB47    L1classA47    L2classB47    L2classA47
+     1839080      431239      431239      431239      431240      431239
+
+Run 205509
+!!! Anomaly in class 50 !!!
+    L0classB50    L0classA50    L1classB50    L1classA50    L2classB50    L2classA50
+     1839080      459013      459013      459013      459014      459013
+
+Run 205509
+!!! Anomaly in class 52 !!!
+    L0classB52    L0classA52    L1classB52    L1classA52    L2classB52    L2classA52
+     1839080      477113      477113      477113      477114      477113
+
+Run 205509
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+     1839080      495354      495354      495354      495355      495354
+
+Run 205509
+!!! Anomaly in class 55 !!!
+    L0classB55    L0classA55    L1classB55    L1classA55    L2classB55    L2classA55
+     1839080      505181      505181      505181      505182      505181
+
+Run 205509
+!!! Anomaly in class 57 !!!
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+     1839080      522201      522201      522201      522202      522201
+
+Run 205509
+!!! Anomaly in class 59 !!!
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+     1839080      541205      541205      541205      541206      541205
+
+Run 205509
+!!! Anomaly in class 60 !!!
+    L0classB60    L0classA60    L1classB60    L1classA60    L2classB60    L2classA60
+     1839080      549530      549530      549530      549531      549530
+
+Run 205509
+!!! Anomaly in class 61 !!!
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+     1839080      559434      559434      559434      559435      559434
+
+Run 205509
+!!! Anomaly in class 62 !!!
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+     1839080      569033      569033      569033      569034      569033
+
+Run 205509
+!!! Anomaly in class 63 !!!
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+     1839080      576971      576971      576971      576972      576971
+
+Run 205509
+!!! Anomaly in class 64 !!!
+    L0classB64    L0classA64    L1classB64    L1classA64    L2classB64    L2classA64
+     1839080      587014      587014      587014      587015      587014
+
+Run 205509
+!!! Anomaly in class 65 !!!
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+     1839080      595815      595815      595815      595816      595815
+
+Run 205509
+!!! Anomaly in class 66 !!!
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+     1839080      605437      605437      605437      605438      605437
+
+Run 205509
+!!! Anomaly in class 69 !!!
+    L0classB69    L0classA69    L1classB69    L1classA69    L2classB69    L2classA69
+     1839080      632754      632754      632754      632755      632754
+
+Run 205509
+!!! Anomaly in class 70 !!!
+    L0classB70    L0classA70    L1classB70    L1classA70    L2classB70    L2classA70
+     1839080      641711      641711      641711      641712      641711
+
+Run 205509
+!!! Anomaly in class 71 !!!
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+     1839080      651127      651127      651127      651128      651127
+
+Run 205509
+!!! Anomaly in class 72 !!!
+    L0classB72    L0classA72    L1classB72    L1classA72    L2classB72    L2classA72
+     1839080      660387      660387      660387      660388      660387
+
+Run 205509
+!!! Anomaly in class 73 !!!
+    L0classB73    L0classA73    L1classB73    L1classA73    L2classB73    L2classA73
+     1839080      669187      669187      669187      669188      669187
+
+Run 205509
+!!! Anomaly in class 75 !!!
+    L0classB75    L0classA75    L1classB75    L1classA75    L2classB75    L2classA75
+     1839080      687816      687816      687816      687817      687816
+
+Run 205509
+!!! Anomaly in class 76 !!!
+    L0classB76    L0classA76    L1classB76    L1classA76    L2classB76    L2classA76
+     1839080      697219      697219      697219      697220      697219
+
+Run 205509
+!!! Anomaly in class 77 !!!
+    L0classB77    L0classA77    L1classB77    L1classA77    L2classB77    L2classA77
+     1839080      706290      706290      706290      706291      706290
+
+Run 205509
+!!! Anomaly in class 78 !!!
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+     1839080      715462      715462      715462      715463      715462
+
+Run 205509
+!!! Anomaly in class 79 !!!
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+     1839080      724635      724635      724635      724636      724635
+
+Run 205509
+!!! Anomaly in class 80 !!!
+    L0classB80    L0classA80    L1classB80    L1classA80    L2classB80    L2classA80
+     1839080      733970      733970      733970      733971      733970
+
+Run 205509
+!!! Anomaly in class 82 !!!
+    L0classB82    L0classA82    L1classB82    L1classA82    L2classB82    L2classA82
+     1839080      752180      752180      752180      752181      752180
+
+Run 205509
+!!! Anomaly in class 83 !!!
+    L0classB83    L0classA83    L1classB83    L1classA83    L2classB83    L2classA83
+     1839080      761167      761167      761167      761168      761167
+
+Run 205509
+!!! Anomaly in class 84 !!!
+    L0classB84    L0classA84    L1classB84    L1classA84    L2classB84    L2classA84
+     1839080      769874      769874      769874      769875      769874
+
+Run 205509
+!!! Anomaly in class 85 !!!
+    L0classB85    L0classA85    L1classB85    L1classA85    L2classB85    L2classA85
+     1839080      779079      779079      779079      779080      779079
+
+Run 205509
+!!! Anomaly in class 86 !!!
+    L0classB86    L0classA86    L1classB86    L1classA86    L2classB86    L2classA86
+     1839080      788768      788768      788768      788769      788768
+
+Run 205509
+!!! Anomaly in class 87 !!!
+    L0classB87    L0classA87    L1classB87    L1classA87    L2classB87    L2classA87
+     1839080      797625      797625      797625      797626      797625
+
+Run 205509
+!!! Anomaly in class 90 !!!
+    L0classB90    L0classA90    L1classB90    L1classA90    L2classB90    L2classA90
+     1839080      825274      825274      825274      825275      825274
+
+Run 205509
+!!! Anomaly in class 91 !!!
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+     1839080      834556      834556      834556      834557      834556
+
+Run 205509
+!!! Anomaly in class 92 !!!
+    L0classB92    L0classA92    L1classB92    L1classA92    L2classB92    L2classA92
+     1839080      843709      843709      843709      843710      843709
+
+Run 205509
+!!! Anomaly in class 93 !!!
+    L0classB93    L0classA93    L1classB93    L1classA93    L2classB93    L2classA93
+     1839080      852933      852933      852933      852934      852933
+
+Run 205509
+!!! Anomaly in class 94 !!!
+    L0classB94    L0classA94    L1classB94    L1classA94    L2classB94    L2classA94
+     1839080      861821      861821      861821      861822      861821
+
+Run 205509
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+      917005      917005      917005      917004      917004      917004      917004
+
+Run 205514
+!!! Anomaly in class 54 !!!
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+     1786235      481455      481456      481456      481456      481456
+
+Run 205518
+!!! Anomaly in class 53 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB53    L0classA53    L1classB53    L1classA53    L2classB53    L2classA53
+     3693852      976077      976075      976077      976075      976075
+
+Run 205518
+!!! Anomaly in class 54 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB54    L0classA54    L1classB54    L1classA54    L2classB54    L2classA54
+     3693852      994872      994870      994872      994870      994870
+
+Run 205518
+!!! Anomaly in class 56 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB56    L0classA56    L1classB56    L1classA56    L2classB56    L2classA56
+     3693852     1031465     1031463     1031465     1031463     1031463
+
+Run 205518
+!!! Anomaly in class 57 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB57    L0classA57    L1classB57    L1classA57    L2classB57    L2classA57
+     3693852     1050085     1050083     1050085     1050083     1050083
+
+Run 205518
+!!! Anomaly in class 59 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB59    L0classA59    L1classB59    L1classA59    L2classB59    L2classA59
+     3693852     1087644     1087642     1087644     1087642     1087642
+
+Run 205518
+!!! Anomaly in class 61 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB61    L0classA61    L1classB61    L1classA61    L2classB61    L2classA61
+     3693852     1123854     1123852     1123854     1123852     1123852
+
+Run 205518
+!!! Anomaly in class 62 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB62    L0classA62    L1classB62    L1classA62    L2classB62    L2classA62
+     3693852     1143726     1143724     1143726     1143724     1143724
+
+Run 205518
+!!! Anomaly in class 63 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB63    L0classA63    L1classB63    L1classA63    L2classB63    L2classA63
+     3693852     1160736     1160734     1160736     1160734     1160734
+
+Run 205518
+!!! Anomaly in class 65 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB65    L0classA65    L1classB65    L1classA65    L2classB65    L2classA65
+     3693852     1197804     1197802     1197804     1197802     1197802
+
+Run 205518
+!!! Anomaly in class 66 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB66    L0classA66    L1classB66    L1classA66    L2classB66    L2classA66
+     3693852     1215795     1215793     1215795     1215793     1215793
+
+Run 205518
+!!! Anomaly in class 67 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB67    L0classA67    L1classB67    L1classA67    L2classB67    L2classA67
+     3693852     1234956     1234954     1234956     1234954     1234954
+
+Run 205518
+!!! Anomaly in class 69 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB69    L0classA69    L1classB69    L1classA69    L2classB69    L2classA69
+     3693852     1272419     1272417     1272419     1272417     1272417
+
+Run 205518
+!!! Anomaly in class 70 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB70    L0classA70    L1classB70    L1classA70    L2classB70    L2classA70
+     3693852     1290359     1290357     1290359     1290357     1290357
+
+Run 205518
+!!! Anomaly in class 71 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB71    L0classA71    L1classB71    L1classA71    L2classB71    L2classA71
+     3693852     1308915     1308913     1308915     1308913     1308913
+
+Run 205518
+!!! Anomaly in class 72 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB72    L0classA72    L1classB72    L1classA72    L2classB72    L2classA72
+     3693852     1326586     1326584     1326586     1326584     1326584
+
+Run 205518
+!!! Anomaly in class 73 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB73    L0classA73    L1classB73    L1classA73    L2classB73    L2classA73
+     3693852     1345124     1345122     1345124     1345122     1345122
+
+Run 205518
+!!! Anomaly in class 74 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB74    L0classA74    L1classB74    L1classA74    L2classB74    L2classA74
+     3693852     1363247     1363245     1363247     1363245     1363245
+
+Run 205518
+!!! Anomaly in class 75 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB75    L0classA75    L1classB75    L1classA75    L2classB75    L2classA75
+     3693852     1382045     1382043     1382045     1382043     1382043
+
+Run 205518
+!!! Anomaly in class 77 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB77    L0classA77    L1classB77    L1classA77    L2classB77    L2classA77
+     3693852     1419021     1419019     1419021     1419019     1419019
+
+Run 205518
+!!! Anomaly in class 78 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB78    L0classA78    L1classB78    L1classA78    L2classB78    L2classA78
+     3693852     1437627     1437625     1437627     1437625     1437625
+
+Run 205518
+!!! Anomaly in class 79 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB79    L0classA79    L1classB79    L1classA79    L2classB79    L2classA79
+     3693852     1456253     1456251     1456253     1456251     1456251
+
+Run 205518
+!!! Anomaly in class 89 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB89    L0classA89    L1classB89    L1classA89    L2classB89    L2classA89
+     3693852     1639631     1639629     1639631     1639629     1639629
+
+Run 205518
+!!! Anomaly in class 90 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB90    L0classA90    L1classB90    L1classA90    L2classB90    L2classA90
+     3693852     1658207     1658205     1658207     1658205     1658205
+
+Run 205518
+!!! Anomaly in class 91 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB91    L0classA91    L1classB91    L1classA91    L2classB91    L2classA91
+     3693852     1676404     1676402     1676404     1676402     1676402
+
+Run 205518
+!!! Anomaly in class 94 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB94    L0classA94    L1classB94    L1classA94    L2classB94    L2classA94
+     3693852     1732104     1732102     1732104     1732102     1732102
+
+Run 205518
+!!! Anomaly in class 95 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB95    L0classA95    L1classB95    L1classA95    L2classB95    L2classA95
+     3693852     1750459     1750457     1750459     1750457     1750457
+
+Run 205518
+!!! Anomaly in class 96 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB96    L0classA96    L1classB96    L1classA96    L2classB96    L2classA96
+     3693852     1768924     1768922     1768924     1768922     1768922
+
+Run 205518
+!!! Anomaly in class 97 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB97    L0classA97    L1classB97    L1classA97    L2classB97    L2classA97
+     3693852     1786888     1786886     1786888     1786886     1786886
+
+Run 205518
+!!! Anomaly in class 98 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB98    L0classA98    L1classB98    L1classA98    L2classB98    L2classA98
+     3693852     1805409     1805407     1805409     1805407     1805407
+
+Run 205518
+!!! Anomaly in class 99 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB99    L0classA99    L1classB99    L1classA99    L2classB99    L2classA99
+     3693852     1823729     1823727     1823729     1823727     1823727
+
+Run 205518
+!!! Anomaly in class 100 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB100    L0classA100    L1classB100    L1classA100    L2classB100    L2classA100
+     3693852     1842408     1842406     1842408     1842406     1842406
+
+Run 205518
+!!! Anomaly between cluster 1 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
+     1842408     1842406     1842408     1842406     1842406     1842408     1842408
+
+Run 205518
+!!! Anomaly between L1strobeOUT and L1 FO strobes IN
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+ L1strobeOUT  fo1L1strIN  fo2L1strIN  fo3L1strIN  fo4L1strIN  fo5L1strIN  fo6L1strIN
+     1842406     1842406     1842408     1842406     1842406     1842408     1842408
+
+140 anomalies found in data file, in run numbers (0 is between runs): 205464, 205464, 205464, 205464, 205464, 205464, 205464, 205464, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205509, 205514, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, 205518, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+136 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+0 violations of L0>=L1>=L2 for clusters:
+
+0 violations of L0 for a cluster = all L0 FOs for that cluster:
+
+1 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -2
+0 violations of L0strobe0 = L0strobeIN:
+
+0 violations of L1strobeOUT = L1strobeIN:
+
+1 violations of L1strobeOUT = L1strIN for all FOs:
+ 2
+2 violations of L2strobeOUT = L2strIN for all FOs:
+ 1 -1
+
+Total glitches in cluster:   T      1      2      3      4      5      6
+                            1620     20   1801   2427   3581   1300   1739      0      0
+Total spurious in cluster:   T      1      2      3      4      5      6
+                             20      0     51     90    128     43    210      0      0

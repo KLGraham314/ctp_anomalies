@@ -1,0 +1,317 @@
+
+Run 206022
+!!! Anomaly in class 3 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+     1735404      498569      498577      498577      498577      498577
+
+Run 206022
+!!! Anomaly in class 4 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+    20555272     2954047     2954048     2954048     2954048     2954048
+
+Run 206022
+!!! Anomaly in class 6 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     1735404      249109      249112      249112      249112      249112
+
+Run 206022
+!!! Anomaly in class 19 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+      124450        5340        5364        5364        5364        5364
+
+Run 206022
+!!! Anomaly in class 26 !!!
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+      124450        2687        2695        2695        2695        2695
+
+Run 206022
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+   146455735   146455734
+
+Run 206028
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      171208       49433       49434       49434       49434       49434
+
+Run 206028
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      171208       24627       24628       24628       24628       24628
+
+Run 206028
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       14337         605         608         608         608         608
+
+Run 206028
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       14337         287         289         289         289         289
+
+Run 206029
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      295756       82753       82755       82755       82755       82755
+
+Run 206029
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      295756       41262       41263       41263       41263       41263
+
+Run 206029
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       17432         760         765         765         765         765
+
+Run 206029
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       17432         391         393         393         393         393
+
+Run 206038
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+        9775         412         413         413         413         413
+
+Run 206038
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+        9775         203         204         204         204         204
+
+Run 206048
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+        7486         302         303         303         303         303
+
+Run 206048
+!!! Anomaly between cluster 3 and FOs for L0 !!!
+      L0clst3   F01L0clst3   F02L0clst3   FO3L0clst3   FO4L0clst3   FO5L0clst3   FO6L0clst3
+     5552857     5552856     5552856     5552856     5552856     5552856     5552856
+
+Run 206048
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+     5552857     5552856     5552856     5552856     5552856     5552857     5552857
+
+Run 206054
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      305813       84913       84914       84914       84914       84914
+
+Run 206054
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       23708         903         908         908         908         908
+
+Run 206054
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       23708         439         440         440         440         440
+
+Run 206064
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      174026       49922       49923       49923       49923       49923
+
+Run 206064
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       14658         642         646         646         646         646
+
+Run 206065
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+        4641         208         210         210         210         210
+
+Run 206065
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+        4641          98          99          99          99          99
+
+Run 206066
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      154636       44896       44897       44897       44897       44897
+
+Run 206066
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      154636       22393       22394       22394       22394       22394
+
+Run 206066
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       13347         526         529         529         529         529
+
+Run 206066
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       13347         276         277         277         277         277
+
+Run 206067
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+        5185         223         226         226         226         226
+
+Run 206067
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+        5185         113         115         115         115         115
+
+Run 206080
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      365658      105566      105569      105569      105569      105569
+
+Run 206080
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      365658       52895       52897       52897       52897       52897
+
+Run 206102
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+       98069       28239       28241       28241       28241       28241
+
+Run 206111
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      492329      141733      141736      141736      141736      141736
+
+Run 206111
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      492329       70891       70894       70894       70894       70894
+
+Run 206111
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       36051        1521        1524        1524        1524        1524
+
+Run 206111
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       36051         768         770         770         770         770
+
+Run 0 increment number 1232
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+          37          38          38          38          37          38          38
+
+Run 206113
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+    20913505    11060876    11060871    11060871    11060872    11060872
+
+Run 206113
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+      700234      201497      201501      201501      201501      201501
+
+Run 206113
+!!! Anomaly in class 4 !!!
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+     8280955     1191079     1191080     1191080     1191080     1191080
+
+Run 206113
+!!! Anomaly in class 5 !!!
+    L0classB5    L0classA5    L1classB5    L1classA5    L2classB5    L2classA5
+    20913505     5528959     5528958     5528958     5528959     5528959
+
+Run 206113
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+      700234      100616      100617      100617      100617      100617
+
+Run 206113
+!!! Anomaly in class 18 !!!
+    L0classB18    L0classA18    L1classB18    L1classA18    L2classB18    L2classA18
+  2070253286    45799904    45799895    45799895    45799896    45799896
+
+Run 206113
+!!! Anomaly in class 19 !!!
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       51207        2168        2178        2178        2178        2178
+
+Run 206113
+!!! Anomaly in class 25 !!!
+    L0classB25    L0classA25    L1classB25    L1classA25    L2classB25    L2classA25
+  2070253286    22896215    22896212    22896212    22896213    22896213
+
+Run 206113
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       51207        1096        1098        1098        1098        1098
+
+Run 206113
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+    13440154    13440154    13440155
+
+Run 206113
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+    59029183    59029182    59029182    59029182    59029183    59029182    59029182
+
+Run 206114
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+     3305005      949624      949624      949624      949625      949625
+
+Run 206114
+!!! Anomaly in class 4 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+     3305005      475091      475091      475091      475092      475092
+
+Run 206114
+!!! Anomaly in class 19 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB19    L0classA19    L1classB19    L1classA19    L2classB19    L2classA19
+       16830         718         722         722         722         722
+
+Run 206114
+!!! Anomaly in class 26 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+       16830         350         351         351         351         351
+
+Run 206114
+!!! Anomaly in cluster 2 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst2      L1clst2      L2clst2
+     5362371     5362371     5362372
+
+56 anomalies found in data file, in run numbers (0 is between runs): 206022, 206022, 206022, 206022, 206022, 206022, 206028, 206028, 206028, 206028, 206029, 206029, 206029, 206029, 206038, 206038, 206048, 206048, 206048, 206054, 206054, 206054, 206064, 206064, 206065, 206065, 206066, 206066, 206066, 206066, 206067, 206067, 206080, 206080, 206102, 206111, 206111, 206111, 206111, 0, 206113, 206113, 206113, 206113, 206113, 206113, 206113, 206113, 206113, 206113, 206113, 206114, 206114, 206114, 206114, 206114, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+49 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+ 8 1 3 24 8 1 1 3 2 2 1 5 2 1 1 1 1 5 1 1 4 2 1 1 1 3 1 3 2 3 2 2 3 3 3 2 1 4 1 1 1 1 10 1 2 1 1 4 1
+2 violations of L0>=L1>=L2 for clusters:
+ 1 1
+1 violations of L0 for a cluster = all L0 FOs for that cluster:
+ -1
+1 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -1
+1 violations of L0strobe0 = L0strobeIN:
+ -1
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+2 violations of L2strobeOUT = L2strIN for all FOs:
+ 1 -1
+
+Total glitches in cluster:   T      1      2      3      4      5      6
+                            4678     81   3018   5538   2452   1824    593      0      0
+Total spurious in cluster:   T      1      2      3      4      5      6
+                            106      2    121    160     70     55     15      0      0

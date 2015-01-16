@@ -650,7 +650,7 @@ void PrintBusy(UInt_t* cnts)
 void anal2()
 {
  // OPen file
- TString name("raw112014/rawcnts/11.11.2014.rawcnts");
+ TString name("raw112014/rawcnts/30.11.2014.rawcnts");
  //TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
  //TString name("rawcnts/29.01.2013.rawcnts");
  //TString name2("rawcnts/30.01.2013.rawcnts");
