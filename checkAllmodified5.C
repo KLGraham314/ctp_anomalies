@@ -16,13 +16,13 @@ UInt_t l1classB1;
 UInt_t l1classA1;
 UInt_t l2classB1;
 UInt_t l2classA1;
-//const UInt_t numclasses=50;
-const UInt_t numclasses=100;
+const UInt_t numclasses=50;
+//const UInt_t numclasses=100;
 UInt_t l0clstT;
 UInt_t l1clstT;
 UInt_t l2clstT;
-//const UInt_t numclusters=7; //Number of clusters (including T)
-const UInt_t numclusters=9;
+const UInt_t numclusters=7; //Number of clusters (including T)
+//const UInt_t numclusters=9;
 UInt_t fo1l0clstt;
 UInt_t fo2l0clstt;
 UInt_t fo3l0clstt;
@@ -76,8 +76,8 @@ UInt_t fo3l1spuriousT;
 UInt_t fo4l1spuriousT;
 UInt_t fo5l1spuriousT;
 UInt_t fo6l1spuriousT;
-//const UInt_t runx=896;
-const UInt_t runx=1486;
+const UInt_t runx=896;
+//const UInt_t runx=1486;
 int flag = 0;
 vector<double> classflag;
 vector<double> clusterflag;
@@ -91,8 +91,8 @@ int glitch[numclusters] = {0};
 int spurious[numclusters] = {0};
 vector<int> locations;
 double currentrun = -1;
-//const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
-const UInt_t numcounters=1560;
+const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
+//const UInt_t numcounters=1560;
 double total[numcounters] = {0};
 int num = 0;
 ofstream outputfile;
@@ -651,27 +651,59 @@ void anal2()
 {
  // Identify nfiles file names from first one given onwards and add to vector
  // Only works when all days are in same month
- TString name("raw112014/rawcnts/01.11.2014.rawcnts");
- TString tempname = name; //copy of first file name string to be changed to subsequent file names
- TString namecopy = name; //copy of first file name string to be cut to just the day of the month
- int nfiles = 5; //number of files total to be analysed
- TString daystring = tempname.Remove(0,18);
- daystring.Remove(20,16);
- Int_t firstday = atoi(daystring.Data());
- 
- //TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
- //TString name("rawcnts/29.01.2013.rawcnts");
+// TString name("raw112014/rawcnts/01.11.2014.rawcnts");
+ TString name("rawcnts/01.01.2013.rawcnts");
+
+ TString namecopy = name; //copy of first file name string to be changed to subsequent file names
+ TString dayname = name; //copy of first file name string to be cut to just the day of the month
+ TString monthname = name; //copy of first file name string to be cut to just the month
+ int nfiles = 59; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
+
+ Ssiz_t nameLength= name.Length();
+ int iday = nameLength-18; //Index of first digit of the day
+ TString daystring = dayname.Remove(0,iday); //Cut before day
+ daystring.Remove(2,nameLength-iday+2); //Cut after day
+ Int_t firstday = atoi(daystring.Data()); //Convert day to integer
+ cout << firstday << endl;
+
+ TString monthstring = monthname.Remove(0,iday+3); //Cut before month
+ monthstring.Remove(5,nameLength-iday+5); //Cut after month
+ Int_t firstmonth = atoi(monthstring.Data()); //Convert month to integer
+ cout << firstmonth << endl;
+ int monthLength=0;
+ if(firstmonth==1 || firstmonth==3 || firstmonth==5 || firstmonth==7 || firstmonth==8 || firstmonth==10 || firstmonth==12) monthLength=31;
+ else if(firstmonth==2) { //February
+	TString leapyear1("2010"), leapyear2("2014"), leapyear3("2018")
+	if(name.Contains(leapyear1) || name.Contains(leapyear2) || name.Contains(leapyear3)) monthLength=29; //leap years
+	else monthLength=28; //non-leap years only
+ }
+ else if(firstmonth==4 || firstmonth==6 || firstmonth==9 || firstmonth==11) monthLength=30;
+ else cout << "Filename appears to be incorrect format, as month has been read as not between 1 and 12" << endl; 
+
  //Loop over all nfiles filenames and open them
  vector<TString> filenames;
  filenames.push_back(name);
- for(int i= firstday;i<nfiles;i++){
+ int k=0;
+ for(int i= firstday+1;i<=nfiles;i++){
+	if(i>monthLength){ //If next month from first given
+		k++;
+		if(k==1){
+			stringstream monthsts;
+			monthsts << firstmonth+1;
+			TString monthtempstr = monthsts.str();
+			if(monthtempstr.Length()<2) monthtempstr.Prepend("0");
+			namecopy.Replace(iday+3,2,monthtempstr);
+		}
+	} else k=i;
 	stringstream sts;
-	sts << i+1;
+	sts << k;
 	TString tempstr = sts.str();
 	if(tempstr.Length()<2) tempstr.Prepend("0");
-	namecopy.Replace(18,2,tempstr); //This '18' must be changed to the index in the full filename of the first digit of the day
+	cout << tempstr << endl;
+	namecopy.Replace(iday,2,tempstr);
  	filenames.push_back(namecopy);
  }
+
  // Parse file 
  Int_t nlines=0;
  //int num = 0;
@@ -691,8 +723,8 @@ void anal2()
  outputfile.open (outputname.Data());
 
  //Read in the needed counter positions from the cnames.sorted data file
- TString sortedname("cnames.sorted2.2014");
- //TString sortedname("cnames.sorted2");
+// TString sortedname("cnames.sorted2.2014");
+ TString sortedname("cnames.sorted2");
  ifstream sortedfile(sortedname.Data());
  std::string cname;
  UInt_t position;

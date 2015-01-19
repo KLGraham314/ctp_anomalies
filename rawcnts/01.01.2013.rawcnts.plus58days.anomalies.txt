@@ -1,0 +1,909 @@
+
+Run 194317
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    22183013    22183012    22183013    22183013    22183013    22183013    22183013
+
+Run 194318
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+    47833352     8698215     8698215     8698215     8698216     8698216
+
+Run 194318
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+    15552350    15552350    15552351
+
+Run 194326
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     1428659      258636      258636      258636      258637      258637
+
+Run 194326
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+      461904      461904      461905
+
+Run 194330
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     2086252      378292      378292      378292      378293      378293
+
+Run 194330
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+      676751      676751      676752
+
+Run 194351
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     5644756     1023159     1023159     1023159     1023160     1023160
+
+Run 194351
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     1827212     1827212     1827213
+
+Run 194356
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+        6466          13          13          13          14          14
+
+Run 194356
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+          29          29          30
+
+Run 194358
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+        5421          14          14          14          15          15
+
+Run 194358
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+          29          29          30
+
+Run 0 increment number 3381
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+           1           1           1           1           1           2           1
+
+Run 194361
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+    32081791     5828226     5828226     5828226     5828227     5828227
+
+Run 194361
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+    10414475    10414475    10414476
+
+Run 194361
+!!! Anomaly between L2strobeOUT and L2 FO strobes IN
+ L2strobeOUT  fo1L2strIN  fo2L2strIN  fo3L2strIN  fo4L2strIN  fo5L2strIN  fo6L2strIN
+    10629773    10629773    10629773    10629773    10629773    10629772    10629773
+
+Run 194378
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     7465177     1347550     1347550     1347550     1347551     1347551
+
+Run 194378
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     2445918     2445918     2445919
+Run 194427 num 6535 897 = 0
+Run 0 num 6590 897 = 0
+
+Run 194478
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     1772232      320058      320058      320058      320059      320059
+
+Run 194478
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+      578773      578773      578774
+Run 194482 num 10052 897 = 0
+Run 194482 num 10140 897 = 0
+Run 194482 num 10282 897 = 0
+Run 194488 num 10569 897 = 0
+Run 194488 num 10685 897 = 0
+Run 194488 num 10755 897 = 0
+Run 194488 num 10808 897 = 0
+Run 194488 num 10926 897 = 0
+Run 194551 num 11967 897 = 0
+Run 194551 num 12218 897 = 0
+Run 194551 num 12260 897 = 0
+Run 194551 num 12357 897 = 0
+Run 194551 num 12390 897 = 0
+Run 194551 num 12416 897 = 0
+Run 194551 num 12478 898 = 0
+Run 0 num 12529 897 = 0
+Run 194568 num 12577 897 = 0
+Run 194571 num 12697 897 = 0
+Run 194571 num 12718 897 = 0
+Run 194571 num 12761 897 = 0
+Run 194571 num 12793 897 = 0
+Run 194571 num 12836 897 = 0
+Run 194571 num 12868 897 = 0
+Run 194571 num 12909 897 = 0
+Run 194571 num 13036 897 = 0
+Run 194571 num 13482 897 = 0
+Run 194571 num 13616 897 = 0
+
+Run 0 increment number 13811
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+         153           0           0  3496216116           0           0
+
+Run 0 increment number 14110
+!!! Anomaly in class 30 !!!
+    L0classB30    L0classA30    L1classB30    L1classA30    L2classB30    L2classA30
+    12198080       76240           0           0    54762962           0
+
+Run 0 increment number 14110
+!!! Anomaly in class 31 !!!
+    L0classB31    L0classA31    L1classB31    L1classA31    L2classB31    L2classA31
+    12198015       76239           0           0  4294442701           0
+Run 194655 num 14141 897 = 0
+Run 0 num 14177 897 = 0
+Run 194670 num 14414 897 = 0
+Run 194670 num 14685 897 = 0
+Run 0 num 14813 897 = 0
+
+Run 194681
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+    32655308     5896276     5896276     5896276     5896277     5896277
+
+Run 194681
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+    10699518    10699518    10699519
+
+Run 0 increment number 15214
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+    13620243  2223487520           0           0           0           0
+
+Run 0 increment number 15214
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+    13620113  4213626943           0           0           0           0
+
+Run 194715
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     6222303     1122820     1122820     1122820     1122821     1122821
+
+Run 194715
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     2039038     2039038     2039039
+
+Run 194720
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+    21771260     3932465     3932465     3932465     3932466     3932466
+
+Run 194720
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     7133511     7133511     7133512
+
+Run 194724
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+     4556891      822154      822154      822154      822155      822155
+
+Run 194724
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     1491764     1491764     1491765
+
+Run 194736 or Run 194735
+!!! Anomaly in class 13 !!!
+    L0classB13    L0classA13    L1classB13    L1classA13    L2classB13    L2classA13
+     1895630      272450      272450      272450      272451      272451
+
+Run 194736 or Run 194735
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+      476801      476801      476802
+Run 194739 num 17022 897 = 0
+Run 194739 num 17044 897 = 0
+Run 194739 num 17056 897 = 0
+Run 194739 num 17063 897 = 0
+Run 194739 num 17067 897 = 0
+Run 194739 num 17091 897 = 0
+Run 194739 num 17098 897 = 0
+
+Run 194774
+!!! Anomaly in class 4 !!!
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+     1134322      526551      526551      526551      526552      526552
+
+Run 194774
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+     1315161     1315161     1315162
+
+Run 194787
+!!! Anomaly in class 4 !!!
+    L0classB4    L0classA4    L1classB4    L1classA4    L2classB4    L2classA4
+    13385946       79262       79262       79262       79263       79263
+
+Run 194787
+!!! Anomaly in class 5 !!!
+    L0classB5    L0classA5    L1classB5    L1classA5    L2classB5    L2classA5
+     6417282       38946       38946       38946       38947       38947
+
+Run 194787
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+      638488      638488      638489
+Run 0 num 17582 895 = 0
+Run 0 num 17621 895 = 0
+Run 0 num 17642 895 = 0
+Run 0 num 17800 895 = 0
+Run 0 num 17822 895 = 0
+Run 0 num 17837 895 = 0
+Run 0 num 17912 895 = 0
+Run 0 num 18022 895 = 0
+Run 0 num 18039 895 = 0
+Run 0 num 18265 895 = 0
+Run 0 num 18456 895 = 0
+Run 0 num 18476 895 = 0
+Run 0 num 18498 895 = 0
+Run 0 num 18520 895 = 0
+Run 0 num 18539 895 = 0
+Run 0 num 18581 895 = 0
+Run 0 num 18678 897 = 0
+Run 194837 num 18754 898 = 0
+Run 194837 num 18775 898 = 0
+Run 194837 num 18810 898 = 0
+Run 194837 num 18861 898 = 0
+Run 194837 num 18873 898 = 0
+Run 194837 num 18882 897 = 0
+Run 194837 num 18939 897 = 0
+Run 194837 num 18954 898 = 0
+Run 194837 num 19027 898 = 0
+Run 194837 num 19051 897 = 0
+Run 0 num 19073 898 = 0
+Run 0 num 19074 897 = 0
+
+Run 194859
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+  2866405450      294010      294010      294010      294011      294011
+
+Run 194859
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+      555364      555364      555365
+Run 0 num 19241 895 = 0
+
+Run 0 increment number 19259
+!!! Anomaly in class 26 !!!
+    L0classB26    L0classA26    L1classB26    L1classA26    L2classB26    L2classA26
+        3418        2606           0           0           0    75493328
+
+Run 0 increment number 19259
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+     3270971        2649           0           0           0     1363121
+Run 194860 num 19341 897 = 0
+
+Run 0 increment number 19376
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+     6100145       38127           0  4289740643           0           0
+
+Run 194870
+!!! Anomaly in class 7 !!!
+    L0classB7    L0classA7    L1classB7    L1classA7    L2classB7    L2classA7
+    47168444     3349209     3349209     3349209     3349210     3349210
+
+Run 194870
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     3418651     3418651     3418652
+
+Run 194872
+!!! Anomaly in class 7 !!!
+    L0classB7    L0classA7    L1classB7    L1classA7    L2classB7    L2classA7
+    23858112     1109683     1109683     1109683     1109684     1109684
+
+Run 194872
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+     1142065     1142065     1142066
+Run 0 num 20083 895 = 0
+Run 0 num 20124 895 = 0
+Run 0 num 20184 895 = 0
+Run 0 num 20196 895 = 0
+Run 0 num 20222 895 = 0
+Run 0 num 20237 895 = 0
+Run 0 num 20307 895 = 0
+Run 0 num 20319 895 = 0
+Run 0 num 20349 895 = 0
+Run 0 num 20391 895 = 0
+Run 0 num 20457 895 = 0
+
+Run 0 increment number 20594
+!!! Anomaly between cluster 1 and FOs for L0 !!!
+      L0clst1   F01L0clst1   F02L0clst1   FO3L0clst1   FO4L0clst1   FO5L0clst1   FO6L0clst1
+        8810        8810        8810        8810        8810        8810        8811
+
+Run 194932
+!!! Anomaly between cluster 1 and FOs for L0 !!!
+      L0clst1   F01L0clst1   F02L0clst1   FO3L0clst1   FO4L0clst1   FO5L0clst1   FO6L0clst1
+       38564       38564       38564       38564       38564       38564       38563
+Run 194937 num 20621 897 = 0
+Run 0 num 20643 897 = 0
+Run 0 num 21831 895 = 0
+Run 0 num 22088 895 = 0
+Run 0 num 22122 895 = 0
+Run 0 num 22135 895 = 0
+Run 0 num 22186 895 = 0
+Run 0 num 22186 897 = 0
+Run 194992 num 22293 897 = 0
+Run 194992 num 22302 897 = 0
+Run 0 num 22423 897 = 0
+Run 195031 num 22435 897 = 0
+Run 195031 num 22440 897 = 0
+Run 195031 num 22449 897 = 0
+Run 195031 num 22464 897 = 0
+Run 0 num 22505 895 = 0
+Run 0 num 22526 895 = 0
+Run 195043 num 22547 counter 895 = 0
+Run 0 num 22568 895 = 0
+Run 0 num 22591 895 = 0
+Run 195054 num 22606 counter 895 = 0
+Run 0 num 22793 895 = 0
+Run 0 num 22856 895 = 0
+Run 0 num 22892 895 = 0
+Run 0 num 22920 895 = 0
+Run 0 num 23392 895 = 0
+Run 0 num 23430 895 = 0
+Run 0 num 23571 895 = 0
+Run 0 num 23579 895 = 0
+Run 0 num 23732 895 = 0
+Run 0 num 23790 895 = 0
+Run 0 num 23800 895 = 0
+Run 0 num 23825 895 = 0
+Run 0 num 23832 895 = 0
+Run 0 num 23856 895 = 0
+Run 0 num 23866 895 = 0
+Run 0 num 23901 895 = 0
+Run 0 num 23918 895 = 0
+Run 0 num 23926 895 = 0
+Run 0 num 24033 895 = 0
+
+Run 195106
+!!! Anomaly in class 6 !!!
+    L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
+   101437435     1818242     1818243     1818243     1818243     1818243
+Run 0 num 24173 895 = 0
+
+Run 195114
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+  2921822428        6876        6876        6876        6877        6877
+
+Run 195114
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+     8484976     8484976     8484977
+Run 0 num 24241 895 = 0
+Run 0 num 24259 895 = 0
+Run 0 num 24311 895 = 0
+Run 0 num 24323 895 = 0
+Run 0 num 24345 895 = 0
+Run 0 num 24462 895 = 0
+Run 0 num 24481 895 = 0
+Run 0 num 24508 895 = 0
+Run 0 num 24529 895 = 0
+Run 0 num 24541 895 = 0
+Run 0 num 24568 895 = 0
+Run 0 num 24583 895 = 0
+Run 0 num 24631 895 = 0
+Run 0 num 24690 895 = 0
+Run 195164 num 24769 897 = 0
+Run 195164 num 24777 897 = 0
+Run 195164 num 24786 897 = 0
+Run 195164 num 24820 897 = 0
+Run 0 num 24853 897 = 0
+Run 0 num 24897 897 = 0
+Run 0 num 24898 895 = 0
+Run 195177 num 24998 897 = 0
+Run 0 num 25001 895 = 0
+Run 0 num 25689 895 = 0
+Run 0 num 25718 895 = 0
+Run 0 num 25806 895 = 0
+Run 0 num 25832 895 = 0
+Run 0 num 25934 895 = 0
+Run 0 num 25967 895 = 0
+Run 0 num 26022 895 = 0
+Run 0 num 26035 895 = 0
+Run 0 num 26074 895 = 0
+Run 0 num 26109 895 = 0
+Run 0 num 26149 895 = 0
+Run 0 num 26175 895 = 0
+Run 0 num 26198 895 = 0
+
+Run 195204
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  3187562902        1357        1357        1357        1358        1358
+
+Run 195204
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+      439652      439652      439653
+Run 0 num 26245 895 = 0
+Run 0 num 26270 895 = 0
+Run 0 num 26284 895 = 0
+Run 0 num 26347 895 = 0
+Run 0 num 26410 895 = 0
+
+Run 0 increment number 26441
+!!! Anomaly in class 39 !!!
+    L0classB39    L0classA39    L1classB39    L1classA39    L2classB39    L2classA39
+        3334        6681           0           0           0           0
+
+Run 0 increment number 26441
+!!! Anomaly in class 40 !!!
+    L0classB40    L0classA40    L1classB40    L1classA40    L2classB40    L2classA40
+        3333   778600047           0           0           0           0
+Run 0 num 26506 895 = 0
+Run 0 num 26589 895 = 0
+Run 0 num 26792 895 = 0
+Run 0 num 26953 895 = 0
+Run 0 num 27469 895 = 0
+Run 0 num 27485 895 = 0
+Run 0 num 27636 895 = 0
+Run 0 num 27652 895 = 0
+Run 0 num 27688 895 = 0
+Run 0 num 27728 895 = 0
+Run 0 num 27741 895 = 0
+Run 0 num 27788 895 = 0
+Run 0 num 27831 895 = 0
+Run 0 num 27890 895 = 0
+Run 0 num 27931 895 = 0
+Run 0 num 27965 895 = 0
+Run 0 num 27993 895 = 0
+Run 0 num 28007 895 = 0
+Run 0 num 28022 895 = 0
+Run 0 num 28041 895 = 0
+Run 0 num 28082 895 = 0
+Run 0 num 28189 895 = 0
+Run 0 num 28350 895 = 0
+Run 0 num 28569 895 = 0
+Run 0 num 28713 895 = 0
+Run 0 num 28848 895 = 0
+Run 0 num 28957 895 = 0
+Run 0 num 29071 895 = 0
+Run 0 num 29106 895 = 0
+Run 0 num 29125 895 = 0
+Run 0 num 29146 895 = 0
+Run 0 num 29157 895 = 0
+Run 0 num 29167 895 = 0
+Run 0 num 29176 895 = 0
+Run 0 num 29212 895 = 0
+Run 0 num 29337 895 = 0
+Run 0 num 29512 895 = 0
+Run 0 num 29522 895 = 0
+Run 0 num 29588 895 = 0
+Run 0 num 29707 895 = 0
+Run 0 num 29802 895 = 0
+Run 0 num 29845 895 = 0
+Run 0 num 29950 895 = 0
+Run 0 num 30070 895 = 0
+Run 0 num 30090 895 = 0
+Run 0 num 30100 895 = 0
+Run 0 num 30117 895 = 0
+Run 195305 num 30190 897 = 0
+Run 0 num 30193 895 = 0
+Run 0 num 30301 895 = 0
+Run 0 num 30331 895 = 0
+Run 0 num 30484 895 = 0
+Run 0 num 30528 895 = 0
+Run 0 num 30545 895 = 0
+Run 0 num 30734 895 = 0
+Run 0 num 30848 895 = 0
+Run 0 num 30959 895 = 0
+Run 0 num 31019 895 = 0
+Run 0 num 31058 895 = 0
+Run 0 num 31094 895 = 0
+Run 0 num 31212 895 = 0
+Run 0 num 31286 895 = 0
+Run 0 num 31446 895 = 0
+Run 0 num 31462 895 = 0
+Run 0 num 31526 895 = 0
+Run 0 num 31626 895 = 0
+Run 0 num 31750 895 = 0
+Run 0 num 31902 895 = 0
+Run 0 num 31938 895 = 0
+Run 0 num 32010 895 = 0
+Run 0 num 32212 895 = 0
+Run 0 num 32265 895 = 0
+Run 0 num 32657 895 = 0
+Run 0 num 32709 895 = 0
+Run 0 num 32771 895 = 0
+
+Run 195434
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+       58038       50718       50718       50718       50719       50719
+
+Run 195434
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+       56966       56966       56967
+Run 0 num 33422 895 = 0
+Run 0 num 33461 895 = 0
+Run 0 num 33491 895 = 0
+Run 0 num 33553 895 = 0
+Run 0 num 33598 895 = 0
+Run 0 num 33683 895 = 0
+Run 0 num 33716 895 = 0
+Run 0 num 33890 895 = 0
+Run 0 num 34149 895 = 0
+Run 0 num 34200 895 = 0
+Run 0 num 34216 895 = 0
+Run 0 num 34302 895 = 0
+Run 0 num 34759 895 = 0
+Run 0 num 34882 895 = 0
+Run 0 num 34935 895 = 0
+Run 0 num 34991 895 = 0
+Run 0 num 35033 895 = 0
+Run 0 num 35128 895 = 0
+Run 0 num 36146 895 = 0
+Run 0 num 36161 895 = 0
+Run 0 num 36218 895 = 0
+Run 0 num 36229 895 = 0
+Run 0 num 36357 895 = 0
+Run 0 num 36463 895 = 0
+Run 0 num 36802 895 = 0
+Run 0 num 36945 895 = 0
+Run 0 num 37029 895 = 0
+Run 195566 num 37091 949 = 0
+Run 0 num 37227 895 = 0
+Run 0 num 37381 895 = 0
+
+Run 195568
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+   590198121       68033       68033       68033       68034       68034
+
+Run 195568
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+    15813035    15809438    15809439
+Run 0 num 37844 895 = 0
+Run 0 num 38105 895 = 0
+Run 0 num 38453 895 = 0
+Run 0 num 38479 895 = 0
+Run 0 num 38486 895 = 0
+Run 0 num 38530 895 = 0
+Run 0 num 38586 895 = 0
+Run 0 num 38620 895 = 0
+Run 0 num 38801 895 = 0
+Run 0 num 38883 895 = 0
+Run 0 num 39003 895 = 0
+Run 0 num 39415 895 = 0
+Run 0 num 39522 895 = 0
+
+Run 0 increment number 39534
+!!! Anomaly in class 23 !!!
+    L0classB23    L0classA23    L1classB23    L1classA23    L2classB23    L2classA23
+           6  2903506912           0           0           0           0
+Run 0 num 39862 895 = 0
+Run 0 num 40418 895 = 0
+Run 0 num 40463 895 = 0
+Run 0 num 40478 895 = 0
+Run 0 num 40578 895 = 0
+Run 0 num 40595 895 = 0
+Run 0 num 40607 895 = 0
+Run 0 num 40746 895 = 0
+Run 0 num 40841 895 = 0
+Run 0 num 40863 895 = 0
+Run 0 num 40938 895 = 0
+
+Run 195706
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+      836136       80470       80470       80470       80471       80471
+
+Run 195706
+!!! Anomaly in class 28 !!!
+    L0classB28    L0classA28    L1classB28    L1classA28    L2classB28    L2classA28
+      418161       40234       40234       40234       40235       40235
+
+Run 195706
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+       80470       80470       80471
+Run 0 num 41239 895 = 0
+Run 0 num 41442 895 = 0
+Run 0 num 41463 895 = 0
+Run 0 num 41488 895 = 0
+Run 0 num 41802 895 = 0
+Run 0 num 41839 895 = 0
+
+Run 0 increment number 43249
+!!! Anomaly in class 24 !!!
+    L0classB24    L0classA24    L1classB24    L1classA24    L2classB24    L2classA24
+    19640881      120137           0     8388608           0           0
+
+Run 195830
+!!! Anomaly in class 44 !!!
+    L0classB44    L0classA44    L1classB44    L1classA44    L2classB44    L2classA44
+    12774196      376454      376454      376454      376455      376455
+
+Run 195830
+!!! Anomaly in cluster 6 !!!
+      L0clst6      L1clst6      L2clst6
+      834676      834676      834677
+Run 0 num 44521 895 = 0
+
+Run 195876
+!!! Anomaly in class 1 !!!
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+     3378136          20          20          20          21          21
+
+Run 195876
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+        9841        9841        9842
+Run 0 num 44532 895 = 0
+Run 0 num 44564 895 = 0
+Run 0 num 44626 895 = 0
+Run 0 num 44713 895 = 0
+Run 0 num 44770 895 = 0
+Run 0 num 44790 895 = 0
+Run 0 num 45232 895 = 0
+Run 0 num 45279 895 = 0
+Run 0 num 45354 895 = 0
+Run 0 num 45380 895 = 0
+
+Run 0 increment number 45394
+!!! Anomaly in class 29 !!!
+    L0classB29    L0classA29    L1classB29    L1classA29    L2classB29    L2classA29
+     6276007       39226           0           0           0       65536
+Run 0 num 45629 895 = 0
+Run 0 num 45900 895 = 0
+Run 0 num 46135 895 = 0
+Run 0 num 46182 895 = 0
+Run 0 num 46579 895 = 0
+Run 0 num 46617 895 = 0
+Run 0 num 46686 895 = 0
+Run 0 num 46760 895 = 0
+
+Run 0 increment number 47102
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+          17          16
+
+Run 195951
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+        1387        1388
+
+Run 0 increment number 47120
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+           8           7
+
+Run 195953
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+     2550583     2550584
+
+Run 0 increment number 47286
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+          14          14          14          14          14          14          15
+
+Run 0 increment number 47286
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+          14          14          14          14          14          14          15
+
+Run 195957
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+        1628        1628        1628        1628        1628        1628        1627
+
+Run 195957
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+        1806        1806        1806        1806        1806        1806        1805
+Run 0 num 47371 895 = 0
+Run 0 num 47412 895 = 0
+Run 0 num 47476 895 = 0
+Run 0 num 47506 895 = 0
+Run 0 num 47563 895 = 0
+
+Run 0 increment number 47775
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+           5           5           5           5           5           5           6
+
+Run 0 increment number 47775
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           4           4           4           4           4           4           5
+
+Run 195993
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+        8434        8434        8434        8434        8434        8434        8433
+
+Run 195993
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+        9325        9325        9325        9325        9325        9325        9324
+Run 0 num 48475 895 = 0
+Run 0 num 48727 895 = 0
+Run 0 num 48750 895 = 0
+Run 0 num 48760 895 = 0
+Run 0 num 48768 895 = 0
+Run 0 num 48777 895 = 0
+Run 0 num 48787 895 = 0
+Run 196044 num 48794 counter 612 = 0
+Run 196044 num 48794 counter 613 = 0
+Run 196044 num 48794 counter 614 = 0
+Run 196044 num 48794 counter 615 = 0
+Run 196044 num 48794 counter 616 = 0
+Run 196044 num 48794 counter 617 = 0
+Run 196044 num 48794 counter 618 = 0
+Run 196044 num 48794 counter 619 = 0
+Run 196044 num 48794 counter 620 = 0
+Run 196044 num 48794 counter 621 = 0
+Run 196044 num 48794 counter 622 = 0
+Run 196044 num 48794 counter 623 = 0
+Run 196044 num 48794 counter 624 = 0
+Run 196044 num 48794 counter 625 = 0
+Run 196044 num 48794 counter 626 = 0
+Run 196044 num 48794 counter 627 = 0
+Run 196044 num 48794 counter 628 = 0
+Run 196044 num 48794 counter 629 = 0
+Run 196044 num 48794 counter 631 = 0
+Run 196044 num 48794 counter 632 = 0
+Run 196044 num 48794 counter 634 = 0
+Run 196044 num 48794 counter 635 = 0
+Run 196044 num 48794 counter 636 = 0
+Run 196044 num 48794 counter 638 = 0
+Run 196044 num 48794 counter 639 = 0
+Run 196044 num 48794 counter 640 = 0
+Run 196044 num 48794 counter 642 = 0
+Run 196044 num 48794 counter 643 = 0
+Run 196044 num 48794 counter 644 = 0
+Run 0 num 48796 895 = 0
+Run 0 num 48805 895 = 0
+Run 0 num 48813 895 = 0
+Run 0 num 48827 895 = 0
+Run 0 num 48845 895 = 0
+Run 0 num 48917 895 = 0
+Run 0 num 48932 895 = 0
+Run 0 num 48942 895 = 0
+
+Run 0 increment number 49185
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+           4           4           4           4           5           4           4
+
+Run 0 increment number 49185
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           4           4           4           4           5           4           4
+
+Run 196089
+!!! Anomaly between cluster 4 and FOs for L0 !!!
+      L0clst4   F01L0clst4   F02L0clst4   FO3L0clst4   FO4L0clst4   FO5L0clst4   FO6L0clst4
+    19041978    19041978    19041978    19041978    19041977    19041978    19041978
+
+Run 196089
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+    21309916    21309916    21309916    21309916    21309915    21309916    21309916
+
+Run 196090
+!!! Anomaly in class 12 !!!
+    L0classB12    L0classA12    L1classB12    L1classA12    L2classB12    L2classA12
+       20006        5601        5601        5601        5602        5602
+
+Run 196090
+!!! Anomaly in class 27 !!!
+    L0classB27    L0classA27    L1classB27    L1classA27    L2classB27    L2classA27
+       14750        4897        4897        4897        4898        4898
+
+Run 196090
+!!! Anomaly in cluster 1 !!!
+      L0clst1      L1clst1      L2clst1
+       40613       40613       40614
+
+Run 196090
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+       26794       26794       26795
+Run 0 num 49509 895 = 0
+Run 0 num 49666 895 = 0
+Run 0 num 49694 895 = 0
+Run 0 num 50007 895 = 0
+Run 0 num 50129 895 = 0
+Run 0 num 50241 895 = 0
+Run 0 num 50247 895 = 0
+Run 0 num 50318 895 = 0
+Run 0 num 50341 895 = 0
+Run 0 num 50343 897 = 0
+Run 0 num 50412 895 = 0
+Run 0 num 50422 897 = 0
+Run 196147 num 50606 897 = 0
+Run 0 num 50647 895 = 0
+Run 0 num 50647 897 = 0
+Run 0 num 50822 895 = 0
+Run 196167 num 50945 897 = 0
+Run 0 num 50960 895 = 0
+Run 0 num 51068 895 = 0
+Run 0 num 51128 895 = 0
+Run 0 num 51197 590 = 0
+
+Run 0 increment number 51203
+!!! Anomaly between cluster 5 and FOs for L0 !!!
+      L0clst5   F01L0clst5   F02L0clst5   FO3L0clst5   FO4L0clst5   FO5L0clst5   FO6L0clst5
+           0           0           0           0           0  1828381446           0
+Run 0 num 51238 895 = 0
+Run 0 num 51288 895 = 0
+
+Run 0 increment number 51603
+!!! Anomaly between cluster 2 and FOs for L0 !!!
+      L0clst2   F01L0clst2   F02L0clst2   FO3L0clst2   FO4L0clst2   FO5L0clst2   FO6L0clst2
+           2           1           1           2           2           2           2
+
+Run 196199
+!!! Anomaly between cluster 2 and FOs for L0 !!!
+      L0clst2   F01L0clst2   F02L0clst2   FO3L0clst2   FO4L0clst2   FO5L0clst2   FO6L0clst2
+     1379666     1379667     1379667     1379666     1379666     1379666     1379666
+Run 0 num 52148 895 = 0
+Run 0 num 52247 895 = 0
+Run 0 num 52283 895 = 0
+Run 0 num 52390 895 = 0
+Run 0 num 52399 895 = 0
+Run 0 num 52420 895 = 0
+Run 0 num 52442 895 = 0
+Run 0 num 52503 895 = 0
+Run 0 num 52567 895 = 0
+Run 0 num 52577 895 = 0
+Run 0 num 52586 895 = 0
+Run 0 num 52629 895 = 0
+
+96 anomalies found in data file, in run numbers (0 is between runs): 194317, 194318, 194318, 194326, 194326, 194330, 194330, 194351, 194351, 194356, 194356, 194358, 194358, 0, 194361, 194361, 194361, 194378, 194378, 194478, 194478, 0, 0, 0, 194681, 194681, 0, 0, 194715, 194715, 194720, 194720, 194724, 194724, 194736, 194735, 194736, 194735, 194774, 194774, 194787, 194787, 194787, 194859, 194859, 0, 0, 0, 194870, 194870, 194872, 194872, 0, 194932, 195106, 195114, 195114, 195204, 195204, 0, 0, 195434, 195434, 195568, 195568, 0, 195706, 195706, 195706, 0, 195830, 195830, 195876, 195876, 0, 0, 195951, 0, 195953, 0, 0, 195957, 195957, 0, 0, 195993, 195993, 0, 0, 196089, 196089, 196090, 196090, 196090, 196090, 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+44 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+ 1 1 1 1 1 1 1 1 1 3496216116 54762962 4294442701 1 2209867277 4200006830 1 1 1 1 1 1 1 1 75493328 1363121 4289740643 1 1 1 1 1 3347 778596714 1 1 2903506906 1 1 8388608 1 1 65536 1 1
+28 violations of L0>=L1>=L2 for clusters:
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+17 violations of L0 for a cluster = all L0 FOs for that cluster:
+ 1 -1 1 1 -1 -1 1 1 -1 -1 1 1 -1 -1 1828381446 -1 1
+1 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -1
+4 violations of L0strobe0 = L0strobeIN:
+ -1 1 -1 1
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+2 violations of L2strobeOUT = L2strIN for all FOs:
+ 1 -1
+
+Total glitches in cluster:   T      1      2      3      4      5      6
+                           62683   6714 147285 116875 122564 106649  78895
+Total spurious in cluster:   T      1      2      3      4      5      6
+                           1042     22    721   4983   1976  -1243   3081
