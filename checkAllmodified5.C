@@ -652,17 +652,19 @@ void anal2()
  // Identify nfiles file names from first one given onwards and add to vector
  // Only works when all days are in same month
  TString name("raw112014/rawcnts/01.11.2014.rawcnts");
- TString tempname = name;
- TString namecopy = name;
- int nfiles = 30;
+ TString tempname = name; //copy of first file name string to be changed to subsequent file names
+ TString namecopy = name; //copy of first file name string to be cut to just the day of the month
+ int nfiles = 5; //number of files total to be analysed
  TString daystring = tempname.Remove(0,18);
  daystring.Remove(20,16);
+ Int_t firstday = atoi(daystring.Data());
  
  //TString name2("raw112014/rawcnts/02.11.2014.rawcnts");
  //TString name("rawcnts/29.01.2013.rawcnts");
+ //Loop over all nfiles filenames and open them
  vector<TString> filenames;
  filenames.push_back(name);
- for(int i=1;i<nfiles;i++){
+ for(int i= firstday;i<nfiles;i++){
 	stringstream sts;
 	sts << i+1;
 	TString tempstr = sts.str();
