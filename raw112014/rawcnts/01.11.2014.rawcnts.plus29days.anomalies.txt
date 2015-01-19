@@ -8754,9 +8754,6 @@ Run 206435
 !!! Anomaly between cluster 1 and FOs for L1 !!!
       L1clst1   F01L1clst1   F02L1clst1   FO3L1clst1   FO4L1clst1   FO5L1clst1   FO6L1clst1
     26379284    26379283    26379283    26379283    26379284    26379284    26379284
-Run 206437 num 40016 1487 = 0
-Run 206437 num 40020 1487 = 0
-Run 206437 num 40036 1487 = 0
 
 Run 206437 or Run 206441
 !!! Anomaly in class 2 !!!
@@ -8777,7 +8774,6 @@ Run 206437 or Run 206441
 !!! Anomaly in class 6 !!!
     L0classB6    L0classA6    L1classB6    L1classA6    L2classB6    L2classA6
     78567756      302935      302936      302936      302936      302936
-Run 0 num 40085 1487 = 0
 
 Run 206451
 !!! Anomaly in class 18 !!!

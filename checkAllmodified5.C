@@ -16,13 +16,13 @@ UInt_t l1classB1;
 UInt_t l1classA1;
 UInt_t l2classB1;
 UInt_t l2classA1;
-const UInt_t numclasses=50;
-//const UInt_t numclasses=100;
+//const UInt_t numclasses=50;
+const UInt_t numclasses=100;
 UInt_t l0clstT;
 UInt_t l1clstT;
 UInt_t l2clstT;
-const UInt_t numclusters=7; //Number of clusters (including T)
-//const UInt_t numclusters=9;
+//const UInt_t numclusters=7; //Number of clusters (including T)
+const UInt_t numclusters=9;
 UInt_t fo1l0clstt;
 UInt_t fo2l0clstt;
 UInt_t fo3l0clstt;
@@ -76,8 +76,8 @@ UInt_t fo3l1spuriousT;
 UInt_t fo4l1spuriousT;
 UInt_t fo5l1spuriousT;
 UInt_t fo6l1spuriousT;
-const UInt_t runx=896;
-//const UInt_t runx=1486;
+//const UInt_t runx=896;
+const UInt_t runx=1486;
 int flag = 0;
 vector<double> classflag;
 vector<double> clusterflag;
@@ -91,8 +91,8 @@ int glitch[numclusters] = {0};
 int spurious[numclusters] = {0};
 vector<int> locations;
 double currentrun = -1;
-const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
-//const UInt_t numcounters=1560;
+//const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
+const UInt_t numcounters=1560;
 double total[numcounters] = {0};
 int num = 0;
 ofstream outputfile;
@@ -144,7 +144,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			}
 			increm[k] = temp[k] - prev[k]; //Get counters since last increment
 			total[k] += increm[k]; //Add this to total
-			if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)){ //Spurious zeroes
+			if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
 				cout << k << " = 0" << endl;
 				outputfile << "Run " << prev[runx] << " num " << num << " counter " << k << " = 0" << endl;
 				zeroflag[k]++;
@@ -651,13 +651,13 @@ void anal2()
 {
  // Identify nfiles file names from first one given onwards and add to vector
  // Only works when all days are in same month
-// TString name("raw112014/rawcnts/01.11.2014.rawcnts");
- TString name("rawcnts/01.01.2013.rawcnts");
+ TString name("raw112014/rawcnts/01.11.2014.rawcnts");
+ //TString name("rawcnts/01.01.2013.rawcnts");
 
  TString namecopy = name; //copy of first file name string to be changed to subsequent file names
  TString dayname = name; //copy of first file name string to be cut to just the day of the month
  TString monthname = name; //copy of first file name string to be cut to just the month
- int nfiles = 59; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
+ int nfiles = 30; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
 
  Ssiz_t nameLength= name.Length();
  int iday = nameLength-18; //Index of first digit of the day
@@ -723,8 +723,8 @@ void anal2()
  outputfile.open (outputname.Data());
 
  //Read in the needed counter positions from the cnames.sorted data file
-// TString sortedname("cnames.sorted2.2014");
- TString sortedname("cnames.sorted2");
+ TString sortedname("cnames.sorted2.2014");
+ //TString sortedname("cnames.sorted2");
  ifstream sortedfile(sortedname.Data());
  std::string cname;
  UInt_t position;
