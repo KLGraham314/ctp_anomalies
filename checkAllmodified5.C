@@ -123,7 +123,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}
 		increm[k] = temp[k] - prev[k]; //Get counters since last increment
 		total[k] += increm[k]; //Add this to total
-		if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)){ //Spurious zeroes
+		if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
 			cout << k << " = 0" << endl;
 			outputfile << "Run " << prev[runx] << " num " << num << " " << k << " = 0" << endl;
 			zeroflag[k]=2;
