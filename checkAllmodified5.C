@@ -109,7 +109,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 
     if((cnts[runx] == currentrun)||(num==2))  // Run number
      {
-      cout << "run found: " << cnts[runx] << endl;
+     // cout << "run found: " << cnts[runx] << endl;
       currentrun=cnts[runx];
       if(num==2) firstflag=1; //When beginning from start of file, comparisons between different counters will not be exactly valid  
 
@@ -603,7 +603,8 @@ void ReadLines(TString name, int numberoflines, UInt_t *prev){
   	ifstream *file = new ifstream(name.Data());
  	TString strLine;
   	UInt_t nlines=0;
- 	while (strLine.ReadLine(*file) && nlines<1) {
+	if(file.is_open()){
+ 	  while (strLine.ReadLine(*file) && nlines<1) {
   		TObjArray *tokens = strLine.Tokenize(" ");
   		Int_t ntokens = tokens->GetEntriesFast();
    		if(ntokens != numcounters+2){
@@ -623,11 +624,13 @@ void ReadLines(TString name, int numberoflines, UInt_t *prev){
     		// Find the counters you want
    		if(num==numberoflines) lastflag=1; //Set lastflag=1 so that anomalies for period up to end of file are printed, with a warning
    		if(num!=1) Plot(cnts, prev); //Apart from the first line, which has no prev, do function
-    		cout << "Increment number: " << num << endl;
+    		//cout << "Increment number: " << num << endl;
+    		if(num%100==0) cout << "Reading line number " << num << "/" << numberoflines << endl;
     		for(int i=0; i<(ntokens-2); i++){
     			prev[i] = cnts[i]; //Assign current counters to be prev counters for next while loop
    		}
-	}
+  	  }
+	} else cout << "Unable to open file: " << name.Data() << endl;
 }
 
 
@@ -651,25 +654,26 @@ void anal2()
 {
  // Identify nfiles file names from first one given onwards and add to vector
  // Only works when all days are in same month
- TString name("raw112014/rawcnts/01.11.2014.rawcnts");
+ //TString name("raw112014/rawcnts/01.11.2014.rawcnts");
  //TString name("rawcnts/01.01.2013.rawcnts");
+ TString name("Jan2015/07.01.2015.rawcnts");
 
  TString namecopy = name; //copy of first file name string to be changed to subsequent file names
  TString dayname = name; //copy of first file name string to be cut to just the day of the month
  TString monthname = name; //copy of first file name string to be cut to just the month
- int nfiles = 30; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
+ int nfiles = 14; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
 
  Ssiz_t nameLength= name.Length();
  int iday = nameLength-18; //Index of first digit of the day
  TString daystring = dayname.Remove(0,iday); //Cut before day
  daystring.Remove(2,nameLength-iday+2); //Cut after day
  Int_t firstday = atoi(daystring.Data()); //Convert day to integer
- cout << firstday << endl;
+ cout << "Getting ready to read " << nfiles << " file(s) with name(s): " << endl;
+ cout << name.Data() << endl;
 
  TString monthstring = monthname.Remove(0,iday+3); //Cut before month
  monthstring.Remove(5,nameLength-iday+5); //Cut after month
  Int_t firstmonth = atoi(monthstring.Data()); //Convert month to integer
- cout << firstmonth << endl;
  int monthLength=0;
  if(firstmonth==1 || firstmonth==3 || firstmonth==5 || firstmonth==7 || firstmonth==8 || firstmonth==10 || firstmonth==12) monthLength=31;
  else if(firstmonth==2) { //February
@@ -684,7 +688,7 @@ void anal2()
  vector<TString> filenames;
  filenames.push_back(name);
  int k=0;
- for(int i= firstday+1;i<=nfiles;i++){
+ for(int i= firstday+1;i<(nfiles+firstday);i++){
 	if(i>monthLength){ //If next month from first given
 		k++;
 		if(k==1){
@@ -699,9 +703,9 @@ void anal2()
 	sts << k;
 	TString tempstr = sts.str();
 	if(tempstr.Length()<2) tempstr.Prepend("0");
-	cout << tempstr << endl;
 	namecopy.Replace(iday,2,tempstr);
  	filenames.push_back(namecopy);
+	cout << namecopy.Data() << endl;
  }
 
  // Parse file 
