@@ -1364,7 +1364,7 @@ Breakdown of anomaly categories (Numbers below categories indicate the size of t
 0 violations of L2strobeOUT = L2strIN for all FOs:
 
 
-Total glitches in cluster:   T      1      2      3      4      5      6
+Total glitches in cluster:   T      1      2      3      4      5      6     7     8
                              204  30225   5662   6579   5340   2253    544      0      0
-Total spurious in cluster:   T      1      2      3      4      5      6
+Total spurious in cluster:   T      1      2      3      4      5      6     7     8
                          42051141897392    272    280    128     72     12      0      0

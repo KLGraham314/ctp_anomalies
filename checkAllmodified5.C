@@ -10,19 +10,29 @@
 #include <iomanip>
 void PrintBusy(UInt_t *cnts);
 
+//USER DEFINED GLOBAL VARIABLES:
+
+//2013 numbers
+//const UInt_t numclasses=50; //Number of classes
+//const UInt_t numclusters=7; //Number of clusters (including T)
+//const UInt_t runx=896; //Counter number of first counter containing run number
+//const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
+
+//2014 numbers
+const UInt_t numclasses=100; //Number of classes
+const UInt_t numclusters=9; //Number of clusters (including T)
+const UInt_t runx=1486; //Counter number of first counter containing run number
+const UInt_t numcounters=1560; //Number of counters (i.e. number of entries on each line of input file)
+
 UInt_t l0classB1;
 UInt_t l0classA1;
 UInt_t l1classB1;
 UInt_t l1classA1;
 UInt_t l2classB1;
 UInt_t l2classA1;
-//const UInt_t numclasses=50;
-const UInt_t numclasses=100;
 UInt_t l0clstT;
 UInt_t l1clstT;
 UInt_t l2clstT;
-//const UInt_t numclusters=7; //Number of clusters (including T)
-const UInt_t numclusters=9;
 UInt_t fo1l0clstt;
 UInt_t fo2l0clstt;
 UInt_t fo3l0clstt;
@@ -76,8 +86,6 @@ UInt_t fo3l1spuriousT;
 UInt_t fo4l1spuriousT;
 UInt_t fo5l1spuriousT;
 UInt_t fo6l1spuriousT;
-//const UInt_t runx=896;
-const UInt_t runx=1486;
 int flag = 0;
 vector<double> classflag;
 vector<double> clusterflag;
@@ -91,8 +99,6 @@ int glitch[numclusters] = {0};
 int spurious[numclusters] = {0};
 vector<int> locations;
 double currentrun = -1;
-//const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
-const UInt_t numcounters=1560;
 double total[numcounters] = {0};
 int num = 0;
 ofstream outputfile;
@@ -124,8 +130,13 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		increm[k] = temp[k] - prev[k]; //Get counters since last increment
 		total[k] += increm[k]; //Add this to total
 		if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
-			cout << k << " = 0" << endl;
-			outputfile << "Run " << prev[runx] << " num " << num << " " << k << " = 0" << endl;
+			cout << "In Run " << cnts[runx];
+			for(int i=1;i<6;i++){
+				if(cnts[runx+i]!=0) cout << " or Parallel Run " << cnts[runx+i];
+			}
+			cout << " (line number " << num << ")";
+			cout << ", counter " << k << " changed by zero unexpectedly." << endl;
+			outputfile << "Run " << cnts[runx] << " num " << num << " " << k << " = 0" << endl;
 			zeroflag[k]=2;
 
 		}
@@ -145,8 +156,13 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			increm[k] = temp[k] - prev[k]; //Get counters since last increment
 			total[k] += increm[k]; //Add this to total
 			if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
-				cout << k << " = 0" << endl;
-				outputfile << "Run " << prev[runx] << " num " << num << " counter " << k << " = 0" << endl;
+				cout << "In Run " << cnts[runx];
+				for(int i=1;i<6;i++){
+					if(cnts[runx+i]!=0) cout << " or Parallel Run " << cnts[runx+i];
+				}
+				cout << " (line number " << num << ")";
+				cout << ", counter " << k << " changed by zero." << endl;
+				outputfile << "Run " << cnts[runx] << " num " << num << " counter " << k << " = 0" << endl;
 				zeroflag[k]++;
 			}
     		}
@@ -603,7 +619,7 @@ void ReadLines(TString name, int numberoflines, UInt_t *prev){
   	ifstream *file = new ifstream(name.Data());
  	TString strLine;
   	UInt_t nlines=0;
-	if(file.is_open()){
+	if(file->is_open()){
  	  while (strLine.ReadLine(*file) && nlines<1) {
   		TObjArray *tokens = strLine.Tokenize(" ");
   		Int_t ntokens = tokens->GetEntriesFast();
@@ -625,7 +641,7 @@ void ReadLines(TString name, int numberoflines, UInt_t *prev){
    		if(num==numberoflines) lastflag=1; //Set lastflag=1 so that anomalies for period up to end of file are printed, with a warning
    		if(num!=1) Plot(cnts, prev); //Apart from the first line, which has no prev, do function
     		//cout << "Increment number: " << num << endl;
-    		if(num%100==0) cout << "Reading line number " << num << "/" << numberoflines << endl;
+    		if(num%200==0) cout << "Reading line number " << num << "/" << numberoflines << " ... " << endl;
     		for(int i=0; i<(ntokens-2); i++){
     			prev[i] = cnts[i]; //Assign current counters to be prev counters for next while loop
    		}
@@ -652,17 +668,27 @@ void PrintBusy(UInt_t* cnts)
 //main function
 void anal2()
 {
- // Identify nfiles file names from first one given onwards and add to vector
- // Only works when all days are in same month
- //TString name("raw112014/rawcnts/01.11.2014.rawcnts");
- //TString name("rawcnts/01.01.2013.rawcnts");
- TString name("Jan2015/07.01.2015.rawcnts");
+ cout << "Running program to identify possible anomalies in CTP counters." << endl;
+ cout << endl;
+
+ //INPUTS FROM USER REGARDING FILES:
+
+ //-------------2013 data-----------
+ //TString name("rawcnts/01.01.2013.rawcnts"); //name and path of first file to be analysed
+ //int nfiles = 59; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
+ //TString sortedname("cnames.sorted2"); //file containing line numbers and names of counters corresponding to data
+
+ //-------------2014 or 2015 data-------------
+ TString name("raw112014/rawcnts/01.11.2014.rawcnts"); //name and path of first file to be analysed
+ //TString name("Jan2015/07.01.2015.rawcnts"); //name and path of first file to be analysed
+ int nfiles = 5; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
+ TString sortedname("cnames.sorted2.2014"); //file containing line numbers and names of counters corresponding to data
+
 
  TString namecopy = name; //copy of first file name string to be changed to subsequent file names
  TString dayname = name; //copy of first file name string to be cut to just the day of the month
  TString monthname = name; //copy of first file name string to be cut to just the month
- int nfiles = 14; //number of files total to be analysed - current limit that only 2 different months can be spanned, must be same year
-
+ 
  Ssiz_t nameLength= name.Length();
  int iday = nameLength-18; //Index of first digit of the day
  TString daystring = dayname.Remove(0,iday); //Cut before day
@@ -671,6 +697,7 @@ void anal2()
  cout << "Getting ready to read " << nfiles << " file(s) with name(s): " << endl;
  cout << name.Data() << endl;
 
+ //Allows files to span two distinct months
  TString monthstring = monthname.Remove(0,iday+3); //Cut before month
  monthstring.Remove(5,nameLength-iday+5); //Cut after month
  Int_t firstmonth = atoi(monthstring.Data()); //Convert month to integer
@@ -691,7 +718,7 @@ void anal2()
  for(int i= firstday+1;i<(nfiles+firstday);i++){
 	if(i>monthLength){ //If next month from first given
 		k++;
-		if(k==1){
+		if(k==1){//Move to the next month
 			stringstream monthsts;
 			monthsts << firstmonth+1;
 			TString monthtempstr = monthsts.str();
@@ -710,8 +737,8 @@ void anal2()
 
  // Parse file 
  Int_t nlines=0;
- //int num = 0;
  UInt_t prev[numcounters] = {0}; //Array for storing counters from previous line to be compared with
+
  //Name and open output file
  TString outputname = name;
  if(nfiles>1){
@@ -725,10 +752,10 @@ void anal2()
  }
  outputname.Append(".anomalies.txt");
  outputfile.open (outputname.Data());
+ cout << endl;
+ cout << "Creating and opening output file: " << outputname.Data() << endl;
 
  //Read in the needed counter positions from the cnames.sorted data file
- TString sortedname("cnames.sorted2.2014");
- //TString sortedname("cnames.sorted2");
  ifstream sortedfile(sortedname.Data());
  std::string cname;
  UInt_t position;
@@ -812,16 +839,16 @@ void anal2()
 		numberoflines++;
  	}
  }
- cout << numberoflines << endl;
+ cout << endl;
+ cout << "Counted " << numberoflines << " lines - likely to take around " << setprecision(2) << (1.5/1000.)*numberoflines << " minutes to run program." << endl;
+ cout << endl;
 
- for(int i=0;i<nfiles;i++){
+ for(int i=0;i<nfiles;i++){ //Sends each file to function which reads them line by line and performs analysis
  	ReadLines(filenames[i], numberoflines, prev);
  }
  
  
-
-// UInt_t empty[numcounters] = 0;
-// Plot(empty, prev); //If final increment is a run, this will print its totals
+ //Summarise anomalies found, print and send to output file
  cout << endl;
  outputfile << endl;
  if(flag == 0){ //Print whether there were any anomalies, how many, and at which runs
@@ -866,26 +893,30 @@ void anal2()
  cout << endl;
  //Print total numbers of glitches or spurious counts in each cluster for the whole data file
 
- cout << "Total glitches in cluster:   T      1      2      3      4      5      6" << endl;
+ cout << "Total glitches in cluster:   T      1      2      3      4      5      6";
+ if(numclusters==9) cout << "     7     8" << endl;
  cout << "                         ";
  for(int j=0; j<numclusters; j++){
 	cout << setw(7) << glitch[j];
  }
  cout << endl;
- cout << "Total spurious in cluster:   T      1      2      3      4      5      6" << endl;
+ cout << "Total spurious in cluster:   T      1      2      3      4      5      6";
+ if(numclusters==9) cout << "     7     8" << endl;
  cout << "                        ";
  for(int k=0; k<numclusters; k++){
 	cout << setw(7) << spurious[k];
  }
  cout << endl;
  outputfile << endl;
- outputfile << "Total glitches in cluster:   T      1      2      3      4      5      6" << endl;
+ outputfile << "Total glitches in cluster:   T      1      2      3      4      5      6";
+ if(numclusters==9) outputfile << "     7     8" << endl;
  outputfile << "                         ";
  for(int j=0; j<numclusters; j++){
 	outputfile << setw(7) << glitch[j];
  }
  outputfile << endl;
- outputfile << "Total spurious in cluster:   T      1      2      3      4      5      6" << endl;
+ outputfile << "Total spurious in cluster:   T      1      2      3      4      5      6";
+ if(numclusters==9) outputfile << "     7     8" << endl;
  outputfile << "                        ";
  for(int k=0; k<numclusters; k++){
 	outputfile << setw(7) << spurious[k];
