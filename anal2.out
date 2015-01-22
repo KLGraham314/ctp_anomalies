@@ -1,0 +1,39 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.34/20    12 August 2014   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.34/20 (heads/v5-34-00-patches@v5-34-19-251-gfb37e88, Aug 29 2014, 05:53:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+
+Processing anal2.C...
+Running program to identify possible anomalies in CTP counters.
+
+Getting ready to read 5 file(s) with name(s): 
+raw112014/rawcnts/01.11.2014.rawcnts
+raw112014/rawcnts/02.11.2014.rawcnts
+raw112014/rawcnts/03.11.2014.rawcnts
+raw112014/rawcnts/04.11.2014.rawcnts
+raw112014/rawcnts/05.11.2014.rawcnts
+
+Creating and opening output file: raw112014/rawcnts/01.11.2014.rawcnts.plus4days.anomalies.txt
+
+Counted 7101 lines - likely to take around 11 minutes to run program.
+
+Reading line number 200/7101 ... 
+Reading line number 400/7101 ... 
+Reading line number 600/7101 ... 
+Reading line number 800/7101 ... 
+Reading line number 1000/7101 ... 
+Reading line number 1200/7101 ... 
+Reading line number 1400/7101 ... 
+Reading line number 1600/7101 ... 

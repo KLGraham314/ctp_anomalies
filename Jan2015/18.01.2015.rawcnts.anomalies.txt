@@ -1,0 +1,313 @@
+
+Run 0 increment number 508(ending with SOR 209107 - parallel 0)
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+    13663200    13663199
+
+Run 209108
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+     8423760     8423759     8423759     8423759     8423759     8423759     8423759
+
+Run 209126
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+    52731131      648971      648971      648971      648972      648972
+
+Run 209126
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+      648971      648971      648972
+
+Run 209087
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    27668525    27668524    27668524    27668524    27668524    27668524    27668524
+
+Run 209087
+!!! Anomaly between L0strobe0 and L0strobeIN
+   L0strobe0  L0strobeIN
+    30995407    30995406
+
+Run 209132
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+        2002        1000        1001        1001        1001        1001
+
+Run 209132
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+        1000        1001        1001
+
+Run 209132
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+        1001        1000        1000        1000        1000        1000        1000
+
+Run 209187
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+           0           0           1           1           1           1
+
+Run 209187
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+           0           1           1
+
+Run 209187
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+           1           0           0           0           0           0           0
+
+Run 209189
+!!! Anomaly in class 2 !!!
+    L0classB2    L0classA2    L1classB2    L1classA2    L2classB2    L2classA2
+     1441011      908819      908820      908820      908820      908820
+
+Run 209189
+!!! Anomaly in cluster 2 !!!
+      L0clst2      L1clst2      L2clst2
+      908819      908820      908820
+
+Run 209189
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+      908820      908819      908819      908819      908819      908819      908819
+
+Run 209185
+!!! Anomaly in class 3 !!!
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+         806         400         402         402         402         402
+
+Run 209185
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+     1323941     1323940     1323940     1323940     1323940     1323940     1323940
+
+Run 209185
+!!! Anomaly in cluster 3 !!!
+      L0clst3      L1clst3      L2clst3
+         400         402         402
+
+Run 209185
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+         402         400         400         400         400         400         400
+
+Run 209190
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+    86899501     1067987     1067987     1067987     1067988     1067988
+
+Run 209190
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+     1067987     1067987     1067988
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 1)
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+    54564274      671372      671372      671372      671373      671373
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 1)
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+      671372      671372      671373
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 2)
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  1171350352    17424053    17424050    17424050    17424051    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 2)
+!!! Anomaly in class 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+    12843695        1300        1302        1302        1302        1302
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 2)
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+    17424053    17424050    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 2)
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    29919255    29919253    29919253    29919253    29919253    29919253    29919253
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 2)
+!!! Anomaly in cluster 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst3      L1clst3      L2clst3
+        1300        1302        1302
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 2)
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+        1302        1300        1300        1300        1300        1300        1300
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 2)
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+    47344573    47344572
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 3)
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  1171350352    17424053    17424050    17424050    17424051    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 3)
+!!! Anomaly in class 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+    12843695        1300        1302        1302        1302        1302
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 3)
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+    17424053    17424050    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 3)
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    29919255    29919253    29919253    29919253    29919253    29919253    29919253
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 3)
+!!! Anomaly in cluster 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst3      L1clst3      L2clst3
+        1300        1302        1302
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 3)
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+        1302        1300        1300        1300        1300        1300        1300
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 3)
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+    47344573    47344572
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 4)
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  1171350352    17424053    17424050    17424050    17424051    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 4)
+!!! Anomaly in class 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+    12843695        1300        1302        1302        1302        1302
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 4)
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+    17424053    17424050    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 4)
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    29919255    29919253    29919253    29919253    29919253    29919253    29919253
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 4)
+!!! Anomaly in cluster 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst3      L1clst3      L2clst3
+        1300        1302        1302
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 4)
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+        1302        1300        1300        1300        1300        1300        1300
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 4)
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+    47344573    47344572
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 5)
+!!! Anomaly in class 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB1    L0classA1    L1classB1    L1classA1    L2classB1    L2classA1
+  1171350352    17424053    17424050    17424050    17424051    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 5)
+!!! Anomaly in class 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+    L0classB3    L0classA3    L1classB3    L1classA3    L2classB3    L2classA3
+    12843695        1300        1302        1302        1302        1302
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 5)
+!!! Anomaly in cluster 1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst1      L1clst1      L2clst1
+    17424053    17424050    17424051
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 5)
+!!! Anomaly between cluster 2 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst2   F01L1clst2   F02L1clst2   FO3L1clst2   FO4L1clst2   FO5L1clst2   FO6L1clst2
+    29919255    29919253    29919253    29919253    29919253    29919253    29919253
+
+Run 0 increment number 1470 (ending with SOR 0 - parallel 5)
+!!! Anomaly in cluster 3 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L0clst3      L1clst3      L2clst3
+        1300        1302        1302
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 5)
+!!! Anomaly between cluster 3 and FOs for L1 !!!
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+      L1clst3   F01L1clst3   F02L1clst3   FO3L1clst3   FO4L1clst3   FO5L1clst3   FO6L1clst3
+        1302        1300        1300        1300        1300        1300        1300
+
+Run 0 increment number 1470(ending with SOR 0 - parallel 5)
+!!! Anomaly between L0strobe0 and L0strobeIN
+(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)
+   L0strobe0  L0strobeIN
+    47344573    47344572
+
+51 anomalies found in data file, in run numbers (0 is between runs): 0, 209108, 209126, 209126, 209087, 209087, 209132, 209132, 209132, 209187, 209187, 209187, 209189, 209189, 209189, 209185, 209185, 209185, 209185, 209190, 209190, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, .
+
+Breakdown of anomaly categories (Numbers below categories indicate the size of the counter difference for each anomaly):
+
+15 violations of L0B>=L0A>=L1B>=L1A>=L2B>=L2A for classes:
+ 1 1 1 1 2 1 1 1 2 1 2 1 2 1 2
+15 violations of L0>=L1>=L2 for clusters:
+ 1 1 1 1 2 1 1 1 2 1 2 1 2 1 2
+0 violations of L0 for a cluster = all L0 FOs for that cluster:
+
+15 violations of L1 for a cluster = all L1 FOs for that cluster:
+ -1 -1 -1 -1 -1 -1 -2 -2 -2 -2 -2 -2 -2 -2 -2
+6 violations of L0strobe0 = L0strobeIN:
+ -1 -1 -1 -1 -1 -1
+0 violations of L1strobeOUT = L1strobeIN:
+
+0 violations of L1strobeOUT = L1strIN for all FOs:
+
+0 violations of L2strobeOUT = L2strIN for all FOs:
+
+
+Total glitches in cluster:   T      1      2      3      4      5      6     7     8
+                             264    708  16668  34266  14982   5088  15624      0      0
+Total spurious in cluster:   T      1      2      3      4      5      6     7     8
+                              0     12    366    690    300    240    234      0      0
