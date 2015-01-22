@@ -8,22 +8,22 @@
 #include "TMath.h"
 #include <vector>
 #include <iomanip>
-void PrintBusy(UInt_t *cnts);
 
 //USER DEFINED GLOBAL VARIABLES:
 
-//2013 numbers
+//---------------2013 numbers---------------------
 //const UInt_t numclasses=50; //Number of classes
 //const UInt_t numclusters=7; //Number of clusters (including T)
 //const UInt_t runx=896; //Counter number of first counter containing run number
 //const UInt_t numcounters=970; //Number of counters (i.e. number of entries on each line of input file)
 
-//2014 numbers
+//---------------2014 numbers---------------------
 const UInt_t numclasses=100; //Number of classes
 const UInt_t numclusters=9; //Number of clusters (including T)
 const UInt_t runx=1486; //Counter number of first counter containing run number
 const UInt_t numcounters=1560; //Number of counters (i.e. number of entries on each line of input file)
 
+//Variables to hold positions of needed counters in cnames.sorted file
 UInt_t l0classB1;
 UInt_t l0classA1;
 UInt_t l1classB1;
@@ -85,8 +85,10 @@ UInt_t fo2l1spuriousT;
 UInt_t fo3l1spuriousT;
 UInt_t fo4l1spuriousT;
 UInt_t fo5l1spuriousT;
-UInt_t fo6l1spuriousT;
-int flag = 0;
+UInt_t fo6l1spuriousT; 
+
+int flag = 0; //Holds total number of anomalies found
+//Vectors to hold the amounts by which instances are anomalous, for each category of anomaly
 vector<double> classflag;
 vector<double> clusterflag;
 vector<double> clusterFOL0flag;
@@ -95,41 +97,39 @@ vector<double> L0strobeflag;
 vector<double> L1strobeflag;
 vector<double> FOL1strobeflag;
 vector<double> FOL2strobeflag;
-int glitch[numclusters] = {0};
-int spurious[numclusters] = {0};
-vector<int> locations;
-double currentrun = -1;
-double total[numcounters] = {0};
-int num = 0;
-ofstream outputfile;
+int glitch[numclusters] = {0}; //Counts the total number of glitches which occurred in each cluster
+int spurious[numclusters] = {0}; //Counts the total number of spurious which occurred in each cluster
+vector<int> locations; //Holds the run numbers in which anomalies occur
+double currentrun = -1; //Holds run number so that it can be seen when run begins/ends. Initialised to -1 so begins from start
+double total[numcounters] = {0}; //Array to hold the summed overflow-corrected counter differences between readings for each counter
+int num = 0; //Line number
 int zeroflag[numcounters] = {0}; //If SOR/EOR or any between has unexplained zero scalers, any 'anomalies' found which use these scalers will be ignored
 bool firstflag=0; //When firstflag=1, any anomalies are accompanied by a message warning that they were not started from a SOR/EOR reading
 bool lastflag=0; //When lastflag=1, this is the final line in the file and anomalies should be read out, with a warning
+ofstream outputfile; 
 
-
-void Plot(UInt_t *cnts, UInt_t *prev)
+void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/SOR/end of data looks for anomalies
 {
+     cout.precision(12);
+     outputfile.precision(12);
 
- cout.precision(12);
- outputfile.precision(12);
-
-    if((cnts[runx] == currentrun)||(num==2))  // Run number
+     if((cnts[runx] == currentrun)||(num==2))  // If start of data or continuing run/no-run, sum scalers
      {
-     // cout << "run found: " << cnts[runx] << endl;
       currentrun=cnts[runx];
       if(num==2) firstflag=1; //When beginning from start of file, comparisons between different counters will not be exactly valid  
-
 	double increm[numcounters];
 	double temp[numcounters];
     	for(int k=0; k<(numcounters); k++){
-		//If counter is lower than in previous increment, it has overflowed and so is corrected by adding 2^32 to current counter
+		//If counter is lower than in previous increment, it has overflowed
+		//and so is corrected by adding 2^32 to current counter
 		temp[k] = cnts[k]; //Don't change the value of cnts itself
 		if((temp[k]<prev[k])&&(temp[k]!=0)){ 
 			temp[k] = pow(2,32) + temp[k];
 		}
 		increm[k] = temp[k] - prev[k]; //Get counters since last increment
 		total[k] += increm[k]; //Add this to total
-		if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
+		//If scaler difference from prev is unexpectedly zero, print and send to outputfile, set zeroflag
+		if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){
 			cout << "In Run " << cnts[runx];
 			for(int i=1;i<6;i++){
 				if(cnts[runx+i]!=0) cout << " or Parallel Run " << cnts[runx+i];
@@ -138,25 +138,26 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			cout << ", counter " << k << " changed by zero unexpectedly." << endl;
 			outputfile << "Run " << cnts[runx] << " num " << num << " " << k << " = 0" << endl;
 			zeroflag[k]=2;
-
 		}
     	}
 	     		
-   }
-    if(cnts[runx] != currentrun || lastflag==1){ //If new run (or changed to 'no run'), print totals for previous run
+    }
+
+    if(cnts[runx] != currentrun || lastflag==1){ //If new run (or changed to 'no run'), look for anomalies in previous run/non-run
    	if(prev[runx]==currentrun){
 		double increm[numcounters];
 		double temp[numcounters];
     		for(int k=0; k<(numcounters); k++){
-			//If counter is lower than in previous increment, it has overflowed and so is corrected by adding 2^32 to current counter
+			//If counter is lower than in previous increment, it has overflowed
+			// and so is corrected by adding 2^32 to current counter
 			temp[k] = cnts[k]; //Don't change the value of cnts itself
 			if((temp[k]<prev[k])&&(temp[k]!=0)){ 
 				temp[k] = pow(2,32) + temp[k];
 			}
 			increm[k] = temp[k] - prev[k]; //Get counters since last increment
 			total[k] += increm[k]; //Add this to total
-			if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ //Spurious zeroes
-				cout << "In Run " << cnts[runx];
+			//If scaler difference from prev is unexpectedly zero, print and send to outputfile, set zeroflag
+			if((temp[k]==0)&&(prev[k]!=0)&&(k!=runx)&&(k!=runx+1)&&(k!=runx+2)&&(k!=runx+3)&&(k!=runx+4)&&(k!=runx+5)){ 				cout << "In Run " << cnts[runx];
 				for(int i=1;i<6;i++){
 					if(cnts[runx+i]!=0) cout << " or Parallel Run " << cnts[runx+i];
 				}
@@ -167,7 +168,10 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			}
     		}
 	}
-	currentrun = cnts[runx];
+	currentrun = cnts[runx]; //Reset currentrun to this line's (first) run number
+
+	//---------------------------Look for anomalies between trigger levels in each class--------------------------------------
+	
 	for(int lzerob=l0classB1; lzerob<(l0classB1+numclasses); lzerob++){ //Positions of L0B,L0A,L1B, etc. in the array for the 50 classes
 		int lzeroa = l0classA1 + lzerob - l0classB1;
 		int loneb = l1classB1 + lzerob - l0classB1;		
@@ -215,9 +219,13 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			}
 		}
 	}	
+
+	//-----Look for anomalies between trigger levels for each cluster, and between fanouts for each trigger level for each cluster------
+
 	for(int lzeroclst=l0clstT; lzeroclst<(l0clstT+numclusters); lzeroclst++){ //Positions of L0,L1,L2 in the array for the 7 clusters
 		int loneclst = l1clstT + lzeroclst - l0clstT;
-		int ltwoclst = l2clstT + lzeroclst - l0clstT;		
+		int ltwoclst = l2clstT + lzeroclst - l0clstT;	
+	
 		if((total[lzeroclst]>=total[loneclst]) && (total[loneclst]>=total[ltwoclst])){ //If L0>=L1>=L2 condition is true, print "no anomaly"
 			cout << endl;
 			cout << "Run " << prev[runx] << endl;
@@ -274,6 +282,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			outputfile << setw(12) << total[lzeroclst] << setw(12) << total[loneclst] << setw(12) << total[ltwoclst] << endl;	
 			}
 		}
+
 		int foonelzeroclst, fotwolzeroclst, fothreelzeroclst, fofourlzeroclst, fofivelzeroclst, fosixlzeroclst, fooneloneclst, fotwoloneclst, fothreeloneclst, fofourloneclst, fofiveloneclst, fosixloneclst;
 		if(lzeroclst==l0clstT) { //If cluster T
 			foonelzeroclst = fo1l0clstt;
@@ -399,6 +408,9 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		}
 
 	}
+
+	//-------------Look for anomalies between strobes in and out for each trigger level---------------
+
 	if(total[l0strobe0]==total[l0strobeIN]){ //Check L0strobe0 = L0strobeIN
 		cout << endl;
 		cout << "No anomaly between L0strobe0 and L0strobeIN" << endl;
@@ -430,6 +442,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		outputfile << setw(12) << total[l0strobe0] << setw(12) << total[l0strobeIN] << endl;
 		}
 	}
+
 	if(total[l1strobeOUT]==total[l1strobeIN]){ //Check L1strobeOUT = L1strobeIN
 		cout << endl;
 		cout << "No anomaly between L1strobeOUT and L1strobeIN" << endl;
@@ -461,6 +474,9 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		outputfile << setw(12) << total[l1strobeOUT] << setw(12) << total[l1strobeIN] << endl;
 		}
 	}
+
+	//----------Look for anomalies between strobes out and FO strobes out for each trigger level----------------------
+
 	if((total[l1strobeOUT]==total[fo1l1strIN]) && (total[l1strobeOUT]==total[fo2l1strIN]) && (total[l1strobeOUT]==total[fo3l1strIN]) && (total[l1strobeOUT]==total[fo4l1strIN]) && (total[l1strobeOUT]==total[fo5l1strIN]) && (total[l1strobeOUT]==total[fo6l1strIN])){ //Check L1strobeOUT = all L1 FO strobes IN
 		cout << endl;
 		cout << "No anomaly between L1strobeOUT and L1 FO strobes IN" << endl;
@@ -497,6 +513,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		outputfile << setw(12) << total[l1strobeOUT] << setw(12) << total[fo1l1strIN] << setw(12) << total[fo2l1strIN] << setw(12) << total[fo3l1strIN] << setw(12) << total[fo4l1strIN] << setw(12) << total[fo5l1strIN] << setw(12) << total[fo6l1strIN] << endl;
 		}
 	}
+
 	if((total[l2strobeOUT]==total[fo1l2strIN]) && (total[l2strobeOUT]==total[fo2l2strIN]) && (total[l2strobeOUT]==total[fo3l2strIN]) && (total[l2strobeOUT]==total[fo4l2strIN]) && (total[l2strobeOUT]==total[fo5l2strIN]) && (total[l2strobeOUT]==total[fo6l2strIN])){ //Check L2strobeOUT = all L2 FO strobes IN
 		cout << endl;
 		cout << "No anomaly between L2strobeOUT and L2 FO strobes IN !!!" << endl;
@@ -533,6 +550,9 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 		outputfile << setw(12) << total[l2strobeOUT] << setw(12) << total[fo1l2strIN] << setw(12) << total[fo2l2strIN] << setw(12) << total[fo3l2strIN] << setw(12) << total[fo4l2strIN] << setw(12) << total[fo5l2strIN] << setw(12) << total[fo6l2strIN] << endl;
 		}
 	}
+
+	//------------------Count the total glitches and spurious so far in each cluster----------------------
+
 	for(int fonum =1; fonum<7; fonum++){ //Check for any glitches, FO boards 1-6
 		int glitchT;
 		if(fonum==1) glitchT = fo1glitchT;
@@ -563,6 +583,7 @@ void Plot(UInt_t *cnts, UInt_t *prev)
 			}
 		}
 	}
+
 	for(int fonum =1; fonum<7; fonum++){ //Check for any glitches, FO boards 1-6
 		int spuriousT;
 		if(fonum==1) spuriousT = fo1l1spuriousT;
@@ -650,20 +671,6 @@ void ReadLines(TString name, int numberoflines, UInt_t *prev){
 }
 
 
-void PrintBusy(UInt_t* cnts)
-{
- cout << cnts[921]-tims << " " ;
-// cout << (cnts[781]-tim0) << " ";
- //for(int i=0;i<24;i++) cout << Double_t(cnts[742+i]-busy0[i])/Double_t(cnts[781]-tim0) << " ";
- for(int i=0;i<24;i++){
-    UInt_t cor1=0,cor2=0;
-    if(cnts[781]<tim0)cor1 += 0xffffffff;
-    if(cnts[742+i]<busy0[i])cor2 += 0xffffffff;
-    printf("%3.2f ",(0.4*(cnts[742+i]-busy0[i]+cor2))/(0.4*(cnts[781]-tim0+cor1)));
-    //printf("%u ",cnts[742+i]-busy0[i]);
- }
- cout << endl;
-}
 
 //main function
 void anal2()
@@ -735,7 +742,6 @@ void anal2()
 	cout << namecopy.Data() << endl;
  }
 
- // Parse file 
  Int_t nlines=0;
  UInt_t prev[numcounters] = {0}; //Array for storing counters from previous line to be compared with
 
@@ -754,7 +760,7 @@ void anal2()
  outputfile.open (outputname.Data());
  cout << endl;
  cout << "Creating and opening output file: " << outputname.Data() << endl;
-
+ 
  //Read in the needed counter positions from the cnames.sorted data file
  ifstream sortedfile(sortedname.Data());
  std::string cname;
@@ -846,7 +852,6 @@ void anal2()
  for(int i=0;i<nfiles;i++){ //Sends each file to function which reads them line by line and performs analysis
  	ReadLines(filenames[i], numberoflines, prev);
  }
- 
  
  //Summarise anomalies found, print and send to output file
  cout << endl;
