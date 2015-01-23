@@ -157,7 +157,8 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 			increm[k] = temp[k] - prev[k]; //Get counters since last increment
 			total[r][k] += increm[k]; //Add this to total
 			//If scaler difference from prev is unexpectedly zero, print and send to outputfile, set zeroflag
-			if((temp[k]==0)&&(prev[k]!=0)&&(k!=firstrun)&&(k!=firstrun+1)&&(k!=firstrun+2)&&(k!=firstrun+3)&&(k!=firstrun+4)&&(k!=firstrun+5)){ 						     cout << "In Run " << cnts[runx];
+			if((temp[k]==0)&&(prev[k]!=0)&&(k!=firstrun)&&(k!=firstrun+1)&&(k!=firstrun+2)&&(k!=firstrun+3)&&(k!=firstrun+4)&&(k!=firstrun+5)){ 						     
+				cout << "In Run " << cnts[runx];
 				cout << " (line number " << num << ")";
 				cout << ", counter " << k << " changed by zero." << endl;
 				outputfile << "Run " << cnts[runx] << " num " << num << " counter " << k << " = 0" << endl;
@@ -179,9 +180,11 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		int ltwoa = l2classA1 + lzerob - l0classB1;
 		if((total[r][lzerob]>=total[r][lzeroa]) && (total[r][lzeroa]>=total[r][loneb]) && (total[r][loneb]>=total[r][lonea]) && (total[r][lonea]>=total[r][ltwob]) && (total[r][ltwob]>=total[r][ltwoa])){ //If L0B>=L0A>=L1B, etc. condition is true, print "no anomaly"
 			cout << endl;
-			cout << "NO anomaly in class " << lzerob-l0classB1+1 << endl;
-			cout << "Run " << prev[runx] << endl;
+			cout << endl;
+		 	cout << "Run " << prev[runx] << endl;
 			cout << "Increment number (overall): " << num << endl;	
+			cout << endl;
+			cout << "NO anomaly in class " << lzerob-l0classB1+1 << endl;
 			cout << "L0classB" << lzerob-l0classB1+1 << '\t' << "L0classA" << lzerob-l0classB1+1 << '\t' << "L1classB" << lzerob-l0classB1+1 << '\t' << "L1classA" << lzerob-l0classB1+1 << '\t' << "L2classB" << lzerob-l0classB1+1 << '\t' << "L2classA" << lzerob-l0classB1+1 << endl;
 			cout << total[r][lzerob] << '\t' << total[r][lzeroa] << '\t' << total[r][loneb] << '\t' << total[r][lonea] << '\t' << total[r][ltwob] << '\t' << total[r][ltwoa] << endl;	
 		}else{ //If condition is false, print details of anomaly to screen and file
@@ -197,17 +200,20 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 			locations.push_back(prev[runx]); // Vector storing run numbers containing anomalies
 			if(runprintflag==0){
 			 cout << endl;
+			 cout << endl;
+			 outputfile << endl;
 			 outputfile << endl;
 			 cout << "Run " << prev[runx] << endl;
 			 outputfile << "Run " << prev[runx];
-			 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")"; //for gaps between runs
+			 if(prev[runx]==0) outputfile << " increment number " << num << " (ending with SOR " << cnts[runx] << " - parallel " << r << ")"; //for gaps between runs
+			 outputfile << endl;
+			 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 	 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+			 outputfile << endl;
 			 runprintflag++;
 			}
-			outputfile << endl;
-			cout << "!!! Anomaly in class " << lzerob-l0classB1+1 << " !!!" << endl;
+						cout << "!!! Anomaly in class " << lzerob-l0classB1+1 << " !!!" << endl;
 			outputfile << "!!! Anomaly in class " << lzerob-l0classB1+1 << " !!!" << endl;
-			if(firstflag==1&&classprintflag==0) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-			if(lastflag==1&&classprintflag==0) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 			if(classprintflag==0){
 		 	 cout << "Increment number (overall): " << num << endl;
 			 cout << "L0classB" << lzerob-l0classB1+1 << '\t' << "L0classA" << lzerob-l0classB1+1 << '\t' << "L1classB" << lzerob-l0classB1+1 << '\t' << "L1classA" << lzerob-l0classB1+1 << '\t' << "L2classB" << lzerob-l0classB1+1 << '\t' << "L2classA" << lzerob-l0classB1+1 << endl;
@@ -224,20 +230,22 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 
 	//-----Look for anomalies between trigger levels for each cluster, and between fanouts for each trigger level for each cluster------
 	
-	int clusterprintflag=0;
 	for(int lzeroclst=l0clstT; lzeroclst<(l0clstT+numclusters); lzeroclst++){ //Positions of L0,L1,L2 in the array for the 7 clusters
 		int loneclst = l1clstT + lzeroclst - l0clstT;
 		int ltwoclst = l2clstT + lzeroclst - l0clstT;	
 	
 		if((total[r][lzeroclst]>=total[r][loneclst]) && (total[r][loneclst]>=total[r][ltwoclst])){ //If L0>=L1>=L2 condition is true, print "no anomaly"
 			cout << endl;
+			cout << endl;
 			cout << "Run " << prev[runx] << endl;
 			cout << "Increment number (overall): " << num << endl;		
 			if(lzeroclst==l0clstT){
+				cout << endl;
 				cout << "NO anomaly in cluster T" << endl;
 				cout << "L0clstT" << '\t' << "L1clstT" << '\t' << "L2clstT" << endl;
 			}
 			if(lzeroclst!=l0clstT){
+				cout << endl;
 				cout << "NO anomaly in cluster " << lzeroclst-l0clstT << endl;
 				cout << "L0clst" << lzeroclst-l0clstT << '\t' << "L1clst" << lzeroclst-l0clstT << '\t' << "L2clst" << lzeroclst-l0clstT<< endl;
 			}
@@ -252,31 +260,34 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 			locations.push_back(prev[runx]); // Vector storing run numbers containing anomalies
 			if(runprintflag==0){
 			 cout << endl;
+			 cout << endl;
 		 	 outputfile << endl;
+			 outputfile << endl;
 			 cout << "Run " << prev[runx] << endl;
 			 outputfile << "Run " << prev[runx];
+			 cout << "Increment number (overall): " << num << endl;	
 			 if(prev[runx]==0) outputfile << " increment number " << num << " (ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+			 outputfile << endl;
+		 	 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
+			 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+			 outputfile << endl;
 			 runprintflag++;
-			}
-			outputfile << endl;
-			if(runprintflag==0) cout << "Increment number (overall): " << num << endl;		
+			}	
 			if(lzeroclst==l0clstT){
+				cout << endl;
 				cout << "!!! Anomaly in cluster T !!!" << endl;
-				if(clusterprintflag==0) cout << "L0clstT" << '\t' << "L1clstT" << '\t' << "L2clstT" << endl;
+				cout << "L0clstT" << '\t' << "L1clstT" << '\t' << "L2clstT" << endl;
+				outputfile << endl;
 				outputfile << "!!! Anomaly in cluster T !!!" << endl;
-				if(firstflag==1&&runprintflag==0) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1&&runprintflag==0) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-				if(clusterprintflag==0) outputfile << setw(12) << "L0clstT" << setw(12) << "L1clstT" << setw(12) << "L2clstT" << endl;
-
+				outputfile << setw(12) << "L0clstT" << setw(12) << "L1clstT" << setw(12) << "L2clstT" << endl;
 			}
 			if(lzeroclst!=l0clstT){
+				cout << endl;
 				cout << "!!! Anomaly in cluster " << lzeroclst-l0clstT << " !!!"<< endl;
 				cout << "L0clst" << lzeroclst-l0clstT << '\t' << "L1clst" << lzeroclst-l0clstT << '\t' << "L2clst" << lzeroclst-l0clstT<< endl;
+				outputfile << endl;
 				outputfile << "!!! Anomaly in cluster " << lzeroclst-l0clstT << " !!!"<< endl;
-				if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 				outputfile << setw(12) << "L0clst" << lzeroclst-l0clstT << setw(12) << "L1clst" << lzeroclst-l0clstT << setw(12) << "L2clst" << lzeroclst-l0clstT<< endl;
-
 			}
 			cout << total[r][lzeroclst] << '\t' << total[r][loneclst] << '\t' << total[r][ltwoclst] << endl;	
 			outputfile << setw(12) << total[r][lzeroclst] << setw(12) << total[r][loneclst] << setw(12) << total[r][ltwoclst] << endl;	
@@ -327,16 +338,23 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 			if(diff==0)  diff= total[r][fosixlzeroclst]-total[r][lzeroclst];
 			clusterFOL0flag.push_back(diff); // Put anomalous amount into vector for FO L0 cluster anomalies
 			locations.push_back(prev[runx]); // Vector storing run numbers containing anomalies
-			outputfile << endl;
-			outputfile << "Run " << prev[runx];
-			if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+			if(runprintflag==0){
+			 outputfile << endl;
+			 outputfile << endl;
+			 outputfile << "Run " << prev[runx];
+			 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+			 outputfile << endl;
+			}
 			outputfile << endl;
 			if(lzeroclst==l0clstT){
 				cout << "!!! Anomaly between cluster T and FOs for L0!!!" << endl;
 				cout << "L0clstT" << '\t' << "FO1L0clstT" << '\t' << "FO2L0clstT" << '\t' << "FO3L0clstT" << '\t' << "FO4L0clstT" << '\t' << "FO5L0clstT" << '\t' << "FO6L0clstT" << endl;
 				outputfile << "!!! Anomaly between cluster T and FOs for L0!!!" << endl;
-				if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+				if(runprintflag==0){
+				 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
+				 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+				 runprintflag++;
+				}
 				outputfile << setw(12) << "L0clstT" << setw(12) <<  "FO1L0clstT" << setw(12) << "FO2L0clstT" << setw(12) <<  "FO3L0clstT" << setw(12) << "FO4L0clstT" << setw(12) <<  "FO5L0clstT" << setw(12) <<  "FO6L0clstT" << endl;
 
 			}
@@ -344,8 +362,11 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 				cout << "!!! Anomaly between cluster " << lzeroclst-l0clstT << " and FOs for L0 !!!" << endl;
 				cout << "L0clst" << lzeroclst-l0clstT << '\t' << "F01L0clst" << lzeroclst-l0clstT << '\t' << "F02L0clst" << lzeroclst-l0clstT << '\t' << "FO3L0clst" << lzeroclst-l0clstT << '\t' << "FO4L0clst" << lzeroclst-l0clstT << '\t' << "FO5L0clst" << lzeroclst-l0clstT << '\t' << "FO6L0clst" << lzeroclst-l0clstT << endl;
 				outputfile << "!!! Anomaly between cluster " << lzeroclst-l0clstT << " and FOs for L0 !!!" << endl;
-				if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+				if(runprintflag==0){
+			 	 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR readings and so comparisons between counters may not be exactly valid)" << endl;
+				 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+				 runprintflag++;
+				}
 				outputfile << setw(12) << "L0clst" << lzeroclst-l0clstT << setw(12) << "F01L0clst" << lzeroclst-l0clstT << setw(12) << "F02L0clst" << lzeroclst-l0clstT << setw(12) << "FO3L0clst" << lzeroclst-l0clstT << setw(12) << "FO4L0clst" << lzeroclst-l0clstT << setw(12) << "FO5L0clst" << lzeroclst-l0clstT << setw(12) << "FO6L0clst" << lzeroclst-l0clstT << endl;
 
 			}
@@ -368,16 +389,22 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 			if(diff==0)  diff= total[r][fosixloneclst]-total[r][loneclst];
 			clusterFOL1flag.push_back(diff); // Put anomalous amount into vector for FO L1 cluster anomalies
 			locations.push_back(prev[runx]);
-			outputfile << endl;
-			outputfile << "Run " << prev[runx];
-			if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+			if(runprintflag==0){
+			 outputfile << endl;
+			 outputfile << endl;
+			 outputfile << "Run " << prev[runx];
+		 	 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+			 outputfile << endl;
+			 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+			 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+			 runprintflag++;
+			 outputfile << endl;
+			}
 			outputfile << endl;
 			if(lzeroclst==l0clstT){
 				cout << "!!! Anomaly between cluster T and FOs for L1!!!" << endl;
 				cout << "L1clstT" << '\t' << "FO1L1clstT" << '\t' << "FO2L1clstT" << '\t' << "FO3L1clstT" << '\t' << "FO4L1clstT" << '\t' << "FO5L1clstT" << '\t' << "FO6L1clstT" << endl;
 				outputfile << "!!! Anomaly between cluster T and FOs for L1!!!" << endl;
-				if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 				outputfile << setw(12) << "L1clstT" << setw(12) << "FO1L1clstT" << setw(12) << "FO2L1clstT" << setw(12) << "FO3L1clstT" << setw(12) << "FO4L1clstT" << setw(12) << "FO5L1clstT" << setw(12) << "FO6L1clstT" << endl;
 
 			}
@@ -385,10 +412,7 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 				cout << "!!! Anomaly between cluster " << lzeroclst-l0clstT << " and FOs for L1 !!!" << endl;
 				cout << "L1clst" << lzeroclst-l0clstT << '\t' << "F01L1clst" << lzeroclst-l0clstT << '\t' << "F02L1clst" << lzeroclst-l0clstT << '\t' << "FO3L1clst" << lzeroclst-l0clstT << '\t' << "FO4L1clst" << lzeroclst-l0clstT << '\t' << "FO5L1clst" << lzeroclst-l0clstT << '\t' << "FO6L1clst" << lzeroclst-l0clstT << endl;
 				outputfile << "!!! Anomaly between cluster " << lzeroclst-l0clstT << " and FOs for L1 !!!" << endl;
-				if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-				if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 				outputfile << setw(12) << "L1clst" << lzeroclst-l0clstT << setw(12) << "F01L1clst" << lzeroclst-l0clstT << setw(12) << "F02L1clst" << lzeroclst-l0clstT << setw(12) << "FO3L1clst" << lzeroclst-l0clstT << setw(12) << "FO4L1clst" << lzeroclst-l0clstT << setw(12) << "FO5L1clst" << lzeroclst-l0clstT << setw(12) << "FO6L1clst" << lzeroclst-l0clstT << endl;
-
 			}
 			cout << total[r][loneclst] << '\t' << total[r][fooneloneclst] << '\t' << total[r][fotwoloneclst] << '\t' << total[r][fothreeloneclst] << '\t' << total[r][fofourloneclst] << '\t' << total[r][fofiveloneclst] << '\t' << total[r][fosixloneclst] << endl;
 			outputfile << setw(12) << total[r][loneclst] << setw(12) << total[r][fooneloneclst] << setw(12) << total[r][fotwoloneclst] << setw(12) << total[r][fothreeloneclst] << setw(12) << total[r][fofourloneclst] << setw(12) << total[r][fofiveloneclst] << setw(12) << total[r][fosixloneclst] << endl;
@@ -409,17 +433,23 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		diff = total[r][l0strobeIN]-total[r][l0strobe0];
 		L0strobeflag.push_back(diff); // Put anomalous amount into vector for L0 strobe anomalies
 		locations.push_back(prev[runx]);
-		cout << endl;
-		outputfile << endl;
-		outputfile << "Run " << prev[runx];
-		if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		if(runprintflag==0){
+		 cout << endl;
+	 	 outputfile << endl;
+		 outputfile << endl;
+		 outputfile << "Run " << prev[runx];
+		 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		 outputfile << endl;
+		 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 outputfile << endl;
+		 runprintflag++;
+		}
 		outputfile << endl;
 		cout << "!!! Anomaly between L0strobe0 and L0strobeIN" << endl;
 		cout << "L0strobe0" << '\t' << "L0strobeIN" << endl;
 		cout << total[r][l0strobe0] << '\t' << total[r][l0strobeIN] << endl;
 		outputfile << "!!! Anomaly between L0strobe0 and L0strobeIN" << endl;
-		if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-		if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 		outputfile << setw(12) << "L0strobe0" << setw(12) << "L0strobeIN" << endl;
 		outputfile << setw(12) << total[r][l0strobe0] << setw(12) << total[r][l0strobeIN] << endl;
 		}
@@ -435,17 +465,23 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		diff = total[r][l1strobeIN]-total[r][l1strobeOUT];
 		L1strobeflag.push_back(diff); // Put anomalous amount into vector for L1 strobe anomalies
 		locations.push_back(prev[runx]);
-		cout << endl;
-		outputfile << endl;
-		outputfile << "Run " << prev[runx];
-		if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		if(runprintflag==0){
+		 cout << endl;
+		 outputfile << endl;
+		 outputfile << endl;
+		 outputfile << "Run " << prev[runx];
+		 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		 outputfile << endl;
+		 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 outputfile << endl;
+		 runprintflag++;
+		}
 		outputfile << endl;
 		cout << "!!! Anomaly between L1strobeOUT and L1strobeIN" << endl;
 		cout << "L1strobeOUT" << '\t' << "L1strobeIN" << endl;
 		cout << total[r][l1strobeOUT] << '\t' << total[r][l1strobeIN] << endl;
 		outputfile << "!!! Anomaly between L1strobeOUT and L1strobeIN" << endl;
-		if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-		if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 		outputfile << setw(12) << "L1strobeOUT" << setw(12) << "L1strobeIN" << endl;
 		outputfile << setw(12) << total[r][l1strobeOUT] << setw(12) << total[r][l1strobeIN] << endl;
 		}
@@ -468,17 +504,21 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		if(diff==0)  diff= total[r][fo6l1strIN]-total[r][l1strobeOUT];
 		FOL1strobeflag.push_back(diff); // Put anomalous amount into vector for L1 FO strobe anomalies
 		locations.push_back(prev[runx]);
-		cout << endl;
-		outputfile << endl;
-		outputfile << "Run " << prev[runx];
-		if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
-		outputfile << endl;
+		if(runprintflag==0){
+		 cout << endl;
+		 outputfile << endl;
+		 outputfile << "Run " << prev[runx];
+		 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		 outputfile << endl;
+		 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 outputfile << endl;
+		 runprintflag++;
+		 }
 		cout << "!!! Anomaly between L1strobeOUT and L1 FO strobes IN" << endl;
 		cout << "L1strobeOUT" << '\t' << "fo1L1strIN" << '\t' << "fo2L1strIN" << '\t' << "fo3L1strIN" << '\t' << "fo4L1strIN" << '\t' << "fo5L1strIN" << '\t' << "fo6L1strIN" << endl;
 		cout << total[r][l1strobeOUT] << '\t' << total[r][fo1l1strIN] << '\t' << total[r][fo2l1strIN] << '\t' << total[r][fo3l1strIN] << '\t' << total[r][fo4l1strIN] << '\t' << total[r][fo5l1strIN] << '\t' << total[r][fo6l1strIN] << endl;
 		outputfile << "!!! Anomaly between L1strobeOUT and L1 FO strobes IN" << endl;
-		if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-		if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 		outputfile << setw(12) << "L1strobeOUT" << setw(12) << "fo1L1strIN" << setw(12) << "fo2L1strIN" << setw(12) << "fo3L1strIN" << setw(12) << "fo4L1strIN" << setw(12) << "fo5L1strIN" << setw(12) << "fo6L1strIN" << endl;
 		outputfile << setw(12) << total[r][l1strobeOUT] << setw(12) << total[r][fo1l1strIN] << setw(12) << total[r][fo2l1strIN] << setw(12) << total[r][fo3l1strIN] << setw(12) << total[r][fo4l1strIN] << setw(12) << total[r][fo5l1strIN] << setw(12) << total[r][fo6l1strIN] << endl;
 		}
@@ -486,7 +526,7 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 
 	if((total[r][l2strobeOUT]==total[r][fo1l2strIN]) && (total[r][l2strobeOUT]==total[r][fo2l2strIN]) && (total[r][l2strobeOUT]==total[r][fo3l2strIN]) && (total[r][l2strobeOUT]==total[r][fo4l2strIN]) && (total[r][l2strobeOUT]==total[r][fo5l2strIN]) && (total[r][l2strobeOUT]==total[r][fo6l2strIN])){ //Check L2strobeOUT = all L2 FO strobes IN
 		cout << endl;
-		cout << "No anomaly between L2strobeOUT and L2 FO strobes IN !!!" << endl;
+		cout << "No anomaly between L2strobeOUT and L2 FO strobes IN" << endl;
 	}else{
 		if((zeroflag[r][l2strobeOUT]==0)&&(zeroflag[r][fo1l2strIN]==0)&&(zeroflag[r][fo2l2strIN]==0)&&(zeroflag[r][fo3l2strIN]==0)&&(zeroflag[r][fo4l2strIN]==0)&&(zeroflag[r][fo5l2strIN]==0)&&(zeroflag[r][fo6l2strIN]==0)){ //If these are not due to spurious zeroes
 		flag+=1;
@@ -499,24 +539,29 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		if(diff==0)  diff= total[r][fo6l2strIN]-total[r][l2strobeOUT];
 		FOL2strobeflag.push_back(diff); // Put anomalous amount into vector for L2 FO strobe anomalies
 		locations.push_back(prev[runx]);
-		cout << endl;
-		outputfile << endl;
-		outputfile << "Run " << prev[runx];
-		if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
-		outputfile << endl;
+		if(runprintflag==0){
+		 cout << endl;
+		 outputfile << endl;
+		 outputfile << "Run " << prev[runx];
+		 if(prev[runx]==0) outputfile << " increment number " << num << "(ending with SOR " << cnts[runx] << " - parallel " << r << ")";
+		 outputfile << endl;
+		 if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
+		 outputfile << endl;
+		 runprintnum++;
+		}
 		cout << "!!! Anomaly between L2strobeOUT and L2 FO strobes IN !!!" << endl;
 		cout << "L2strobeOUT" << '\t' << "fo1L2strIN" << '\t' << "fo2L2strIN" << '\t' << "fo3L2strIN" << '\t' << "fo4L2strIN" << '\t' << "fo5L2strIN" << '\t' << "fo6L2strIN" << endl;
 		cout << total[r][l2strobeOUT] << '\t' << total[r][fo1l2strIN] << '\t' << total[r][fo2l2strIN] << '\t' << total[r][fo3l2strIN] << '\t' << total[r][fo4l2strIN] << '\t' << total[r][fo5l2strIN] << '\t' << total[r][fo6l2strIN] << endl;
 		outputfile << "!!! Anomaly between L2strobeOUT and L2 FO strobes IN" << endl;
-		if(firstflag==1) outputfile << "(Note that this period was from the beginning of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
-		if(lastflag==1) outputfile << "(Note that this period stops at the end of the file rather than a SOR/EOR reading and so comparisons between counters may not be exactly valid)" << endl;
 		outputfile << setw(12) << "L2strobeOUT" << setw(12) << "fo1L2strIN" << setw(12) << "fo2L2strIN" << setw(12) << "fo3L2strIN" << setw(12) << "fo4L2strIN" << setw(12) << "fo5L2strIN" << setw(12) << "fo6L2strIN" << endl;
 		outputfile << setw(12) << total[r][l2strobeOUT] << setw(12) << total[r][fo1l2strIN] << setw(12) << total[r][fo2l2strIN] << setw(12) << total[r][fo3l2strIN] << setw(12) << total[r][fo4l2strIN] << setw(12) << total[r][fo5l2strIN] << setw(12) << total[r][fo6l2strIN] << endl;
 		}
 	}
 
 	//------------------Count the total[r] glitches and spurious so far in each cluster----------------------
-
+	
+	cout << endl;
 	for(int fonum =1; fonum<7; fonum++){ //Check for any glitches, FO boards 1-6
 		int glitchT;
 		if(fonum==1) glitchT = fo1glitchT;
@@ -548,6 +593,7 @@ void Plot(UInt_t *cnts, UInt_t *prev) //Function which sums scalers, and at EOR/
 		}
 	}
 
+	cout << endl;
 	for(int fonum =1; fonum<7; fonum++){ //Check for any glitches, FO boards 1-6
 		int spuriousT;
 		if(fonum==1) spuriousT = fo1l1spuriousT;
@@ -822,6 +868,7 @@ void anal2()
  
  //Summarise anomalies found, print and send to output file
  cout << endl;
+ outputfile << endl;
  outputfile << endl;
  if(flag == 0){ //Print whether there were any anomalies, how many, and at which runs
 	cout << "No anomalies found in data file" << endl;
